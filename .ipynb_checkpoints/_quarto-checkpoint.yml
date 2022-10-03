@@ -1,17 +1,17 @@
 project:
-  type: website
+  type: book
   output-dir: docs
   
 book:
   title: DanceOn Curriculum
   author: Shuang
-  logo: altair-hist.png
+  logo: 
   repo-url: https://github.com/uwdata/visualization-curriculum
   repo-branch: master
   repo-actions: [issue]
   sharing: [twitter, facebook]
   chapters:
-    - index.md
+    - index.qmd
     - part: Curriculum
       chapters:
         - basics.ipynb
@@ -23,3 +23,5 @@ book:
 format:
   html:
     theme: cosmo
+
+
