@@ -1,0 +1,11 @@
+# Introduction {.unnumbered}
+
+DanceOn is a domain specific programming language for building animations that react to movement built by [Willie Payne](https://williepayne.com/). This book is a creative coding curriculum of DanceOn. It contains a series of references, workshops, flashcards, and related study tools to learn about danceOn and creative coding concepts.  
+
+::: {.callout-note appearance="simple"}
+This book was originally created using [Jupyter Book](https://jupyterbook.org/). This site is a port of the original book source to the [Quarto](https://quarto.org) publishing system in order to provide an example of it's use.
+:::
+
+## Getting Started
+
+The online editor can be found [here](https://dancinganddabbing.github.io/danceONml/).

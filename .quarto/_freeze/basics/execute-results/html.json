@@ -1,0 +1,11 @@
+{
+  "hash": "e248be083fd6b156516ee6acabf13a7f",
+  "result": {
+    "markdown": "---\ntitle: \"Interfaces and Languages\"\ntoc: true\ntoc-title: List of Contents\nexecute:\n  enabled: true\nformat: \n  html:\n    code-fold: true\njupyter: python3\n---\n\n## Interfaces - Code Editor and Canvas\n\nThe danceOn interfaces is devided into two general parts -- the **code editor** *(on the left)* and the **canvas** *(on the right)*. All the manipulation of the code in the **code editor** will be simultaneously reflected on the **canvas** on the right. See @fig-interface, the pink red square circled out the **code editor**, and the purple square circled out the **canvas**.\n\n![DanceOn Interface](./asset/interface.png){#fig-interface}\n\n",
+    "supporting": [
+      "basics_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
