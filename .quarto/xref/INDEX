@@ -7,5 +7,11 @@
   },
   "basics.ipynb": {
     "basics.html": "c8e29a28"
+  },
+  "index.qmd": {
+    "index.html": "05aa7504"
+  },
+  "about.qmd": {
+    "about.html": "7f4022f9"
   }
 }

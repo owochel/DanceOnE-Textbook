@@ -1,6 +1,6 @@
 project:
-  type: book
-  output-dir: website
+  type: website
+  output-dir: docs
   
 book:
   title: DanceOn Curriculum
