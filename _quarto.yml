@@ -6,12 +6,13 @@ book:
   title: DanceOn Curriculum
   author: Shuang
   logo: 
-  repo-url: https://github.com/uwdata/visualization-curriculum
+  repo-url: 
   repo-branch: master
   repo-actions: [issue]
   sharing: [twitter, facebook]
   chapters:
-    - part: index.ipynb
+    - part: Introduction
+        - index.ipynb
     - part: Curriculum
       chapters:
         - basics.ipynb

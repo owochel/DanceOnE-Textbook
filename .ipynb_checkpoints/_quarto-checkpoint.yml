@@ -11,7 +11,8 @@ book:
   repo-actions: [issue]
   sharing: [twitter, facebook]
   chapters:
-    - part: index.ipynb
+    - part: Introduction
+        - index.ipynb
     - part: Curriculum
       chapters:
         - basics.ipynb
