@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>DanceOn Curriculum - 2&nbsp; Coordinates System</title>
+<title>Coordinates System</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,7 +93,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./basics.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -127,15 +126,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Coordinates System</span></h1>
+      <h1 class="quarto-secondary-nav-title">Coordinates System</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -145,30 +145,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">DanceOn Curriculum</a> 
-        <div class="sidebar-tools-main">
-    <a href="https://github.com/uwdata/visualization-curriculum" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
-            <i class="bi bi-bi-twitter pe-1"></i>
-          Twitter
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
-            <i class="bi bi-bi-facebook pe-1"></i>
-          Facebook
-          </a>
-        </li>
-    </ul>
-</div>
-    </div>
-      </div>
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
       <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -177,7 +154,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">Introduction</span>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Introduction to DanceOn</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Introduction</a>
+  </div>
+</li>
+      </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
@@ -189,27 +178,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basics.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Interfaces and Languages</span></a>
+  <a href="./basics.html" class="sidebar-item-text sidebar-link">Interfaces and Languages</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./cordinatesPractice.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Coordinates System</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Support</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./cordinatesPractice.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Coordinates System</span></a>
+  <a href="./cordinatesPractice.html" class="sidebar-item-text sidebar-link active">Coordinates System</a>
   </div>
 </li>
       </ul>
@@ -223,24 +197,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">List of Contents</h2>
    
   <ul>
-  <li><a href="#definition" id="toc-definition" class="nav-link active" data-scroll-target="#definition"><span class="toc-section-number">2.1</span>  Definition</a></li>
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples"><span class="toc-section-number">2.2</span>  Examples</a></li>
-  <li><a href="#practices" id="toc-practices" class="nav-link" data-scroll-target="#practices"><span class="toc-section-number">2.3</span>  Practices</a>
+  <li><a href="#definition" id="toc-definition" class="nav-link active" data-scroll-target="#definition">Definition</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#practices" id="toc-practices" class="nav-link" data-scroll-target="#practices">Practices</a>
   <ul class="collapse">
-  <li><a href="#practice-1" id="toc-practice-1" class="nav-link" data-scroll-target="#practice-1"><span class="toc-section-number">2.3.1</span>  Practice 1</a></li>
-  <li><a href="#practice-2" id="toc-practice-2" class="nav-link" data-scroll-target="#practice-2"><span class="toc-section-number">2.3.2</span>  Practice 2</a></li>
+  <li><a href="#practice-1" id="toc-practice-1" class="nav-link" data-scroll-target="#practice-1">Practice 1</a></li>
+  <li><a href="#practice-2" id="toc-practice-2" class="nav-link" data-scroll-target="#practice-2">Practice 2</a></li>
   </ul></li>
-  <li><a href="#challenge-questions" id="toc-challenge-questions" class="nav-link" data-scroll-target="#challenge-questions"><span class="toc-section-number">2.4</span>  Challenge Questions</a></li>
-  <li><a href="#flashcards" id="toc-flashcards" class="nav-link" data-scroll-target="#flashcards"><span class="toc-section-number">2.5</span>  Flashcards</a></li>
+  <li><a href="#challenge-questions" id="toc-challenge-questions" class="nav-link" data-scroll-target="#challenge-questions">Challenge Questions</a></li>
+  <li><a href="#flashcards" id="toc-flashcards" class="nav-link" data-scroll-target="#flashcards">Flashcards</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/uwdata/visualization-curriculum/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Coordinates System</span></h1>
+<h1 class="title d-none d-lg-block">Coordinates System</h1>
 </div>
 
 
@@ -254,14 +228,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<section id="definition" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="definition"><span class="header-section-number">2.1</span> Definition</h2>
+<section id="definition" class="level2">
+<h2 class="anchored" data-anchor-id="definition">Definition</h2>
 <p>In danceOn, all shapes drawn to the screen have a position that is specified as a coordinate. All coordinates are measured as the distance from the origin in units of pixels. The coordinates are represented as <strong>x</strong> and <strong>y</strong> in danceOn. <strong>x</strong> represents where the object is on the horizontal axis, and <strong>y</strong> represents where the object is on the vertical axis. At the origin, being the <strong>upper left</strong> of the window, both the coordinate x and coordinate y are 0. At the <strong>lower right</strong> of the window, x is width-1, and y is height-1.</p>
-<p>As a result, the coordinates system in dance on could be understand as <a href="#fig-coordmap">Figure&nbsp;<span>2.1</span></a>.</p>
+<p>As a result, the coordinates system in dance on could be understand as <a href="#fig-coordmap">Figure&nbsp;1</a>.</p>
 <div id="fig-coordmap" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="./asset/coordinates.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;2.1: A coordinates system map that shows 4 different points for (red, top left) {x: 0, y:0}, (purple, bottom left) {x: 0, y:height-1}, (orange, top right) {x: width-1, y: 0}, (pink, buttom right){x: width-1, y: height-1}</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: A coordinates system map that shows 4 different points for (red, top left) {x: 0, y:0}, (purple, bottom left) {x: 0, y:height-1}, (orange, top right) {x: width-1, y: 0}, (pink, buttom right){x: width-1, y: height-1}</figcaption><p></p>
 </figure>
 </div>
 <p>This <strong>x</strong> and <strong>y</strong> expression are universal in the languages for danceOn. It is common to find <strong>x</strong> and <strong>y</strong> used to express things related to the coordinates systems.</p>
@@ -282,14 +256,21 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </section>
-<section id="examples" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="examples"><span class="header-section-number">2.2</span> Examples</h2>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<div class="cell" data-execution_count="2">
+<div id="iframe-for-manipulative-example-1" class="cell-output cell-output-display" data-execution_count="14">
+
+        <iframe width="800" height="501" src="https://verazhong19.github.io/danceON_example/" frameborder="0" allowfullscreen=""></iframe>
+        
+</div>
+</div>
 </section>
-<section id="practices" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="practices"><span class="header-section-number">2.3</span> Practices</h2>
+<section id="practices" class="level2">
+<h2 class="anchored" data-anchor-id="practices">Practices</h2>
 <p>Follow the instructions and develop on them in your own danceOn interfaces. For this practice, you can use either the original pre-recorded video or your own webcam.</p>
-<section id="practice-1" class="level3" data-number="2.3.1">
-<h3 data-number="2.3.1" class="anchored" data-anchor-id="practice-1"><span class="header-section-number">2.3.1</span> Practice 1</h3>
+<section id="practice-1" class="level3">
+<h3 class="anchored" data-anchor-id="practice-1">Practice 1</h3>
 <p>Copy the code cell into your danceOn code editor (you may use the copy button on the top right corner). Currently, there should be a red circle on the top left corner of the code cell.</p>
 <p>Do the following adjustments to only the numbers after <strong>x:</strong> and <strong>y:</strong>. See how the red circles changed on the canvas.</p>
 <ul>
@@ -299,7 +280,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>In which direction does y get bigger?</li>
 </ul></li>
 </ul>
-<div class="cell" data-execution_count="2">
+<div class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(pose) <span class="op">=&gt;</span> [</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>        {</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'circle'</span>,</span>
@@ -317,8 +298,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>]<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="practice-2" class="level3" data-number="2.3.2">
-<h3 data-number="2.3.2" class="anchored" data-anchor-id="practice-2"><span class="header-section-number">2.3.2</span> Practice 2</h3>
+<section id="practice-2" class="level3">
+<h3 class="anchored" data-anchor-id="practice-2">Practice 2</h3>
 <ul>
 <li>Change the numbers to body poses based on the references tab for poses’ all keypoints
 <ul>
@@ -326,7 +307,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>What does the <strong>x</strong> in <strong>pose.nose.x</strong> and <strong>y</strong> in <strong>pose.nose.y</strong> mean?</li>
 </ul></li>
 </ul>
-<div class="cell" data-execution_count="3">
+<div class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>where: {</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    x: pose.nose.x,</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    y: pose.nose.y</span>
@@ -334,8 +315,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </section>
 </section>
-<section id="challenge-questions" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="challenge-questions"><span class="header-section-number">2.4</span> Challenge Questions</h2>
+<section id="challenge-questions" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-questions">Challenge Questions</h2>
 <p>Copy the code cell into your danceOn code editor. Perferably turn on your webcam for this exercise. Play with the code to describe what the code is doing in sentences like: “<strong>The circle moves to the right when my nose goes up/down/left/right.</strong>”</p>
 <p>Feel free to play with the code to create more complicated interaction between the body and the shape.</p>
 <div class="callout-note callout callout-style-simple">
@@ -344,14 +325,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Note: Pay attention to the things that goes after the <strong>“x:”</strong> and <strong>“y:”</strong> !</p>
+<p>tip: Pay attention to the things that goes after the <strong>“x:”</strong> and <strong>“y:”</strong> !</p>
 </div>
 </div>
 </div>
-<div class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(pose) <span class="op">=&gt;</span> [<span class="op">//</span>put more comments</span>
+<div class="cell" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(pose) <span class="op">=&gt;</span> [</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>        {</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'circle'</span>,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'circle'</span>, <span class="op">//</span>this <span class="kw">is</span> where the circle got drawn</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        when: true,</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        where: {</span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            x: pose.nose.y,</span>
@@ -365,10 +346,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>]<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="flashcards" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="flashcards"><span class="header-section-number">2.5</span> Flashcards</h2>
+<section id="flashcards" class="level2">
+<h2 class="anchored" data-anchor-id="flashcards">Flashcards</h2>
 <p>Go through the flashcards to review some of the concepts of the coordinates system.</p>
-<div id="creating-the-cards" class="cell" data-execution_count="5">
+<div id="creating-the-cards" class="cell" data-execution_count="6">
 <div class="cell-output cell-output-stdout">
 <pre><code></code></pre>
 </div>
@@ -545,7 +526,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </style>
 </div>
 <div id="creating-the-cards-2" class="cell-output cell-output-display">
-<div style="height:40px"></div><div class="flip-container" id="hbVPMUzSsbII" onclick="window.flipCard(this)"></div><div style="height:40px"></div><div class="next" id="hbVPMUzSsbII-next" onclick="window.checkFlip('hbVPMUzSsbII')"> </div> <div style="height:40px"></div>
+<div style="height:40px"></div><div class="flip-container" id="PwWyPeXArvDm" onclick="window.flipCard(this)"></div><div style="height:40px"></div><div class="next" id="PwWyPeXArvDm-next" onclick="window.checkFlip('PwWyPeXArvDm')"> </div> <div style="height:40px"></div>
 </div>
 <div id="creating-the-cards-3" class="cell-output cell-output-display">
 <script type="application/javascript">
@@ -846,7 +827,7 @@ function createCards(id) {
 
 
 
-var cardshbVPMUzSsbII=[
+var cardsPwWyPeXArvDm=[
     {
         "name": "Where is the origin for the coordinates system in danceOn?",
         "front": "Where is the origin for the coordinates system in danceOn?",
@@ -864,7 +845,7 @@ var cardshbVPMUzSsbII=[
     }
 ];
     
-        createCards("hbVPMUzSsbII");
+        createCards("PwWyPeXArvDm");
         
 </script>
 </div>
@@ -972,15 +953,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./basics.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Interfaces and Languages</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
