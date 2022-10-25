@@ -18,7 +18,7 @@
     "href": "cordinatesPractice.html#examples",
     "title": "Coordinates System",
     "section": "Examples",
-    "text": "Examples\n\n\nCode\nfrom IPython.display import IFrame\nIFrame('https://verazhong19.github.io/danceON_example/', width=800, height=501)"
+    "text": "Examples"
   },
   {
     "objectID": "cordinatesPractice.html#practices",
