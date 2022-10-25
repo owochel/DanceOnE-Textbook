@@ -1,28 +1,26 @@
 project:
-  type: book
-  output-dir: docs
-  
-book:
-  title: DanceOn Curriculum
-  author: Shuang
-  logo: 
-  repo-url: 
-  repo-branch: master
-  repo-actions: [issue]
-  sharing: [twitter, facebook]
-  chapters:
-    - part: Introduction
-        - index.ipynb
-    - part: Curriculum
-      chapters:
-        - basics.ipynb
-        - cordinatesPractice.ipynb
-    - part: Support
-      chapters:
-        - cordinatesPractice.ipynb
+  type: website
 
+website:
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Introduction to DanceOn"
+        contents:
+          - index.ipynb
+
+      - section: "Curriculum"
+        contents:
+          - basics.ipynb
+          - cordinatesPractice.ipynb
+    # - section: Support
+    #       contents:
+    #     - cordinatesPractice.ipynb
+          
 format:
   html:
     theme: cosmo
-
+    css: styles.css
+    toc: true
 

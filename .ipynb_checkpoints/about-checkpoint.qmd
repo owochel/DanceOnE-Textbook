@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "DanceOn E-text Book"
 ---
 
 About this site
