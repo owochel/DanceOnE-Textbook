@@ -18,7 +18,7 @@
     "href": "cordinatesPractice.html#examples",
     "title": "Coordinates System",
     "section": "Examples",
-    "text": "Examples\n\n\nCode\nfrom IPython.display import IFrame\nIFrame('https://verazhong19.github.io/danceON_example/', width=800, height=501)"
+    "text": "Examples\n\n\nCode\nfrom IPython.display import IFrame\nIFrame('https://verazhong19.github.io/danceON_example/', width=800, height=350)"
   },
   {
     "objectID": "cordinatesPractice.html#practices",
@@ -42,10 +42,17 @@
     "text": "Flashcards\nGo through the flashcards to review some of the concepts of the coordinates system."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Introduction",
+    "title": "DanceOn E-text Book",
     "section": "",
-    "text": "DanceOn is a domain specific programming language for building animations that react to movement built by Willie Payne. This book is a creative coding curriculum of DanceOn. It contains a series of references, workshops, flashcards, and related study tools to learn about danceOn and creative coding concepts.\n\n\n\n\n\n\nThis book was originally created using Jupyter Book. This site is a port of the original book source to the Quarto publishing system in order to provide an example of it’s use.\n\n\n\n\n\nThe online editor can be found here."
+    "text": "About this site"
   }
 ]
