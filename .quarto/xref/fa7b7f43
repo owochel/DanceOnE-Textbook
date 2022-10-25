@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"headings":["definition","examples","practices","practice-1","practice-2","challenge-questions","flashcards"],"entries":[{"caption":"A coordinates system map that shows 4 different points for (red, top left) {x: 0, y:0}, (purple, bottom left) {x: 0, y:height-1}, (orange, top right) {x: width-1, y: 0}, (pink, buttom right){x: width-1, y: height-1}","order":{"section":[0,1,0,0,0,0,0],"number":1},"key":"fig-coordmap"}]}
-=======
-{"options":{"chapters":true},"entries":[{"order":{"section":[2,1,0,0,0,0,0],"number":1},"caption":"A coordinates system map that shows 4 different points for (red, top left) {x: 0, y:0}, (purple, bottom left) {x: 0, y:height-1}, (orange, top right) {x: width-1, y: 0}, (pink, buttom right){x: width-1, y: height-1}","key":"fig-coordmap"}],"headings":["definition","examples","practices","practice-1","practice-2","challenge-questions","flashcards"]}
->>>>>>> parent of a26e96d (Added Iframe)
+{"headings":["definition","examples","practices","practice-1","practice-2","challenge-questions","flashcards"],"entries":[{"key":"fig-coordmap","caption":"A coordinates system map that shows 4 different points for (red, top left) {x: 0, y:0}, (purple, bottom left) {x: 0, y:height-1}, (orange, top right) {x: width-1, y: 0}, (pink, buttom right){x: width-1, y: height-1}","order":{"section":[0,1,0,0,0,0,0],"number":1}}]}

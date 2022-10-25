@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"entries":[{"order":{"number":1,"section":[0,1,0,0,0,0,0]},"caption":"DanceOn Interface","key":"fig-interface"}],"headings":["interfaces---code-editor-and-canvas"]}
-=======
-{"entries":[{"key":"fig-interface","order":{"number":1,"section":[1,1,0,0,0,0,0]},"caption":"DanceOn Interface"}],"headings":["interfaces---code-editor-and-canvas"],"options":{"chapters":true}}
->>>>>>> parent of a26e96d (Added Iframe)
+{"headings":["interfaces---code-editor-and-canvas"],"entries":[{"caption":"DanceOn Interface","key":"fig-interface","order":{"section":[0,1,0,0,0,0,0],"number":1}}]}
