@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: docs
+  
+book:
+  title: DanceOn Curriculum
+  author: Shuang
+  logo: 
+  repo-url: https://github.com/uwdata/visualization-curriculum
+  repo-branch: master
+  repo-actions: [issue]
+  sharing: [twitter, facebook]
+  chapters:
+    - part: Introduction
+        - index.ipynb
+    - part: Curriculum
+      chapters:
+        - basics.ipynb
+        - cordinatesPractice.ipynb
+    - part: Support
+      chapters:
+        - cordinatesPractice.ipynb
+
+format:
+  html:
+    theme: cosmo
+
+
