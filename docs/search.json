@@ -47,5 +47,61 @@
     "title": "Introduction",
     "section": "",
     "text": "DanceOn is a domain specific programming language for building animations that react to movement built by Willie Payne. This book is a creative coding curriculum of DanceOn. It contains a series of references, workshops, flashcards, and related study tools to learn about danceOn and creative coding concepts.\n\n\n\n\n\n\nThis book was originally created using Jupyter Book. This site is a port of the original book source to the Quarto publishing system in order to provide an example of it’s use.\n\n\n\n\n\nThe online editor can be found here."
+  },
+  {
+    "objectID": "interfaces.html",
+    "href": "interfaces.html",
+    "title": "Interfaces and Languages",
+    "section": "",
+    "text": "The danceOn interfaces is devided into two general parts – the code editor (on the left) and the canvas (on the right). All the manipulation of the code in the code editor will be simultaneously reflected on the canvas on the right. See Figure 1, the pink red square circled out the code editor on the left, and the purple square circled out the canvas on the right. Scroll to the bottom to Section 5 to try the interface in this text book.\n\n\n\n\nFigure 1: DanceOn Interface"
+  },
+  {
+    "objectID": "interfaces.html#canvas-breakdown",
+    "href": "interfaces.html#canvas-breakdown",
+    "title": "Interfaces and Languages",
+    "section": "Canvas Breakdown",
+    "text": "Canvas Breakdown\nIf you look into the canvas, you will find a few grey icons on the bottom of the canvas box. They are tools that helps you create and choreograph your piece faster. See list below to see their function. The icons in the margin show the icon before it was cliecked on the top and after on the bottom. Scroll to the bottom to Section 5 to try the interface in this text book.\n\nThe right-facing triangle is a play button for the video displayed on canvas.\nThe speaker icon is button to turn on or off the audio in your video.\nThe small circle is a shutter for recording your canvas for your choreography."
+  },
+  {
+    "objectID": "interfaces.html#reference-list",
+    "href": "interfaces.html#reference-list",
+    "title": "Interfaces and Languages",
+    "section": "Reference List",
+    "text": "Reference List\nThere is a reference button on the top right corner which will click-open the reference list on the right of your screen. The reference list contains most of the basic things you need to create a piece in danceOn. You will be able to copy the code in reference directly and paste it in your editor to see their effect. See Figure 2.\n\n\n\n\n\nThe icon for the reference\n\n\n\n\n\n\nFigure 2: The reference list opens up on the right of the screen.\n\n\n\n\n\n\n\n\n\nWhen you hover on the reference code you wish to cover, you will be able to click the copy button on the top right corner to copy the code.\n\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nThe puncuations in the code and sequencing of the code are important. When copying from reference, you need to pay attention to what to replace in your code. To learn more about code structure or sequencing of the code, read more about this in chapter 2."
+  },
+  {
+    "objectID": "interfaces.html#try-it-here",
+    "href": "interfaces.html#try-it-here",
+    "title": "Interfaces and Languages",
+    "section": "Try it here!",
+    "text": "Try it here!"
+  },
+  {
+    "objectID": "interfaces.html#sec-try",
+    "href": "interfaces.html#sec-try",
+    "title": "Interfaces and Languages",
+    "section": "Try it here!",
+    "text": "Try it here!"
+  },
+  {
+    "objectID": "interfaces.html#canvas-breakdown-1",
+    "href": "interfaces.html#canvas-breakdown-1",
+    "title": "Interfaces and Languages",
+    "section": "Canvas Breakdown",
+    "text": "Canvas Breakdown\nIf you look into the canvas, you will find a few grey icons on the bottom of the canvas box. They are tools that helps you create and choreograph your piece faster. See list below to see their function. The icons in the margin show the icon before it was cliecked on the top and after on the bottom. Scroll to the bottom to Section 5 to try the interface in this text book.\n\nThe right-facing triangle is a play button for the video displayed on canvas.\nThe speaker icon is button to turn on or off the audio in your video.\nThe small circle is a shutter for recording your canvas for your choreography."
+  },
+  {
+    "objectID": "interfaces.html#breakdown",
+    "href": "interfaces.html#breakdown",
+    "title": "Interfaces and Languages",
+    "section": "Breakdown",
+    "text": "Breakdown\nIf you look into the canvas, you will find a few grey icons on the bottom of the canvas box. They are tools that helps you create and choreograph your piece faster. See list below to see their function. The icons in the margin show the icon before it was cliecked on the top and after on the bottom. Scroll to the bottom to Section 5 to try the interface in this text book."
+  },
+  {
+    "objectID": "interfaces.html#controls-panel",
+    "href": "interfaces.html#controls-panel",
+    "title": "Interfaces and Languages",
+    "section": "Controls Panel",
+    "text": "Controls Panel\nThere is a control button on the tor right corner that click-open the control panel"
   }
 ]

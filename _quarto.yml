@@ -7,13 +7,13 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "Introduction to DanceOn"
+      - section: "Introduction to DanceON"
         contents:
           - index.ipynb
 
       - section: "Curriculum"
         contents:
-          - basics.ipynb
+          - interfaces.ipynb
           - cordinatesPractice.ipynb
     # - section: Support
     #       contents:
