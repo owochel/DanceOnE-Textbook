@@ -53,7 +53,7 @@
     "href": "interfaces.html",
     "title": "Interfaces and Languages",
     "section": "",
-    "text": "The danceON interfaces are devided into two general parts – the code editor (on the left) and the canvas (on the right). All the manipulation of the code in the code editor will be simultaneously reflected on the canvas on the right. See Figure 1, the pink red square circled out the code editor on the left, and the purple square circled out the canvas on the right. Scroll to the bottom to Section 5 to try the interface in this text book.\n\n\n\n\nFigure 1: DanceOn Interface"
+    "text": "The DanceON interfaces are divided into two general parts – the code editor (on the left) and the canvas (on the right). All the manipulation of the code in the code editor will be simultaneously reflected on the canvas on the right. See Figure 1, the pink-red square circled out the code editor on the left, and the purple square circled out the canvas on the right. Scroll to the bottom to Section 4 to try the interface in this textbook.\n\n\n\n\nFigure 1: DanceON Interface"
   },
   {
     "objectID": "interfaces.html#canvas-breakdown",
@@ -67,7 +67,7 @@
     "href": "interfaces.html#reference-list",
     "title": "Interfaces and Languages",
     "section": "Reference List",
-    "text": "Reference List\nThere is a reference button on the top right corner which will click-open the reference list on the right of your screen. The reference list contains most of the basic things you need to create a piece in danceOn. You will be able to copy the code in reference directly and paste it in your editor to see their effect. See Figure 2.\n\n\n\n\n\nThe icon for the reference\n\n\n\n\n\n\nFigure 2: The reference list opens up on the right of the screen.\n\n\n\n\n\n\n\n\n\nWhen you hover on the reference code you wish to cover, you will be able to click the copy button on the top right corner to copy the code.\n\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nThe puncuations in the code and sequencing of the code are important. When copying from reference, you need to pay attention to what to replace in your code. To learn more about code structure or sequencing of the code, read more about this in chapter 2."
+    "text": "Reference List\nThere is a reference button on the top right corner which will click-open the reference list on the right of your screen. The reference list contains most of the basic things you need to create a piece in DanceON. You will be able to copy the code in reference directly and paste it into your editor to see their effect. See Figure 2.\n\n\n\n\n\nThe icon for the reference\n\n\n\n\n\n\nFigure 2: The reference list opens up on the right of the screen.\n\n\n\n\n\n\n\n\n\nWhen you hover over the reference code you wish to cover, you will be able to click the copy button on the top right corner to copy the code.\n\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nThe punctuations in the code and the sequencing of the code are important. When copying from references, you need to pay attention to what to replace in your code. To learn more about code structure or sequencing of the code, read more about this in chapter 2."
   },
   {
     "objectID": "interfaces.html#try-it-here",
@@ -103,5 +103,12 @@
     "title": "Interfaces and Languages",
     "section": "Controls Panel",
     "text": "Controls Panel\nThere is a control button on the tor right corner that click-open the control panel"
+  },
+  {
+    "objectID": "interfaces.html#canvas-tools",
+    "href": "interfaces.html#canvas-tools",
+    "title": "Interfaces and Languages",
+    "section": "Canvas Tools",
+    "text": "Canvas Tools\nIf you look into the canvas, you will find a few grey icons at the bottom of the canvas box. They are tools that help you create and choreograph your piece faster. See the list below to see their function. The icons in the margin show the icon before it was clicked on the top and after on the bottom. Scroll to the bottom to Section 4 to try the interface in this textbook.\n\nThe right-facing triangle is a play button for the video displayed on canvas.\nThe speaker icon is button to turn on or off the audio in your video.\nThe small circle is a shutter for recording your canvas for your choreography."
   }
 ]
