@@ -186,6 +186,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="./cordinatesPractice.html" class="sidebar-item-text sidebar-link active">Coordinates System</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./observation.html" class="sidebar-item-text sidebar-link">Observation and Ideation</a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -230,7 +235,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="definition" class="level2">
 <h2 class="anchored" data-anchor-id="definition">Definition</h2>
-<p>In danceOn, all shapes drawn to the screen have a position that is specified as a coordinate. All coordinates are measured as the distance from the origin in units of pixels. The coordinates are represented as <strong>x</strong> and <strong>y</strong> in danceOn. <strong>x</strong> represents where the object is on the horizontal axis, and <strong>y</strong> represents where the object is on the vertical axis. At the origin, being the <strong>upper left</strong> of the window, both the coordinate x and coordinate y are 0. At the <strong>lower right</strong> of the window, x is width, and y is height.</p>
+<p>In DanceON, all shapes drawn to the screen have a position that is specified as a coordinate. All coordinates are measured as the distance from the origin in units of pixels. The coordinates are represented as <strong>x</strong> and <strong>y</strong> in DanceON. <strong>x</strong> represents where the object is on the horizontal axis, and <strong>y</strong> represents where the object is on the vertical axis. At the origin, being the <strong>upper left</strong> of the window, both the coordinate x and coordinate y are 0. At the <strong>lower right</strong> of the window, x is width, and y is height.</p>
 <p>As a result, the coordinates system in dance on could be understand as <a href="#fig-coordmap">Figure&nbsp;1</a>.</p>
 <div id="fig-coordmap" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
@@ -238,9 +243,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: A coordinates system map that shows 4 different points for (red, top left) {x: 0, y:0}, (purple, bottom left) {x: 0, y:height}, (orange, top right) {x: width, y: 0}, (pink, buttom right){x: width, y: height}</figcaption><p></p>
 </figure>
 </div>
-<p>This <strong>x</strong> and <strong>y</strong> expression are universal in the languages for danceOn. It is common to find <strong>x</strong> and <strong>y</strong> used to express things related to the coordinates systems.</p>
-<p>When you see <strong>x</strong> and <strong>y</strong> at the begining of a line where they appears by themselves such as <strong>“x:”</strong> or <strong>“y:”</strong>, it means you are <strong>defining</strong> the location of the object you are currently programming.</p>
-<p>However, the <strong>x</strong> and <strong>y</strong> are also used to express some pre-defined location variables for poses. For instance, you may see the name for poses are called something like <em>“pose.nose.<strong>x</strong>”</em> or <em>“pose.leftWrist.<strong>y</strong>”</em>. When the <strong>x</strong> and <strong>y</strong> appears as a suffix after body parts names, they are used to express the specific numbers of coordinates of the body parts at different times.</p>
+<p>These <strong>x</strong> and <strong>y</strong> expressions are universal in the languages for DanceON. It is common to find <strong>x</strong> and <strong>y</strong> used to express things related to the coordinates systems.</p>
+<p>When you see <strong>x</strong> and <strong>y</strong> at the beginning of a line where they appear by themselves such as <strong>“x:”</strong> or <strong>“y:”</strong>, it means you are <strong>defining</strong> the location of the object you are currently programming.</p>
+<p>However, the <strong>x</strong> and <strong>y</strong> are also used to express some pre-defined location variables for poses. For instance, you may see the names for poses are called something like <em>“pose.nose.<strong>x</strong>”</em> or <em>“pose.leftWrist.<strong>y</strong>”</em>. When the <strong>x</strong> and <strong>y</strong> appears as suffix after body parts names, they are used to express the specific numbers of coordinates of the body parts at different times.</p>
 <div class="callout-note callout callout-style-simple">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -249,7 +254,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="callout-body-container">
 <p>Why would you also use <strong>x</strong> and <strong>y</strong> for <em>“pose.nose.<strong>x</strong>”</em> and <em>“pose.leftWrist.<strong>y</strong>”</em> instead of numbers?</p>
 <ul>
-<li><p>Observer the location of the poses keypoints (nose,leftWrist, leftEye, etc) on your danceOn canvas, you may easily find out that the locations of the key points changes throughout the progression of your videos/webcame recordings. Becasue we are dealing with numbers that are constantly changing when refering to coordinates of the pose keypoints, it is easier to represent the location with <strong>variables</strong>(names for changing numbers).</p></li>
+<li><p>Observer the location of the poses’ keypoints (nose,leftWrist, leftEye, etc) on your DanceON canvas, you may easily find out that the locations of the key points change throughout the progression of your videos/webcam recordings. Because we are dealing with numbers that are constantly changing when referring to coordinates of the pose keypoints, it is easier to represent the location with <strong>variables</strong>(names for changing numbers).</p></li>
 <li><p>Having <strong>x</strong> and <strong>y</strong> as the names indicates that they are in the same coordinates system with your object – <strong>“x:”</strong> or <strong>“y:”</strong>.</p></li>
 </ul>
 </div>
@@ -260,7 +265,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 class="anchored" data-anchor-id="examples">Examples</h2>
 <p>Manipulate the two numbers for x and y and observe</p>
 <div class="cell page-columns page-full" data-execution_count="2">
-<div id="iframe-for-manipulative-example-1" class="cell-output cell-output-display column-screen-inset-right" data-execution_count="4">
+<div id="iframe-for-manipulative-example-1" class="cell-output cell-output-display column-screen-inset-right" data-execution_count="2">
 
         <iframe width="100%" height="550" src="https://verazhong19.github.io/danceON_example/?allow=camera%3Bmicrophone" frameborder="0" allowfullscreen=""></iframe>
         
@@ -269,10 +274,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="practices" class="level2">
 <h2 class="anchored" data-anchor-id="practices">Practices</h2>
-<p>Follow the instructions and develop on them in your own danceON interfaces. For this practice, you can use either the original pre-recorded video or your own webcam.</p>
+<p>Follow the instructions and develop on them in your own DanceON interfaces. For this practice, you can use either the original pre-recorded video or your own webcam.</p>
 <section id="practice-1" class="level3">
 <h3 class="anchored" data-anchor-id="practice-1">Practice 1</h3>
-<p>Copy the code cell into your danceOn code editor (you may use the copy button on the top right corner). Currently, there should be a red circle on the top left corner of the code cell.</p>
+<p>Copy the code cell into your DanceON code editor (you may use the copy button on the top right corner). Currently, there should be a red circle on the top left corner of the code cell.</p>
 <p>Do the following adjustments to only the numbers after <strong>x:</strong> and <strong>y:</strong>. See how the red circles changed on the canvas.</p>
 <ul>
 <li>Increase/decrease the numbers. Observe and think of the below questions
@@ -318,8 +323,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="challenge-questions" class="level2">
 <h2 class="anchored" data-anchor-id="challenge-questions">Challenge Questions</h2>
-<p>Copy the code cell into your danceOn code editor. Perferably turn on your webcam for this exercise. Play with the code to describe what the code is doing in sentences like: “<strong>The circle moves to the right when my nose goes up/down/left/right.</strong>”</p>
-<p>Feel free to play with the code to create more complicated interaction between the body and the shape.</p>
+<p>Copy the code cell into your DanceON code editor. Preferably turn on your webcam for this exercise. Play with the code to describe what the code is doing in sentences like “<strong>The circle moves to the right when my nose goes up/down/left/right.</strong>”</p>
+<p>Feel free to play with the code to create a more complicated interaction between the body and the shape.</p>
 <div class="callout-note callout callout-style-simple">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -527,7 +532,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </style>
 </div>
 <div id="creating-the-cards-2" class="cell-output cell-output-display">
-<div style="height:40px"></div><div class="flip-container" id="EcBQMwFXigzl" onclick="window.flipCard(this)"></div><div style="height:40px"></div><div class="next" id="EcBQMwFXigzl-next" onclick="window.checkFlip('EcBQMwFXigzl')"> </div> <div style="height:40px"></div>
+<div style="height:40px"></div><div class="flip-container" id="goXotOjOfBHs" onclick="window.flipCard(this)"></div><div style="height:40px"></div><div class="next" id="goXotOjOfBHs-next" onclick="window.checkFlip('goXotOjOfBHs')"> </div> <div style="height:40px"></div>
 </div>
 <div id="creating-the-cards-3" class="cell-output cell-output-display">
 <script type="application/javascript">
@@ -828,7 +833,7 @@ function createCards(id) {
 
 
 
-var cardsEcBQMwFXigzl=[
+var cardsgoXotOjOfBHs=[
     {
         "name": "Where is the origin for the coordinates system in danceOn?",
         "front": "Where is the origin for the coordinates system in danceOn?",
@@ -846,7 +851,7 @@ var cardsEcBQMwFXigzl=[
     }
 ];
     
-        createCards("EcBQMwFXigzl");
+        createCards("goXotOjOfBHs");
         
 </script>
 </div>
