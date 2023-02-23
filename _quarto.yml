@@ -16,6 +16,7 @@ website:
           - interfaces.ipynb
           - cordinatesPractice.ipynb
           - observation.ipynb
+          - observationWorkshop.ipynb
     # - section: Support
     #       contents:
     #     - cordinatesPractice.ipynb
