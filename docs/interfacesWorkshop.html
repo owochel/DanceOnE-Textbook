@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introduction to danceON</title>
+<title>Interfaces and Languages</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,13 +66,13 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Introduction to danceON</h1>
+      <h1 class="quarto-secondary-nav-title">Interfaces and Languages</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Introduction to danceON</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Introduction to danceON</a>
   </div>
 </li>
       </ul>
@@ -115,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./interfacesWorkshop.html" class="sidebar-item-text sidebar-link">Interfaces and Languages</a>
+  <a href="./interfacesWorkshop.html" class="sidebar-item-text sidebar-link active">Interfaces and Languages</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -134,19 +134,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">List of Contents</h2>
    
   <ul>
-  <li><a href="#about-danceon" id="toc-about-danceon" class="nav-link active" data-scroll-target="#about-danceon">About danceON</a>
-  <ul class="collapse">
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
-  </ul></li>
+  <li><a href="#sec-editorcanvas" id="toc-sec-editorcanvas" class="nav-link active" data-scroll-target="#sec-editorcanvas">Code Editor and Canvas</a></li>
+  <li><a href="#reference-list" id="toc-reference-list" class="nav-link" data-scroll-target="#reference-list">Reference List</a></li>
+  <li><a href="#canvas-tools" id="toc-canvas-tools" class="nav-link" data-scroll-target="#canvas-tools">Canvas Tools</a></li>
+  <li><a href="#sec-try" id="toc-sec-try" class="nav-link" data-scroll-target="#sec-try">Try it here!</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content page-columns page-full column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Introduction to danceON</h1>
+<h1 class="title d-none d-lg-block">Interfaces and Languages</h1>
 </div>
 
 
@@ -160,30 +160,83 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="about-danceon" class="level1 unnumbered page-columns page-full">
-<h1 class="unnumbered">About danceON</h1>
-<p>danceON is a domain-specific programming language for building animations that react to movements built by <a href="https://williepayne.com/">Willie Payne</a>. This book is a creative coding curriculum of danceON. It contains a series of references, workshops, flashcards, and related study tools to learn about danceON and creative coding concepts.</p>
-<div class="callout-note callout callout-style-simple">
+<section id="sec-editorcanvas" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="sec-editorcanvas">Code Editor and Canvas</h2>
+<p>The DanceON interfaces are divided into two general parts – the <strong>code editor</strong> <em>(on the left)</em> and the <strong>canvas</strong> <em>(on the right)</em>. All the manipulation of the code in the <strong>code editor</strong> will be simultaneously reflected on the <strong>canvas</strong> on the right. See <a href="#fig-interface">Figure&nbsp;1</a>, the pink-red square circled out the <strong>code editor</strong> on the left, and the purple square circled out the <strong>canvas</strong> on the right. Scroll to the bottom to <a href="#sec-try">Section&nbsp;4</a> to try the interface in this textbook.</p>
+<div class="column-page-right">
+<div id="fig-interface" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./asset/interface/interface.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: DanceON Interface</figcaption><p></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="reference-list" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="reference-list">Reference List</h2>
+<p>There is a reference button on the top right corner which will click-open the reference list on the right of your screen. The reference list contains most of the basic things you need to create a piece in DanceON. You will be able to copy the code in reference directly and paste it into your editor to see their effect. See <a href="#fig-referencelist">Figure&nbsp;2</a>.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./asset/icon/reference.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">The icon for the reference</figcaption><p></p>
+</figure>
+</div>
+</div></div><div class="column-page-right">
+<div id="fig-referencelist" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./asset/interface/referencelist.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: The reference list opens up on the right of the screen.</figcaption><p></p>
+</figure>
+</div>
+</div>
+<div class="callout-tip callout callout-style-simple">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>This book was originally created using <a href="https://jupyterbook.org/">Jupyter Book</a>. This site is a port of the original book source to the <a href="https://quarto.org">Quarto</a> publishing system in order to provide an example of it’s use.</p>
+<p>When you hover over the reference code you wish to cover, you will be able to click the copy button on the top right corner to copy the code.</p>
 </div>
 </div>
 </div>
-<section id="getting-started" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
-<p>The online editor can be found <a href="https://dancinganddabbing.github.io/danceONml/">here</a>, or you can have a try here:</p>
+<div class="callout-note callout callout-style-simple callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Pay Attention
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The punctuations in the code and the sequencing of the code are important. When copying from references, you need to pay attention to what to replace in your code. To learn more about code structure or sequencing of the code, read more about this in chapter 2.</p>
+</div>
+</div>
+</section>
+<section id="canvas-tools" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="canvas-tools">Canvas Tools</h2>
+<p>If you look into the canvas, you will find a few grey icons at the bottom of the canvas box. They are tools that help you create and choreograph your piece faster. See the list below to see their function. The icons in the margin show the icon before it was clicked on the top and after on the bottom. Scroll to the bottom to <a href="#sec-try">Section&nbsp;4</a> to try the interface in this textbook.</p>
+<ul>
+<li>The right-facing triangle is a play button for the video displayed on canvas.</li>
+<li>The speaker icon is button to turn on or off the audio in your video.</li>
+<li>The small circle is a shutter for recording your canvas for your choreography.</li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="./asset/icon/pause.png" class="img-fluid" alt="Pause icon"> <img src="./asset/icon/sound.png" class="img-fluid" alt="Audio icon"> <img src="./asset/icon/record.png" class="img-fluid" alt="Record icon"></p>
+<p><img src="./asset/icon/playing.png" class="img-fluid" alt="Pause icon when playing"> <img src="./asset/icon/mute.png" class="img-fluid" alt="Audio icon when muted"> <img src="./asset/icon/recording.png" class="img-fluid" alt="Record icon when recording"></p>
+</div></div></section>
+<section id="sec-try" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="sec-try">Try it here!</h2>
 <div class="cell page-columns page-full" data-execution_count="1">
 <div class="cell-output cell-output-display column-screen-inset-right">
-<iframe width="100%" height="900" allow="camera" src="https://dancinganddabbing.github.io/danceONml/" title="danceON Interface" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="100%" height="900" allow="camera" src="https://dancinganddabbing.github.io/danceONml/" title="DanceON Interface" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

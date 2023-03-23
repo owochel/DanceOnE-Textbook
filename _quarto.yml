@@ -7,15 +7,18 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "Introduction to DanceON"
+      - section: "Introduction to danceON"
         contents:
           - index.ipynb
 
-      - section: "Curriculum"
+#       - section: "Curriculum"
+#         contents:
+#           - interfaces.ipynb
+#           - cordinatesPractice.ipynb
+#           - observation.ipynb
+      - section: "Co-Desgin Workshop"
         contents:
-          - interfaces.ipynb
-          - cordinatesPractice.ipynb
-          - observation.ipynb
+          - interfacesWorkshop.ipynb
           - observationWorkshop.ipynb
     # - section: Support
     #       contents:
