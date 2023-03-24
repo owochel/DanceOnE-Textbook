@@ -187,5 +187,40 @@
     "title": "Helper Functions",
     "section": "Machine Learning Model Upload",
     "text": "Machine Learning Model Upload\nThe Machine Learning Model menu allows you to upload a teachable machine model that you can train yourself.\n\n\n\n\n\n\n\nFigure 3: Machine Learning Model menu"
+  },
+  {
+    "objectID": "cordinatesWorkshop.html",
+    "href": "cordinatesWorkshop.html",
+    "title": "Coordinates System",
+    "section": "",
+    "text": "In DanceON, all shapes drawn to the screen have a position that is specified as a coordinate. All coordinates are measured as the distance from the origin in units of pixels. The coordinates are represented as x and y in DanceON. x represents where the object is on the horizontal axis, and y represents where the object is on the vertical axis. At the origin, being the upper left of the window, both the coordinate x and coordinate y are 0. At the lower right of the window, x is width, and y is height.\nAs a result, the coordinates system in dance on could be understand as Figure 1.\n\n\n\nFigure 1: A coordinates system map that shows 4 different points for (red, top left) {x: 0, y:0}, (purple, bottom left) {x: 0, y:height}, (orange, top right) {x: width, y: 0}, (pink, buttom right){x: width, y: height}\n\n\nThese x and y expressions are universal in the languages for DanceON. It is common to find x and y used to express things related to the coordinates systems.\nWhen you see x and y at the beginning of a line where they appear by themselves such as “x:” or “y:”, it means you are defining the location of the object you are currently programming.\nHowever, the x and y are also used to express some pre-defined location variables for poses. For instance, you may see the names for poses are called something like “pose.nose.x” or “pose.leftWrist.y”. When the x and y appears as suffix after body parts names, they are used to express the specific numbers of coordinates of the body parts at different times.\n\n\n\n\n\n\nWhy would you also use x and y for “pose.nose.x” and “pose.leftWrist.y” instead of numbers?\n\nObserver the location of the poses’ keypoints (nose,leftWrist, leftEye, etc) on your DanceON canvas, you may easily find out that the locations of the key points change throughout the progression of your videos/webcam recordings. Because we are dealing with numbers that are constantly changing when referring to coordinates of the pose keypoints, it is easier to represent the location with variables(names for changing numbers).\nHaving x and y as the names indicates that they are in the same coordinates system with your object – “x:” or “y:”."
+  },
+  {
+    "objectID": "cordinatesWorkshop.html#examples",
+    "href": "cordinatesWorkshop.html#examples",
+    "title": "Coordinates System",
+    "section": "Examples",
+    "text": "Examples\nManipulate the two numbers for x and y and observe"
+  },
+  {
+    "objectID": "cordinatesWorkshop.html#practices",
+    "href": "cordinatesWorkshop.html#practices",
+    "title": "Coordinates System",
+    "section": "Practices",
+    "text": "Practices\nFollow the instructions and develop on them in your own DanceON interfaces. For this practice, you can use either the original pre-recorded video or your own webcam.\n\nPractice 1\nCopy the code cell into your DanceON code editor (you may use the copy button on the top right corner). Currently, there should be a red circle on the top left corner of the code cell.\nDo the following adjustments to only the numbers after x: and y:. See how the red circles changed on the canvas.\n\nIncrease/decrease the numbers. Observe and think of the below questions\n\nIn which direction does x get bigger?\nIn which direction does y get bigger?\n\n\n\n(pose) => [\n        {\n        what: 'circle',\n        when: true,\n\n        where: {\n            x: 0,\n            y: 0\n        },\n        how:{\n            d:150,\n            fill:'red'\n        }\n    },\n];\n\n\n\nPractice 2\n\nChange the numbers to body poses based on the references tab for poses’ all keypoints\n\ne.g. copy this chunk and replace it to the where brackets, change the pose.nose.x to different things\nWhat does the x in pose.nose.x and y in pose.nose.y mean?\n\n\n\nwhere: {\n    x: pose.nose.x,\n    y: pose.nose.y\n},"
+  },
+  {
+    "objectID": "cordinatesWorkshop.html#challenge-questions",
+    "href": "cordinatesWorkshop.html#challenge-questions",
+    "title": "Coordinates System",
+    "section": "Challenge Questions",
+    "text": "Challenge Questions\nCopy the code cell into your DanceON code editor. Preferably turn on your webcam for this exercise. Play with the code to describe what the code is doing in sentences like “The circle moves to the right when my nose goes up/down/left/right.”\nFeel free to play with the code to create a more complicated interaction between the body and the shape.\n\n\n\n\n\n\ntip: Pay attention to the things that goes after the “x:” and “y:” !\n\n\n\n\n(pose) => [\n        {\n        what: 'circle', //this is where the circle got drawn\n        when: true,\n        where: {\n            x: pose.nose.y,\n            y: pose.nose.x\n        },\n        how:{\n            d:150,\n            fill:'red'\n        }\n    },\n];"
+  },
+  {
+    "objectID": "cordinatesWorkshop.html#flashcards",
+    "href": "cordinatesWorkshop.html#flashcards",
+    "title": "Coordinates System",
+    "section": "Flashcards",
+    "text": "Flashcards\nGo through the flashcards to review some of the concepts of the coordinates system."
   }
 ]

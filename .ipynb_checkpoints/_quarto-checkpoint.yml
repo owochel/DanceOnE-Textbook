@@ -20,6 +20,7 @@ website:
         contents:
           - interfacesWorkshop.ipynb
           - helperFunctionWorkshop.ipynb
+          - cordinatesWorkshop.ipynb
           - observationWorkshop.ipynb
     # - section: Support
     #       contents:
