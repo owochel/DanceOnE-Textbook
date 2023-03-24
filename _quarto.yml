@@ -19,6 +19,7 @@ website:
       - section: "Co-Desgin Workshop"
         contents:
           - interfacesWorkshop.ipynb
+          - helperFunctionWorkshop.ipynb
           - observationWorkshop.ipynb
     # - section: Support
     #       contents:

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Interfaces</title>
+<title>Helper Functions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,9 +58,6 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -72,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Interfaces</h1>
+      <h1 class="quarto-secondary-nav-title">Helper Functions</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -115,12 +112,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./interfacesWorkshop.html" class="sidebar-item-text sidebar-link active">Interfaces</a>
+  <a href="./interfacesWorkshop.html" class="sidebar-item-text sidebar-link">Interfaces</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./helperFunctionWorkshop.html" class="sidebar-item-text sidebar-link">Helper FUnctions</a>
+  <a href="./helperFunctionWorkshop.html" class="sidebar-item-text sidebar-link active">Helper Functions</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -139,11 +136,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">List of Contents</h2>
    
   <ul>
-  <li><a href="#sec-editorcanvas" id="toc-sec-editorcanvas" class="nav-link active" data-scroll-target="#sec-editorcanvas">Code Editor and Canvas</a></li>
-  <li><a href="#canvas-tools" id="toc-canvas-tools" class="nav-link" data-scroll-target="#canvas-tools">Canvas Tools</a></li>
-  <li><a href="#reference-list" id="toc-reference-list" class="nav-link" data-scroll-target="#reference-list">Reference List</a></li>
-  <li><a href="#webcam-tools-and-video-upload" id="toc-webcam-tools-and-video-upload" class="nav-link" data-scroll-target="#webcam-tools-and-video-upload">Webcam Tools and Video Upload</a></li>
-  <li><a href="#sec-try" id="toc-sec-try" class="nav-link" data-scroll-target="#sec-try">Try it here!</a></li>
+  <li><a href="#sec-overlay" id="toc-sec-overlay" class="nav-link active" data-scroll-target="#sec-overlay">Overlay</a></li>
+  <li><a href="#sec-codeManagement" id="toc-sec-codeManagement" class="nav-link" data-scroll-target="#sec-codeManagement">Code Management</a></li>
+  <li><a href="#sec-machineLerning" id="toc-sec-machineLerning" class="nav-link" data-scroll-target="#sec-machineLerning">Machine Learning Model Upload</a></li>
   </ul>
 </nav>
     </div>
@@ -152,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Interfaces</h1>
+<h1 class="title d-none d-lg-block">Helper Functions</h1>
 </div>
 
 
@@ -166,118 +161,60 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="sec-editorcanvas" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="sec-editorcanvas">Code Editor and Canvas</h2>
-<p>The danceON interfaces are divided into two general parts – the <strong>code editor</strong> <em>(on the left)</em> and the <strong>canvas</strong> <em>(on the right)</em>. All the manipulation of the code in the <strong>code editor</strong> will be simultaneously reflected on the <strong>canvas</strong> on the right. See <a href="#fig-interface">Figure&nbsp;1</a>, the pink-red square circled out the <strong>code editor</strong> on the left, and the purple square circled out the <strong>canvas</strong> on the right. Scroll to the bottom to <a href="#sec-try">Section&nbsp;5</a> to try the interface in this textbook.</p>
-<div class="column-page-right">
-<div id="fig-interface" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="./asset/interface/interface.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;1: danceON Interface</figcaption><p></p>
-</figure>
-</div>
-</div>
-</section>
-<section id="canvas-tools" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="canvas-tools">Canvas Tools</h2>
-<p>If you look into the canvas, you will find a few grey icons at the bottom of the canvas box. They are tools that help you create and choreograph your piece faster. See the list below to see their function. The icons in the margin show the icon before it was clicked on the top and after on the bottom. Scroll to the bottom to <a href="#sec-try">Section&nbsp;5</a> to try the interface in this textbook.</p>
+<section id="sec-overlay" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="sec-overlay">Overlay</h2>
+<p>There are many helper functions to help you code in danceON better. When you open the <strong>control</strong> menu on the top right corner, you can see there is a tab called <strong>Overlay</strong>. See <a href="#fig-overlay">Figure&nbsp;1</a>. All of these options are visual tools that gives you some references about the content in the canvas.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="./asset/icon/pause.png" class="img-fluid" alt="Pause icon"> <img src="./asset/icon/sound.png" class="img-fluid" alt="Audio icon"> <img src="./asset/icon/record.png" class="img-fluid" alt="Record icon"></p>
-<p><img src="./asset/icon/playing.png" class="img-fluid" alt="Pause icon when playing"> <img src="./asset/icon/mute.png" class="img-fluid" alt="Audio icon when muted"> <img src="./asset/icon/recording.png" class="img-fluid" alt="Record icon when recording"></p>
+<div id="fig-overlay" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./asset/interface/overlay.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Overlays menu</figcaption><p></p>
+</figure>
+</div>
 </div></div><ul>
-<li>The right-facing triangle is a play button for the video displayed on canvas.</li>
-<li>The speaker icon is button to turn on or off the audio in your video.</li>
-<li>The small circle is a shutter for recording your canvas for your choreography.</li>
+<li>The cursor position gives you the numerical value of your mouse position on the canvas. We will go over this more in the coordinate system chapter.</li>
+<li>The skeleton draws a small circle on all the anchor point on the skeleton of how the computer model determines the human skeleton. Hover over the specific circle with your mouse, and you will see the name of which anchor point you are referring to. You will use that as the variable name for coding the location bounded to the skeleton for your sketch.</li>
+<li>The classifier put some numbers on the top right corner that shows if how well a machine learning model determine certain poses on the frame. We will go over this more in the machine learning chapter.</li>
 </ul>
-<p>The slider to the most right on the bottom of the canvas is a tool that shows you and let you adjust where you are at in the video. See <a href="#fig-slider">Figure&nbsp;2</a> You may hover or click on the slider to see or go to the exact frame you are at in a video.</p>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div id="fig-slider" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="./asset/interface/slider.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;2: Slider</figcaption><p></p>
-</figure>
-</div>
-</div></div></section>
-<section id="reference-list" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="reference-list">Reference List</h2>
-<p>There is a reference button on the top right corner which will click-open the reference list on the right of your screen. The reference list contains most of the basic things you need to create a piece in danceON. You will be able to copy the code in reference directly and paste it into your editor to see their effect. See <a href="#fig-referencelist">Figure&nbsp;3</a>.</p>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./asset/icon/reference.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">The icon for the reference</figcaption><p></p>
-</figure>
-</div>
-</div></div><div class="column-page-right">
-<div id="fig-referencelist" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="./asset/interface/referencelist.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;3: The reference list opens up on the right of the screen.</figcaption><p></p>
-</figure>
-</div>
-</div>
 <div class="callout-tip callout callout-style-simple">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>When you hover over the reference code you wish to cover, you will be able to click the copy button on the top right corner to copy the code.</p>
+<p>These are important helper function to give you references on the canvas and skeleton when creating your sketch. Use them when you are coding will help you familiarize the coordinate system and skeleton faster.</p>
 </div>
-</div>
-</div>
-<div class="callout-note callout callout-style-simple callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Pay Attention
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The punctuations in the code and the sequencing of the code are important. When copying from references, you need to pay attention to what to replace in your code. To learn more about code structure or sequencing of the code, read more about this in chapter 2.</p>
 </div>
 </div>
 </section>
-<section id="webcam-tools-and-video-upload" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="webcam-tools-and-video-upload">Webcam Tools and Video Upload</h2>
-<p>When you click the control menu on the top right corner, there is a <strong>Video Source</strong> option menu where you can upload your own choreography footage or use the webcam for live interaction. See image to the right for reference.</p>
+<section id="sec-codeManagement" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="sec-codeManagement">Code Management</h2>
+<p>You may realize if you close your danceON tab and re-opens the tab, you will most likely to see the code you were last working on without needing to save it somewhere. It may seems like a convenience at first to have all the code cached in the browser. However, it is not the safest way to manage your code. And as many other software, it is crucial that you save your work and manage the version of your code.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<div class="quarto-figure quarto-figure-center">
+<div id="fig-code" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="./asset/interface/videoUpload.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">The video source menu</figcaption><p></p>
+<p><img src="./asset/interface/codeUpload.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: Code menu</figcaption><p></p>
 </figure>
 </div>
-</div></div><div class="callout-warning callout callout-style-simple callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Webcam Premission
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You might need to give webcam premission to the browser you are using in order for danceON to access your webcam. If when you turn the webcam option on, and you didn’t see any pop-up menu to instruct you allowing browser accessing your webcam and your canvas. But your canvas simply doesn’t show your webcam footage. You might need to go the computer’s system setting to enable camera access for your browser.</p>
-</div>
-</div>
+</div></div><p>In the control menu, you will also find the <strong>Code</strong> menu that allows you to manage your code. To save your work, simply use the <strong>download</strong> button which will save your work in a JavaScript file on your local device. Put it somewhere you remembers and recognize. When you want to work on this file, use the <strong>upload</strong> button and locate it on your computer to resume working.</p>
 </section>
-<section id="sec-try" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="sec-try">Try it here!</h2>
-<div class="cell page-columns page-full" data-execution_count="1">
-<div class="cell-output cell-output-display column-screen-inset-right">
-<iframe width="100%" height="900" allow="camera" src="https://dancinganddabbing.github.io/danceONml/" title="danceON Interface" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
+<section id="sec-machineLerning" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="sec-machineLerning">Machine Learning Model Upload</h2>
+<p>The <strong>Machine Learning Model</strong> menu allows you to upload a <a href="https://teachablemachine.withgoogle.com/">teachable machine</a> model that you can train yourself.</p>
 
 
-</section>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div id="fig-ml" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./asset/interface/teachableMachine.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;3: Machine Learning Model menu</figcaption><p></p>
+</figure>
+</div>
+</div></div></section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
