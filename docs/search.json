@@ -116,6 +116,6 @@
     "href": "interfacesWorkshop.html#webcam-tools-and-video-upload",
     "title": "Interfaces",
     "section": "Webcam Tools and Video Upload",
-    "text": "Webcam Tools and Video Upload\nWhen you click the control menu on the top right corner, there is a Video Source option menu where you can upload your own choreography footage or use the webcam for live interaction. See image to the right for reference.\n\n\n\n\n\nThe video source menu\n\n\n\n\n\n\n\n\nWebcam premission\n\n\n\nYou might need to give webcam premission to the browser you are using in order for danceON to access your webcam."
+    "text": "Webcam Tools and Video Upload\nWhen you click the control menu on the top right corner, there is a Video Source option menu where you can upload your own choreography footage or use the webcam for live interaction. See image to the right for reference.\n\n\n\n\n\nThe video source menu\n\n\n\n\n\n\n\n\nWebcam Premission\n\n\n\nYou might need to give webcam premission to the browser you are using in order for danceON to access your webcam. If when you turn the webcam option on, and you didn’t see any pop-up menu to instruct you allowing browser accessing your webcam and your canvas. But your canvas simply doesn’t show your webcam footage. You might need to go the computer’s system setting to enable camera access for your browser."
   }
 ]
