@@ -88,7 +88,7 @@
     "href": "interfacesWorkshop.html",
     "title": "Interfaces",
     "section": "",
-    "text": "The danceON interfaces are divided into two general parts – the code editor (on the left) and the canvas (on the right). All the manipulation of the code in the code editor will be simultaneously reflected on the canvas on the right. See Figure 1, the pink-red square circled out the code editor on the left, and the purple square circled out the canvas on the right. Scroll to the bottom to Section 5 to try the interface in this textbook.\n\n\n\n\nFigure 1: danceON Interface"
+    "text": "The danceON interfaces are divided into two general parts – the code editor (on the left) and the canvas (on the right). All the manipulation of the code in the code editor will be simultaneously reflected on the canvas on the right. See Figure 1, the pink-red square circled out the code editor on the left, and the purple square circled out the canvas on the right. Scroll to the bottom to Section 6 to try the interface in this textbook.\n\n\n\n\nFigure 1: danceON Interface"
   },
   {
     "objectID": "interfacesWorkshop.html#reference-list",
@@ -102,7 +102,7 @@
     "href": "interfacesWorkshop.html#canvas-tools",
     "title": "Interfaces",
     "section": "Canvas Tools",
-    "text": "Canvas Tools\nIf you look into the canvas, you will find a few grey icons at the bottom of the canvas box. They are tools that help you create and choreograph your piece faster. See the list below to see their function. The icons in the margin show the icon before it was clicked on the top and after on the bottom. Scroll to the bottom to Section 5 to try the interface in this textbook.\n\n\n  \n  \n\nThe right-facing triangle is a play button for the video displayed on canvas.\nThe speaker icon is button to turn on or off the audio in your video.\nThe small circle is a shutter for recording your canvas for your choreography.\n\nThe slider to the most right on the bottom of the canvas is a tool that shows you and let you adjust where you are at in the video. See Figure 2 You may hover or click on the slider to see or go to the exact frame you are at in a video.\n\n\n\n\n\nFigure 2: Slider"
+    "text": "Canvas Tools\nIf you look into the canvas, you will find a few grey icons at the bottom of the canvas box. They are tools that help you create and choreograph your piece faster. See the list below to see their function. The icons in the margin show the icon before it was clicked on the top and after on the bottom. Scroll to the bottom to Section 6 to try the interface in this textbook.\n\n\n  \n  \n\nThe right-facing triangle is a play button for the video displayed on canvas.\nThe speaker icon is button to turn on or off the audio in your video.\nThe small circle is a shutter for recording your canvas for your choreography.\n\nThe slider to the most right on the bottom of the canvas is a tool that shows you and let you adjust where you are at in the video. See Figure 2 You may hover or click on the slider to see or go to the exact frame you are at in a video.\n\n\n\n\n\nFigure 2: Slider"
   },
   {
     "objectID": "interfacesWorkshop.html#sec-try",
@@ -116,7 +116,7 @@
     "href": "interfacesWorkshop.html#webcam-tools-and-video-upload",
     "title": "Interfaces",
     "section": "Webcam Tools and Video Upload",
-    "text": "Webcam Tools and Video Upload\nWhen you click the control menu on the top right corner, there is a Video Source option menu where you can upload your own choreography footage or use the webcam for live interaction. See image to the right for reference.\n\n\n\n\n\nThe video source menu\n\n\n\n\n\n\n\n\nWebcam Premission\n\n\n\nYou might need to give webcam premission to the browser you are using in order for danceON to access your webcam. If when you turn the webcam option on, and you didn’t see any pop-up menu to instruct you allowing browser accessing your webcam and your canvas. But your canvas simply doesn’t show your webcam footage. You might need to go the computer’s system setting to enable camera access for your browser."
+    "text": "Webcam Tools and Video Upload\nWhen you click the control menu on the top right corner, there is a Video Source option menu where you can upload your own choreography footage or use the webcam for live interaction. See image to the right for reference.\nThese allow you to work with more controlled footage or live performance settings.\n\n\n\n\n\nThe video source menu\n\n\n\n\n\n\n\n\nWebcam Premission\n\n\n\nYou might need to give webcam premission to the browser you are using in order for danceON to access your webcam. If when you turn the webcam option on, and you didn’t see any pop-up menu to instruct you allowing browser accessing your webcam and your canvas. But your canvas simply doesn’t show your webcam footage. You might need to go the computer’s system setting to enable camera access for your browser."
   },
   {
     "objectID": "helperFunctionWorkshop.html",
@@ -200,7 +200,7 @@
     "href": "cordinatesWorkshop.html#examples",
     "title": "Coordinates System",
     "section": "Examples",
-    "text": "Examples\nManipulate the two numbers for x and y and observe"
+    "text": "Examples\n\nExample 1\nManipulate the two numbers for x and y and observe\n\n\n\n        \n        \n\n\n\n\nExample 2"
   },
   {
     "objectID": "cordinatesWorkshop.html#practices",
@@ -222,5 +222,26 @@
     "title": "Coordinates System",
     "section": "Flashcards",
     "text": "Flashcards\nGo through the flashcards to review some of the concepts of the coordinates system."
+  },
+  {
+    "objectID": "interfacesWorkshop.html#sec-overlay",
+    "href": "interfacesWorkshop.html#sec-overlay",
+    "title": "Interfaces",
+    "section": "Overlay",
+    "text": "Overlay\nThere are many helper functions to help you code in danceON better. When you open the control menu on the top right corner, you can see there is a tab called Overlay. See Figure 4. All of these options are visual tools that gives you some references about the content in the canvas.\n\n\n\n\n\nFigure 4: Overlays menu\n\n\n\nThe cursor position gives you the numerical value of your mouse position on the canvas. We will go over this more in the coordinate system chapter.\nThe skeleton draws a small circle on all the anchor point on the skeleton of how the computer model determines the human skeleton. Hover over the specific circle with your mouse, and you will see the name of which anchor point you are referring to. You will use that as the variable name for coding the location bounded to the skeleton for your sketch.\nThe classifier put some numbers on the top right corner that shows if how well a machine learning model determine certain poses on the frame. We will go over this more in the machine learning chapter.\n\n\n\n\n\n\n\nThese are important helper function to give you references on the canvas and skeleton when creating your sketch. Use them when you are coding will help you familiarize the coordinate system and skeleton faster."
+  },
+  {
+    "objectID": "interfacesWorkshop.html#sec-codeManagement",
+    "href": "interfacesWorkshop.html#sec-codeManagement",
+    "title": "Interfaces",
+    "section": "Code Management",
+    "text": "Code Management\nYou may realize if you close your danceON tab and re-opens the tab, you will most likely to see the code you were last working on without needing to save it somewhere. It may seems like a convenience at first to have all the code cached in the browser. However, it is not the safest way to manage your code. And as many other software, it is crucial that you save your work and manage the version of your code.\n\n\n\n\n\nFigure 5: Code menu\n\n\nIn the control menu, you will also find the Code menu that allows you to manage your code. To save your work, simply use the download button which will save your work in a JavaScript file on your local device. Put it somewhere you remembers and recognize. When you want to work on this file, use the upload button and locate it on your computer to resume working."
+  },
+  {
+    "objectID": "interfacesWorkshop.html#sec-machineLerning",
+    "href": "interfacesWorkshop.html#sec-machineLerning",
+    "title": "Interfaces",
+    "section": "Machine Learning Model Upload",
+    "text": "Machine Learning Model Upload\nThe Machine Learning Model menu allows you to upload a teachable machine model that you can train yourself.\n\n\n\n\n\n\n\nFigure 6: Machine Learning Model menu"
   }
 ]

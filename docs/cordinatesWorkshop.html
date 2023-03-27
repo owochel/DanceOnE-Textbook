@@ -183,11 +183,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./helperFunctionWorkshop.html" class="sidebar-item-text sidebar-link">Helper Functions</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./cordinatesWorkshop.html" class="sidebar-item-text sidebar-link active">Coordinates System</a>
   </div>
 </li>
@@ -208,7 +203,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
    
   <ul>
   <li><a href="#definition" id="toc-definition" class="nav-link active" data-scroll-target="#definition">Definition</a></li>
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a>
+  <ul class="collapse">
+  <li><a href="#example-1" id="toc-example-1" class="nav-link" data-scroll-target="#example-1">Example 1</a></li>
+  <li><a href="#example-2" id="toc-example-2" class="nav-link" data-scroll-target="#example-2">Example 2</a></li>
+  </ul></li>
   <li><a href="#practices" id="toc-practices" class="nav-link" data-scroll-target="#practices">Practices</a>
   <ul class="collapse">
   <li><a href="#practice-1" id="toc-practice-1" class="nav-link" data-scroll-target="#practice-1">Practice 1</a></li>
@@ -268,14 +267,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="examples" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<section id="example-1" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="example-1">Example 1</h3>
 <p>Manipulate the two numbers for x and y and observe</p>
 <div class="cell page-columns page-full" data-execution_count="2">
-<div id="iframe-for-manipulative-example-1" class="cell-output cell-output-display column-screen-inset-right" data-execution_count="2">
+<div id="iframe-for-manipulative-example-1" class="cell-output cell-output-display column-screen-inset-right" data-execution_count="1502">
 
         <iframe width="100%" height="550" src="https://verazhong19.github.io/danceON_example/?allow=camera%3Bmicrophone" frameborder="0" allowfullscreen=""></iframe>
         
 </div>
 </div>
+</section>
+<section id="example-2" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="example-2">Example 2</h3>
+<div class="cell page-columns page-full" data-tags="[]" data-execution_count="3">
+<div id="iframe-for-manipulative-example-2" class="cell-output cell-output-display column-screen-inset-right" data-execution_count="1503">
+
+        <iframe width="110%" height="550" src="https://verazhong19.github.io/danceON_example/pose.html?allow=camera%3Bmicrophone" frameborder="0" allowfullscreen=""></iframe>
+        
+</div>
+</div>
+</section>
 </section>
 <section id="practices" class="level2">
 <h2 class="anchored" data-anchor-id="practices">Practices</h2>
@@ -291,7 +303,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>In which direction does y get bigger?</li>
 </ul></li>
 </ul>
-<div class="cell" data-execution_count="3">
+<div class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(pose) <span class="op">=&gt;</span> [</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>        {</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'circle'</span>,</span>
@@ -318,7 +330,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>What does the <strong>x</strong> in <strong>pose.nose.x</strong> and <strong>y</strong> in <strong>pose.nose.y</strong> mean?</li>
 </ul></li>
 </ul>
-<div class="cell" data-execution_count="4">
+<div class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>where: {</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    x: pose.nose.x,</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    y: pose.nose.y</span>
@@ -340,7 +352,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
-<div class="cell" data-execution_count="5">
+<div class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(pose) <span class="op">=&gt;</span> [</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>        {</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'circle'</span>, <span class="op">//</span>this <span class="kw">is</span> where the circle got drawn</span>
@@ -360,7 +372,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="flashcards" class="level2">
 <h2 class="anchored" data-anchor-id="flashcards">Flashcards</h2>
 <p>Go through the flashcards to review some of the concepts of the coordinates system.</p>
-<div id="creating-the-cards" class="cell" data-execution_count="6">
+<div id="creating-the-cards" class="cell" data-execution_count="7">
 <div class="cell-output cell-output-stdout">
 <pre><code></code></pre>
 </div>
@@ -537,7 +549,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </style>
 </div>
 <div id="creating-the-cards-2" class="cell-output cell-output-display">
-<div style="height:40px"></div><div class="flip-container" id="uTGMsCvWVevV" onclick="window.flipCard(this)"></div><div style="height:40px"></div><div class="next" id="uTGMsCvWVevV-next" onclick="window.checkFlip('uTGMsCvWVevV')"> </div> <div style="height:40px"></div>
+<div style="height:40px"></div><div class="flip-container" id="ILdOrCpMxDLK" onclick="window.flipCard(this)"></div><div style="height:40px"></div><div class="next" id="ILdOrCpMxDLK-next" onclick="window.checkFlip('ILdOrCpMxDLK')"> </div> <div style="height:40px"></div>
 </div>
 <div id="creating-the-cards-3" class="cell-output cell-output-display">
 <script type="application/javascript">
@@ -838,7 +850,7 @@ function createCards(id) {
 
 
 
-var cardsuTGMsCvWVevV=[
+var cardsILdOrCpMxDLK=[
     {
         "name": "Where is the origin for the coordinates system in danceOn?",
         "front": "Where is the origin for the coordinates system in danceOn?",
@@ -856,7 +868,7 @@ var cardsuTGMsCvWVevV=[
     }
 ];
     
-        createCards("uTGMsCvWVevV");
+        createCards("ILdOrCpMxDLK");
         
 </script>
 </div>
