@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "interfaces.html",
+    "href": "interfaces.html",
+    "title": "Interfaces and Languages",
+    "section": "",
+    "text": "The DanceON interfaces are divided into two general parts – the code editor (on the left) and the canvas (on the right). All the manipulation of the code in the code editor will be simultaneously reflected on the canvas on the right. See Figure 1, the pink-red square circled out the code editor on the left, and the purple square circled out the canvas on the right. Scroll to the bottom to Section 4 to try the interface in this textbook.\n\n\n\n\nFigure 1: DanceON Interface"
+  },
+  {
+    "objectID": "interfaces.html#reference-list",
+    "href": "interfaces.html#reference-list",
+    "title": "Interfaces and Languages",
+    "section": "Reference List",
+    "text": "Reference List\nThere is a reference button on the top right corner which will click-open the reference list on the right of your screen. The reference list contains most of the basic things you need to create a piece in DanceON. You will be able to copy the code in reference directly and paste it into your editor to see their effect. See Figure 2.\n\n\n\n\n\nThe icon for the reference\n\n\n\n\n\n\nFigure 2: The reference list opens up on the right of the screen.\n\n\n\n\n\n\n\n\n\nWhen you hover over the reference code you wish to cover, you will be able to click the copy button on the top right corner to copy the code.\n\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nThe punctuations in the code and the sequencing of the code are important. When copying from references, you need to pay attention to what to replace in your code. To learn more about code structure or sequencing of the code, read more about this in chapter 2."
+  },
+  {
+    "objectID": "interfaces.html#canvas-tools",
+    "href": "interfaces.html#canvas-tools",
+    "title": "Interfaces and Languages",
+    "section": "Canvas Tools",
+    "text": "Canvas Tools\nIf you look into the canvas, you will find a few grey icons at the bottom of the canvas box. They are tools that help you create and choreograph your piece faster. See the list below to see their function. The icons in the margin show the icon before it was clicked on the top and after on the bottom. Scroll to the bottom to Section 4 to try the interface in this textbook.\n\nThe right-facing triangle is a play button for the video displayed on canvas.\nThe speaker icon is button to turn on or off the audio in your video.\nThe small circle is a shutter for recording your canvas for your choreography."
+  },
+  {
+    "objectID": "interfaces.html#sec-try",
+    "href": "interfaces.html#sec-try",
+    "title": "Interfaces and Languages",
+    "section": "Try it here!",
+    "text": "Try it here!"
+  },
+  {
+    "objectID": "observationWorkshop.html",
+    "href": "observationWorkshop.html",
+    "title": "Observation and Ideation Workshop",
+    "section": "",
+    "text": "Prerequisites for this workshop: - Basic familiarity for danceON interface - Working with coordinate and pixels - Geometric shapes in danceON\nIn this activity, learners will develop skills observing arts, where and how to draw shapes in danceON.\n\n\nHave the students look at the image below, John Baldessari’s Umbrella (Orange): With Figure and Ball (Blue, Green) at Guggenheim Museume Collection Online.\nTo get learners breaking apart aspects of the image, give the following prompts:\n\nWhat is the proportion of the image?\nWhat is in the image?\n\nWhat appears realistic and what is not?\n\nWhere is everything?\n\nHow are things positioned in relation to each other?\nHow many layers of things are there? What is in the front, middle, and back?\n\nHow do elements appear?\n\nHow big/small are they?\nWhat colors/patterns they have?\n\nWhat is the person doing?\n\nHow is the person interacting with other elements?\nWhat does the gestures/body languages suggests?\nHow are the gestures/motions suggested through visual languages?\n\n\n\n\n\nFigure 1: Umbrella (Orange): With Figure and Ball (Blue, Green), John Baldessari, 2004\n\n\n\nHere is a sampled visual analysis I made when observing this image with the idea that I will recreate it in danceON.\n\n\n\n\n\n\n\nSuggested worksheet and responses\n\n\n\n\n\nGeneral Compositions\n\n\n\nWhat is the proportion of the image?\nThe image is vertical, meaning that the width of the image is shorter than the height of the image.\n\n\nWhat is in the image?\nThere is a feminine-looking person in a bathing suit standing on a ball next to an opened umbrella in a vertically composed image.\n\n\nWhat appears realistic and what is not?\nThe background and the person looks realistic. The umbrella and the ball looks like cut-out. The person’s face is also covered with a circle.\n\n\nWhere is everything?\nThe person is on the right and the umbrella is on the left of the image.\n\n\nHow are things positioned in relation to each other?\nThe person is standing facing the camera on top of the ball.\n\n\nHow many layers are there? What is in the front, middle, and back?\nThe ball and the figure is slightly in front of the umbrella, and they seem to be on a beach based on the texture of the contact surface. The sea level is in the far background and runs through the image slightly below the horizontal centre line. More to the background, there are a few pieces of cloud in the sky.\n\n\nDetails\n\n\n\nHow big or small are the things?\nThe umbrella is about half of the height of the person The two circles are about the same size, except the ball i slightly larger than the circle covering the face.\n\n\nWhat colors/patters are there?\nEverything is grayscaled other than the umbrella, the ball, and the circular shape covering the person’s face. The umberlla is solid light orange and has multiple shaded ciruclar dots as its pattern. The ball is solid green and simplified.\n\n\nWhat are other specific properties?\nIt doesn’t look like a photographed ball but more like the geometric circular shape. The circular shape covering the person’s face is blue and resambles the ball in its simplifed texture and geometric shape. The person has shoulder-length curled black hair and is wearing a patterend swimsuit.\n\n\nDetails of characters’ motion\n\n\n\nWhat is the person doing?\nThe person is standing on the ball looking like trying to balance themselve with hands pointing out.\n\n\nHow is the person interacting with other elements?\nThe person is not interacting with the umbrella.\n\n\nWhat are the gestures/motions suggested?\nStanding on the ball with their right foot, the person’s left foot knees are slightly bent. The person has their hand swinging outwards and wide open. Looks like they are balancing themselves.\n\n\nHow are the gestures/motions suggested through visual languages?\nThe out pointing hands waving in the air and bent knees portrays a balancing pose. The composition of person standing on the ball with one leg also makes up the story of the person balancing on the ball.\n\n\n\n\n\n\nCode the scene in danceON.\nWe will always use the general composition section as a reference of our creation. The rest will be our guide creating the scene.\nTo start in danceON, first thing first is to match the vertical composition of Baldessari’s piece. Because the default webcam format in danceON is horizontal, there are a few things we can do to get around with it. It is a good brainstorming/discussion questions to ask the students if they have any proposals on how they would match the vertical compositions with danceON.\nThe most straightforward way is to record a vertical video and upload it via the upload option in controls on the top right corner. Click the uplaod button in the middle line of the Video Sources Panel after you have a video of someone doing a similar motion as the character.\n \n\n\n\n\n\nCode\n# How dancer describe the movement? -- On line dance education?\n#         -- New York City DOE Professional Models\n\n# danceON -- Case-based Reasoning: Code helping with analysis\n#         -- Positions of dancers\n        \n# Stand from dance \n\n\n# Scafolding the creative process\n# -- translate the observation to creativity\n# -- key parts of observation to translation\n#     -- state in the begaining, looking for the key points\n#     -- other key points, guide the discussion, **more like an instructor guidebook**\n#     -- put timing next to them\n#     -- challenge: artistic challenge, brighen the color/make it stylistic\n#     -- guides to structure the lesson\n#     -- randomness\n#     -- subgoals:\n#         -- subsectioning titles: in conversation with technical concept\n#     -- focus on the instructor's readability\n#     -- pick a sound, ask a student to record, upload it to dance on, make modification\n    \n#  -- user study\n#      -- participotory design\n#      -- design feedback, try to get them think across bigger changes\n#      -- how to structure/organize the things\n#      -- miro board? thinking about their practive ahead\n#      -- making design choices based on our observation"
+  },
+  {
+    "objectID": "cordinatesPractice.html",
+    "href": "cordinatesPractice.html",
+    "title": "Coordinates System",
+    "section": "",
+    "text": "In DanceON, all shapes drawn to the screen have a position that is specified as a coordinate. All coordinates are measured as the distance from the origin in units of pixels. The coordinates are represented as x and y in DanceON. x represents where the object is on the horizontal axis, and y represents where the object is on the vertical axis. At the origin, being the upper left of the window, both the coordinate x and coordinate y are 0. At the lower right of the window, x is width, and y is height.\nAs a result, the coordinates system in dance on could be understand as Figure 1.\n\n\n\nFigure 1: A coordinates system map that shows 4 different points for (red, top left) {x: 0, y:0}, (purple, bottom left) {x: 0, y:height}, (orange, top right) {x: width, y: 0}, (pink, buttom right){x: width, y: height}\n\n\nThese x and y expressions are universal in the languages for DanceON. It is common to find x and y used to express things related to the coordinates systems.\nWhen you see x and y at the beginning of a line where they appear by themselves such as “x:” or “y:”, it means you are defining the location of the object you are currently programming.\nHowever, the x and y are also used to express some pre-defined location variables for poses. For instance, you may see the names for poses are called something like “pose.nose.x” or “pose.leftWrist.y”. When the x and y appears as suffix after body parts names, they are used to express the specific numbers of coordinates of the body parts at different times.\n\n\n\n\n\n\nWhy would you also use x and y for “pose.nose.x” and “pose.leftWrist.y” instead of numbers?\n\nObserver the location of the poses’ keypoints (nose,leftWrist, leftEye, etc) on your DanceON canvas, you may easily find out that the locations of the key points change throughout the progression of your videos/webcam recordings. Because we are dealing with numbers that are constantly changing when referring to coordinates of the pose keypoints, it is easier to represent the location with variables(names for changing numbers).\nHaving x and y as the names indicates that they are in the same coordinates system with your object – “x:” or “y:”."
+  },
+  {
+    "objectID": "cordinatesPractice.html#examples",
+    "href": "cordinatesPractice.html#examples",
+    "title": "Coordinates System",
+    "section": "Examples",
+    "text": "Examples\nManipulate the two numbers for x and y and observe"
+  },
+  {
+    "objectID": "cordinatesPractice.html#practices",
+    "href": "cordinatesPractice.html#practices",
+    "title": "Coordinates System",
+    "section": "Practices",
+    "text": "Practices\nFollow the instructions and develop on them in your own DanceON interfaces. For this practice, you can use either the original pre-recorded video or your own webcam.\n\nPractice 1\nCopy the code cell into your DanceON code editor (you may use the copy button on the top right corner). Currently, there should be a red circle on the top left corner of the code cell.\nDo the following adjustments to only the numbers after x: and y:. See how the red circles changed on the canvas.\n\nIncrease/decrease the numbers. Observe and think of the below questions\n\nIn which direction does x get bigger?\nIn which direction does y get bigger?\n\n\n\n(pose) => [\n        {\n        what: 'circle',\n        when: true,\n\n        where: {\n            x: 0,\n            y: 0\n        },\n        how:{\n            d:150,\n            fill:'red'\n        }\n    },\n];\n\n\n\nPractice 2\n\nChange the numbers to body poses based on the references tab for poses’ all keypoints\n\ne.g. copy this chunk and replace it to the where brackets, change the pose.nose.x to different things\nWhat does the x in pose.nose.x and y in pose.nose.y mean?\n\n\n\nwhere: {\n    x: pose.nose.x,\n    y: pose.nose.y\n},"
+  },
+  {
+    "objectID": "cordinatesPractice.html#challenge-questions",
+    "href": "cordinatesPractice.html#challenge-questions",
+    "title": "Coordinates System",
+    "section": "Challenge Questions",
+    "text": "Challenge Questions\nCopy the code cell into your DanceON code editor. Preferably turn on your webcam for this exercise. Play with the code to describe what the code is doing in sentences like “The circle moves to the right when my nose goes up/down/left/right.”\nFeel free to play with the code to create a more complicated interaction between the body and the shape.\n\n\n\n\n\n\ntip: Pay attention to the things that goes after the “x:” and “y:” !\n\n\n\n\n(pose) => [\n        {\n        what: 'circle', //this is where the circle got drawn\n        when: true,\n        where: {\n            x: pose.nose.y,\n            y: pose.nose.x\n        },\n        how:{\n            d:150,\n            fill:'red'\n        }\n    },\n];"
+  },
+  {
+    "objectID": "cordinatesPractice.html#flashcards",
+    "href": "cordinatesPractice.html#flashcards",
+    "title": "Coordinates System",
+    "section": "Flashcards",
+    "text": "Flashcards\nGo through the flashcards to review some of the concepts of the coordinates system."
+  },
+  {
+    "objectID": "interfacesWorkshop.html",
+    "href": "interfacesWorkshop.html",
+    "title": "Interfaces",
+    "section": "",
+    "text": "The danceON interfaces are divided into two general parts – the code editor (on the left) and the canvas (on the right). All the manipulation of the code in the code editor will be simultaneously reflected on the canvas on the right. See Figure 1, the pink-red square circled out the code editor on the left, and the purple square circled out the canvas on the right. Scroll to the bottom to Section 6 to try the interface in this textbook.\n\n\n\n\nFigure 1: danceON Interface"
+  },
+  {
+    "objectID": "interfacesWorkshop.html#canvas-tools",
+    "href": "interfacesWorkshop.html#canvas-tools",
+    "title": "Interfaces",
+    "section": "Canvas Tools",
+    "text": "Canvas Tools\nIf you look into the canvas, you will find a few grey icons at the bottom of the canvas box. They are tools that help you create and choreograph your piece faster. See the list below to see their function. The icons in the margin show the icon before it was clicked on the top and after on the bottom. Scroll to the bottom to Section 6 to try the interface in this textbook.\n\n\n  \n  \n\nThe right-facing triangle is a play button for the video displayed on canvas.\nThe speaker icon is button to turn on or off the audio in your video.\nThe small circle is a shutter for recording your canvas for your choreography.\n\nThe slider to the most right on the bottom of the canvas is a tool that shows you and let you adjust where you are at in the video. See Figure 2 You may hover or click on the slider to see or go to the exact frame you are at in a video.\n\n\n\n\n\nFigure 2: Slider"
+  },
+  {
+    "objectID": "interfacesWorkshop.html#reference-list",
+    "href": "interfacesWorkshop.html#reference-list",
+    "title": "Interfaces",
+    "section": "Reference List",
+    "text": "Reference List\nThere is a reference button on the top right corner which will click-open the reference list on the right of your screen. The reference list contains most of the basic things you need to create a piece in danceON. You will be able to copy the code in reference directly and paste it into your editor to see their effect. See Figure 3.\n\n\n\n\n\nThe icon for the reference\n\n\n\n\n\n\nFigure 3: The reference list opens up on the right of the screen.\n\n\n\n\n\n\n\n\n\nWhen you hover over the reference code you wish to cover, you will be able to click the copy button on the top right corner to copy the code.\n\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nThe punctuations in the code and the sequencing of the code are important. When copying from references, you need to pay attention to what to replace in your code. To learn more about code structure or sequencing of the code, read more about this in chapter 2."
+  },
+  {
+    "objectID": "interfacesWorkshop.html#webcam-tools-and-video-upload",
+    "href": "interfacesWorkshop.html#webcam-tools-and-video-upload",
+    "title": "Interfaces",
+    "section": "Webcam Tools and Video Upload",
+    "text": "Webcam Tools and Video Upload\nWhen you click the control menu on the top right corner, there is a Video Source option menu where you can upload your own choreography footage or use the webcam for live interaction. See image to the right for reference.\nThese allow you to work with more controlled footage or live performance settings.\n\n\n\n\n\nThe video source menu\n\n\n\n\n\n\n\n\nWebcam Premission\n\n\n\nYou might need to give webcam premission to the browser you are using in order for danceON to access your webcam. If when you turn the webcam option on, and you didn’t see any pop-up menu to instruct you allowing browser accessing your webcam and your canvas. But your canvas simply doesn’t show your webcam footage. You might need to go the computer’s system setting to enable camera access for your browser."
+  },
+  {
+    "objectID": "interfacesWorkshop.html#sec-overlay",
+    "href": "interfacesWorkshop.html#sec-overlay",
+    "title": "Interfaces",
+    "section": "Overlay",
+    "text": "Overlay\nThere are many helper functions to help you code in danceON better. When you open the control menu on the top right corner, you can see there is a tab called Overlay. See Figure 4. All of these options are visual tools that gives you some references about the content in the canvas.\n\n\n\n\n\nFigure 4: Overlays menu\n\n\n\nThe cursor position gives you the numerical value of your mouse position on the canvas. We will go over this more in the coordinate system chapter.\nThe skeleton draws a small circle on all the anchor point on the skeleton of how the computer model determines the human skeleton. Hover over the specific circle with your mouse, and you will see the name of which anchor point you are referring to. You will use that as the variable name for coding the location bounded to the skeleton for your sketch.\nThe classifier put some numbers on the top right corner that shows if how well a machine learning model determine certain poses on the frame. We will go over this more in the machine learning chapter.\n\n\n\n\n\n\n\nThese are important helper function to give you references on the canvas and skeleton when creating your sketch. Use them when you are coding will help you familiarize the coordinate system and skeleton faster."
+  },
+  {
+    "objectID": "interfacesWorkshop.html#sec-try",
+    "href": "interfacesWorkshop.html#sec-try",
+    "title": "Interfaces",
+    "section": "Try it here!",
+    "text": "Try it here!"
+  },
+  {
+    "objectID": "interfacesWorkshop.html#sec-codeManagement",
+    "href": "interfacesWorkshop.html#sec-codeManagement",
+    "title": "Interfaces",
+    "section": "Code Management",
+    "text": "Code Management\nYou may realize if you close your danceON tab and re-opens the tab, you will most likely to see the code you were last working on without needing to save it somewhere. It may seems like a convenience at first to have all the code cached in the browser. However, it is not the safest way to manage your code. And as many other software, it is crucial that you save your work and manage the version of your code.\n\n\n\n\n\nFigure 5: Code menu\n\n\nIn the control menu, you will also find the Code menu that allows you to manage your code. To save your work, simply use the download button which will save your work in a JavaScript file on your local device. Put it somewhere you remembers and recognize. When you want to work on this file, use the upload button and locate it on your computer to resume working."
+  },
+  {
+    "objectID": "interfacesWorkshop.html#sec-machineLerning",
+    "href": "interfacesWorkshop.html#sec-machineLerning",
+    "title": "Interfaces",
+    "section": "Machine Learning Model Upload",
+    "text": "Machine Learning Model Upload\nThe Machine Learning Model menu allows you to upload a teachable machine model that you can train yourself.\n\n\n\n\n\n\n\nFigure 6: Machine Learning Model menu"
+  },
+  {
+    "objectID": "observation.html",
+    "href": "observation.html",
+    "title": "Observation and Ideation",
+    "section": "",
+    "text": "This section suggests a potential workshop that an instructor could lead teaching danceON. The students should have some basic knowledge about danceON and ready to start creating their own peice.\nAs it could be intimidating to start with a blank canvas, we will have a look at some art pieces in different medium from other artist that can be insipring for creations in danceON. Using danceON as a tool to recreate the observed piece will be the main practice, and hopefully the method introduced here will be a good review and can help you develop their own master piece.\n\n\n\n\n\n\nThere should not be one correct way to observe and describe an image. Even using the same method, two person can still recreate a image through compeletely different process of observation. The process documented here should only be a guidance that helps you practice observation in art. The goal is to have your own way observing art pieces.\n\n\n\n\n\nOne of the ways to practice observing a image is to describe the image as if you are to recreate it. When observing static 2D art pieces such as images or pictures, you can use as simple as a pencil and a scrap paper as your imagined medium of recreation, but you can also use danceON.\nTake a look at the image below. It is John Baldessari’s Umbrella (Orange): With Figure and Ball (Blue, Green) at Guggenheim Museume Collection Online.\nBefore you let your eyes wander in the field, here is a list of questions that you can keep in your mind when looking at this image (this could be made into a worksheet):\n\nGeneral composition of the image\n\nWhere is everything?\nHow are things positioned?\n\nDepth of the image\n\nHow many layers of things are there?\nWhat are their order and relations?\n\nDetails of each thing\n\nWhat colors/patterns they have\nWhat specific properties each thing has\n\nDetalis of the character(s)\n\nWhat are the gestures/motions?\nHow are the motions suggested through visual languages?\n\n\n\n\n\nFigure 1: Umbrella (Orange): With Figure and Ball (Blue, Green), John Baldessari, 2004\n\n\n\nHere is a sampled visual analysis I made when observing this image with the idea that I will recreate it in danceON.\n\n\n\n\n\n\n\nThings that I pay attention\n\n\n\n\n\nGeneral composition of the image\nThere is a feminine-looking person in a bathing suit standing on a ball next to an opened umbrella in a vertically composed image.\n\n\nWhere is everything?\nThe person is on the right and the umbrella is on the left of the image.\n\n\nHow are things positioned\nThe person is standing facing the camera, but the person’s face is covered with a circular shape.\n\n\nDetails of everything\n\n\n\nHow many layers are there? What are their relationships?\nThe ball and the figure is slightly in front of the umbrella, and they seem to be on a beach based on the texture of the contact surface. The sea level is in the far background and runs through the image slightly below the horizontal centre line. More to the background, there are a few pieces of cloud in the sky.\n\n\nDepth of the image\n\n\n\nWhat colors/patters are there?\nEverything is grayscaled other than the umbrella, the ball, and the circular shape covering the person’s face. The umberlla is solid light orange and has multiple shaded ciruclar dots as its pattern. The ball is solid green and simplified.\n\n\nWhat are other specific properties?\nIt doesn’t look like a photographed ball but more like the geometric circular shape. The circular shape covering the person’s face is blue and resambles the ball in its simplifed texture and geometric shape. The person has shoulder-length curled black hair and is wearing a patterend swimsuit.\n\n\nDetails of characters’ motion\n\n\n\nWhat are the gestures/motions suggested?\nStanding on the ball with their right foot, the person’s left foot knees are slightly bent. The person has their hand swinging outwards and wide open. Looks like they are balancing themselves.\n\n\nHow are the gestures/motions suggested through visual languages?\nThe out pointing hands waving in the air and bent knees portrays a balancing pose. The composition of person standing on the ball with one leg also makes up the story of the person balancing on the ball.\n\n\n\n\n\n\nPhew, there are a lot of texts and information, but we did it! This process should help us recreate it in dance on logically.\nWe will always use the general composition as a reference of our creation. The rest will be our guide creating the scene.\nTo start in danceON, first thing first is to match the vertical composition of Baldessari’s piece. Because the default webcam format in danceON is horizontal, there are a few things we can do to get around with it. It is a good brainstorming/discussion questions to ask the students if they have any proposals on how they would match the vertical compositions with danceON.\nThe most straightforward way is to record a vertical video and upload it via the upload option in controls on the top right corner. Click the uplaod button in the middle line of the Video Sources Panel after you have a video of someone doing a similar motion as the character.\n \n\n\n\n\n\nCode\n# How dancer describe the movement? -- On line dance education?\n#         -- New York City DOE Professional Models\n\n# danceON -- Case-based Reasoning: Code helping with analysis\n#         -- Positions of dancers\n        \n# Stand from dance \n\n\n# Scafolding the creative process\n# -- translate the observation to creativity\n# -- key parts of observation to translation\n#     -- state in the begaining, looking for the key points\n#     -- other key points, guide the discussion, **more like an instructor guidebook**\n#     -- put timing next to them\n#     -- challenge: artistic challenge, brighen the color/make it stylistic\n#     -- guides to structure the lesson\n#     -- randomness\n#     -- subgoals:\n#         -- subsectioning titles: in conversation with technical concept\n#     -- focus on the instructor's readability\n#     -- pick a sound, ask a student to record, upload it to dance on, make modification\n    \n#  -- user study\n#      -- participotory design\n#      -- design feedback, try to get them think across bigger changes\n#      -- how to structure/organize the things\n#      -- miro board? thinking about their practive ahead\n#      -- making design choices based on our observation"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to danceON",
+    "section": "",
+    "text": "danceON is a domain-specific programming language for building animations that react to movements built by Willie Payne. This book is a creative coding curriculum of danceON. It contains a series of references, workshops, flashcards, and related study tools to learn about danceON and creative coding concepts.\n\n\n\n\n\n\nThis book was originally created using Jupyter Book. This site is a port of the original book source to the Quarto publishing system in order to provide an example of it’s use.\n\n\n\n\n\nThe online editor can be found here, or you can have a try here:"
+  },
+  {
+    "objectID": "cordinatesWorkshop.html",
+    "href": "cordinatesWorkshop.html",
+    "title": "Coordinates System",
+    "section": "",
+    "text": "In DanceON, all shapes drawn to the screen have a position that is specified as a coordinate. All coordinates are measured as the distance from the origin in units of pixels. The coordinates are represented as x and y in DanceON. x represents where the object is on the horizontal axis, and y represents where the object is on the vertical axis. At the origin, being the upper left of the window, both the coordinate x and coordinate y are 0. At the lower right of the window, x is width, and y is height.\nAs a result, the coordinates system in dance on could be understand as Figure 1.\n\n\n\nFigure 1: A coordinates system map that shows 4 different points for (red, top left) {x: 0, y:0}, (purple, bottom left) {x: 0, y:height}, (orange, top right) {x: width, y: 0}, (pink, buttom right){x: width, y: height}\n\n\nThese x and y expressions are universal in the languages for DanceON. It is common to find x and y used to express things related to the coordinates systems.\nWhen you see x and y at the beginning of a line where they appear by themselves such as “x:” or “y:”, it means you are defining the location of the object you are currently programming.\nHowever, the x and y are also used to express some pre-defined location variables for poses. For instance, you may see the names for poses are called something like “pose.nose.x” or “pose.leftWrist.y”. When the x and y appears as suffix after body parts names, they are used to express the specific numbers of coordinates of the body parts at different times.\n\n\n\n\n\n\nWhy would you also use x and y for “pose.nose.x” and “pose.leftWrist.y” instead of numbers?\n\nObserver the location of the poses’ keypoints (nose,leftWrist, leftEye, etc) on your DanceON canvas, you may easily find out that the locations of the key points change throughout the progression of your videos/webcam recordings. Because we are dealing with numbers that are constantly changing when referring to coordinates of the pose keypoints, it is easier to represent the location with variables(names for changing numbers).\nHaving x and y as the names indicates that they are in the same coordinates system with your object – “x:” or “y:”."
+  },
+  {
+    "objectID": "cordinatesWorkshop.html#examples",
+    "href": "cordinatesWorkshop.html#examples",
+    "title": "Coordinates System",
+    "section": "Examples",
+    "text": "Examples\n\nExample 1\nUse the below example, and design a 10 second movements around the shape. Take the clip as an example.\n\n\nCode\nfrom IPython.display import HTML\n\nHTML(\"\"\"\n    <video width=\"720\" height=\"100%\" alt=\"test\" controls>\n        <source src=\"asset/coordinates/example1.mp4\" type=\"video/mp4\">\n    </video>\n\"\"\")\n\n\n\n    \n        \n    \n\n\n\n(pose) => [\n        {\n        what: 'circle',\n        when: true,\n\n        where: {\n            x: 50,\n            y: 300\n        },\n        how:{\n            d:150,\n            fill:'blue'\n        }\n    },\n            {\n        what: 'circle',\n        when: true,\n\n        where: {\n            x: 500,\n            y: 200\n        },\n        how:{\n            d:50,\n            fill:'blue'\n        }\n    },\n];\n\n\n\nExample 2"
+  },
+  {
+    "objectID": "cordinatesWorkshop.html#practices",
+    "href": "cordinatesWorkshop.html#practices",
+    "title": "Coordinates System",
+    "section": "Practices",
+    "text": "Practices\nFollow the instructions and develop on them in your own DanceON interfaces. For this practice, you can use either the original pre-recorded video or your own webcam.\n\nPractice 1\nCopy the code cell into your DanceON code editor (you may use the copy button on the top right corner). Currently, there should be a red circle on the top left corner of the code cell.\nDo the following adjustments to only the numbers after x: and y:. See how the red circles changed on the canvas.\n\nIncrease/decrease the numbers. Observe and think of the below questions\n\nIn which direction does x get bigger?\nIn which direction does y get bigger?\n\n\n\n(pose) => [\n        {\n        what: 'circle',\n        when: true,\n\n        where: {\n            x: 0,\n            y: 0\n        },\n        how:{\n            d:150,\n            fill:'red'\n        }\n    },\n];\n\n\n\nPractice 2\n\nChange the numbers to body poses based on the references tab for poses’ all keypoints\n\ne.g. copy this chunk and replace it to the where brackets, change the pose.nose.x to different things\nWhat does the x in pose.nose.x and y in pose.nose.y mean?\n\n\n\nwhere: {\n    x: pose.nose.x,\n    y: pose.nose.y\n},"
+  },
+  {
+    "objectID": "cordinatesWorkshop.html#challenge-questions",
+    "href": "cordinatesWorkshop.html#challenge-questions",
+    "title": "Coordinates System",
+    "section": "Challenge Questions",
+    "text": "Challenge Questions\nCopy the code cell into your DanceON code editor. Preferably turn on your webcam for this exercise. Play with the code to describe what the code is doing in sentences like “The circle moves to the right when my nose goes up/down/left/right.”\nFeel free to play with the code to create a more complicated interaction between the body and the shape.\n\n\n\n\n\n\ntip: Pay attention to the things that goes after the “x:” and “y:” !\n\n\n\n\n(pose) => [\n        {\n        what: 'circle', //this is where the circle got drawn\n        when: true,\n        where: {\n            x: pose.nose.y,\n            y: pose.nose.x\n        },\n        how:{\n            d:150,\n            fill:'red'\n        }\n    },\n];"
+  },
+  {
+    "objectID": "cordinatesWorkshop.html#flashcards",
+    "href": "cordinatesWorkshop.html#flashcards",
+    "title": "Coordinates System",
+    "section": "Flashcards",
+    "text": "Flashcards\nGo through the flashcards to review some of the concepts of the coordinates system."
+  }
+]
