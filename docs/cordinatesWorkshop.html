@@ -203,7 +203,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
    
   <ul>
   <li><a href="#definition" id="toc-definition" class="nav-link active" data-scroll-target="#definition">Definition</a></li>
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a>
+  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise">Exercise</a>
   <ul class="collapse">
   <li><a href="#example-1" id="toc-example-1" class="nav-link" data-scroll-target="#example-1">Example 1</a></li>
   <li><a href="#example-2" id="toc-example-2" class="nav-link" data-scroll-target="#example-2">Example 2</a></li>
@@ -265,64 +265,100 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </section>
-<section id="examples" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<section id="exercise" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="exercise">Exercise</h2>
+<p>Use one of the below code and design a 10 second movements around the shape. Take the clip as an example.</p>
 <section id="example-1" class="level3">
 <h3 class="anchored" data-anchor-id="example-1">Example 1</h3>
-<p>Use the below example, and design a 10 second movements around the shape. Take the clip as an example.</p>
 <div class="cell" data-tags="[]" data-execution_count="2">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> HTML</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">"""</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;video width="720" height="100%" alt="test" controls&gt;</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;source src="asset/coordinates/example1.mp4" type="video/mp4"&gt;</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/video&gt;</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="st">"""</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="2">
-
-    <video width="720" height="100%" alt="test" controls="">
-        <source src="asset/coordinates/example1.mp4" type="video/mp4">
-    </video>
+<div class="cell-output cell-output-display">
+<video width="100%" height="100%" controls="">
+  <source src="https://user-images.githubusercontent.com/51350490/229265170-401985da-82b5-4864-86c0-be9264e8e2d0.mp4" type="video/mp4">
+</video>
 </div>
 </div>
+<p>The below code should draw a large circle at bottom left and a small circle at middle right.</p>
 <div class="cell" data-tags="[]" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>(pose) <span class="op">=&gt;</span> [</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>        {</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'circle'</span>,</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>        when: true,</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>        where: {</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>            x: <span class="dv">50</span>,</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>            y: <span class="dv">300</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        },</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>        how:{</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>            d:<span class="dv">150</span>,</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>            fill:<span class="st">'blue'</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>        }</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    },</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>            {</span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'circle'</span>,</span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>        when: true,</span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>        where: {</span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>            x: <span class="dv">500</span>,</span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>            y: <span class="dv">200</span></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>        },</span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>        how:{</span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>            d:<span class="dv">50</span>,</span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>            fill:<span class="st">'blue'</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>        }</span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    },</span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>]<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(pose) <span class="op">=&gt;</span> [</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>        {</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'circle'</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>        when: true,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        where: {</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>            x: <span class="dv">50</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>            y: <span class="dv">300</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        },</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        how:{</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>            d:<span class="dv">150</span>,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>            fill:<span class="st">'blue'</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>            {</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'circle'</span>,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>        when: true,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>        where: {</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>            x: <span class="dv">500</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>            y: <span class="dv">200</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>        },</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>        how:{</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>            d:<span class="dv">50</span>,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>            fill:<span class="st">'blue'</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>]<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="example-2" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="example-2">Example 2</h3>
-<div class="cell page-columns page-full" data-tags="[]" data-execution_count="4">
-<div id="iframe-for-manipulative-example-2" class="cell-output cell-output-display column-screen-inset-right" data-execution_count="3">
+<p>The below code should give you two pink wings.</p>
+<div class="cell" data-tags="[]" data-execution_count="4">
+<div class="cell-output cell-output-display">
+<video width="100%" height="100%" controls="">
+  <source src="https://user-images.githubusercontent.com/51350490/229266101-d6e17ab6-206c-485f-8e95-f9d6d615e660.mov" type="video/mp4">
+</video>
+</div>
+</div>
+<div class="cell" data-tags="[]" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>(pose) <span class="op">=&gt;</span> [</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'triangle'</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>        when: true,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>        where: {</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>              x1: pose.leftShoulder.x,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>            y1: pose.leftShoulder.y,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>            x2: pose.leftElbow.x,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>            y2: pose.leftElbow.y,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>            x3: pose.leftWrist.x<span class="op">+</span><span class="dv">100</span>,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>            y3: pose.leftEar.y<span class="op">-</span><span class="dv">100</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>        },</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>        how: {</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>            fill: color(<span class="dv">255</span>, <span class="dv">0</span>, <span class="dv">255</span>, <span class="dv">255</span>),</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>            stroke: <span class="dv">255</span>,</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>            strokeWeight: <span class="dv">10</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    },{</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'triangle'</span>,</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>        when: true,</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>        where: {</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>              x1: pose.rightShoulder.x,</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>            y1: pose.rightShoulder.y,</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>            x2: pose.rightElbow.x,</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>            y2: pose.rightElbow.y,</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>            x3: pose.rightWrist.x<span class="op">-</span><span class="dv">100</span>,</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>            y3: pose.rightEar.y<span class="op">-</span><span class="dv">100</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>        },</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>        how: {</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>            fill: color(<span class="dv">255</span>, <span class="dv">0</span>, <span class="dv">255</span>, <span class="dv">255</span>),</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>            stroke: <span class="dv">255</span>,</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>            strokeWeight: <span class="dv">10</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>    },</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>     </span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>]<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell page-columns page-full" data-tags="[]" data-execution_count="7">
+<div id="iframe-for-manipulative-example-2" class="cell-output cell-output-display column-screen-inset-right" data-execution_count="4">
 
         <iframe width="110%" height="550" src="https://verazhong19.github.io/danceON_example/pose.html?allow=camera%3Bmicrophone" frameborder="0" allowfullscreen=""></iframe>
         
@@ -344,7 +380,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>In which direction does y get bigger?</li>
 </ul></li>
 </ul>
-<div class="cell" data-execution_count="5">
+<div class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(pose) <span class="op">=&gt;</span> [</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>        {</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'circle'</span>,</span>
@@ -371,7 +407,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>What does the <strong>x</strong> in <strong>pose.nose.x</strong> and <strong>y</strong> in <strong>pose.nose.y</strong> mean?</li>
 </ul></li>
 </ul>
-<div class="cell" data-execution_count="6">
+<div class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>where: {</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    x: pose.nose.x,</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    y: pose.nose.y</span>
@@ -393,7 +429,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
-<div class="cell" data-execution_count="7">
+<div class="cell" data-execution_count="10">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(pose) <span class="op">=&gt;</span> [</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>        {</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>        what: <span class="st">'circle'</span>, <span class="op">//</span>this <span class="kw">is</span> where the circle got drawn</span>
@@ -413,7 +449,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="flashcards" class="level2">
 <h2 class="anchored" data-anchor-id="flashcards">Flashcards</h2>
 <p>Go through the flashcards to review some of the concepts of the coordinates system.</p>
-<div id="creating-the-cards" class="cell" data-execution_count="8">
+<div id="creating-the-cards" class="cell" data-execution_count="11">
 <div class="cell-output cell-output-stdout">
 <pre><code></code></pre>
 </div>
@@ -590,7 +626,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </style>
 </div>
 <div id="creating-the-cards-2" class="cell-output cell-output-display">
-<div style="height:40px"></div><div class="flip-container" id="jqNbCWjIVjRl" onclick="window.flipCard(this)"></div><div style="height:40px"></div><div class="next" id="jqNbCWjIVjRl-next" onclick="window.checkFlip('jqNbCWjIVjRl')"> </div> <div style="height:40px"></div>
+<div style="height:40px"></div><div class="flip-container" id="QGWTfJtZzIYg" onclick="window.flipCard(this)"></div><div style="height:40px"></div><div class="next" id="QGWTfJtZzIYg-next" onclick="window.checkFlip('QGWTfJtZzIYg')"> </div> <div style="height:40px"></div>
 </div>
 <div id="creating-the-cards-3" class="cell-output cell-output-display">
 <script type="application/javascript">
@@ -891,7 +927,7 @@ function createCards(id) {
 
 
 
-var cardsjqNbCWjIVjRl=[
+var cardsQGWTfJtZzIYg=[
     {
         "name": "Where is the origin for the coordinates system in danceOn?",
         "front": "Where is the origin for the coordinates system in danceOn?",
@@ -909,7 +945,7 @@ var cardsjqNbCWjIVjRl=[
     }
 ];
     
-        createCards("jqNbCWjIVjRl");
+        createCards("QGWTfJtZzIYg");
         
 </script>
 </div>
