@@ -16,11 +16,22 @@ website:
 #           - interfaces.ipynb
 #           - cordinatesPractice.ipynb
 #           - observation.ipynb
-      - section: "Co-Desgin Workshop"
+      - section: "Session 1"
         contents:
           - interfacesWorkshop.ipynb
           - cordinatesWorkshop.ipynb
+      - section: "Session 2"
+        contents:
           - observationWorkshop.ipynb
+      - section: "Session 3"
+        contents:
+         - observationWorkshop.ipynb
+      - section: "Session 4"
+        contents:
+         - observationWorkshop.ipynb
+      - section: "Session 5"
+        contents:
+         - observationWorkshop.ipynb
     # - section: Support
     #       contents:
     #     - cordinatesPractice.ipynb
