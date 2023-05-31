@@ -22,7 +22,7 @@ website:
           - cordinatesWorkshop.ipynb
       - section: "Session 2"
         contents:
-          - whenCoditionWorkshop.ipynb
+          - whenConditionWorkshop.ipynb
       # - section: "Session 3"
       #   contents:
       #    - observationWorkshop.ipynb
