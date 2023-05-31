@@ -37,49 +37,49 @@
   {
     "objectID": "whenConditionWorkshop.html",
     "href": "whenConditionWorkshop.html",
-    "title": "When Codition",
+    "title": "When Conditionals",
     "section": "",
     "text": "On the index card, wrote out concepts that you’ve taught or think is useful to teach to students. For instance, coding concept could be –- coordinate system, when conditionals, etc For dancers, this may be rhythm pattern and musicality, body awareness, stage composition, etc We will review and keep enrich this vocabulary and use the index cards for future references."
   },
   {
     "objectID": "whenConditionWorkshop.html#sec-embodiments",
     "href": "whenConditionWorkshop.html#sec-embodiments",
-    "title": "When Codition",
+    "title": "When Conditionals",
     "section": "Embodiment Exercise",
     "text": "Embodiment Exercise\n\nStand in the center of the room with your feet hip-distance apart and your arms relaxed at your sides.\nClose your eyes and take a few deep breaths, focusing on your body and your breath.\nOpen your eyes and imagine that your body is a paintbrush, and the floor is a canvas.\nSlowly begin to move your body in any way that feels natural, allowing your limbs to sweep across the floor and your torso to twist and turn.\nAs you move, imagine that you are painting a picture on the floor with your body. Experiment with different shapes and lines, using your arms, legs, and torso to create interesting patterns.\nOr you can be very specific, be very visual with the image you are creating\nContinue moving and painting for a few minutes, exploring different levels and directions.\nWhen you’re ready, slowly come to a stop.\n\n\nReflections\n\nHow did you feel\nWhat did you draw?\nWhat orientation did your image face?"
   },
   {
     "objectID": "whenConditionWorkshop.html#trace-example",
     "href": "whenConditionWorkshop.html#trace-example",
-    "title": "When Codition",
+    "title": "When Conditionals",
     "section": "Trace Example",
     "text": "Trace Example\nMove around the below code in danceON in the same way we just did in embodiment exercise.\n\n(pose, poseHistory) => [\n    {\n        what: 'circle',\n        where: {\n            x: pastParts(poseHistory, 'leftWrist', 'x', 0, 30, 1),\n            y: pastParts(poseHistory, 'leftWrist', 'y', 0, 30, 1)\n        },\n        how: {\n            fill: \"white\",\n        },\n    } // left wrist trace\n];"
   },
   {
     "objectID": "whenConditionWorkshop.html#sec-conditionals",
     "href": "whenConditionWorkshop.html#sec-conditionals",
-    "title": "When Codition",
+    "title": "When Conditionals",
     "section": "When Condition",
     "text": "When Condition\nIn danceON, conditionals can enable some crazy interactivity for your animations. To understand when conditions in danceON, you will need to grasp two aspects: the logic of conditionals and the variety of movement states in choreography."
   },
   {
     "objectID": "whenConditionWorkshop.html#exercise-1",
     "href": "whenConditionWorkshop.html#exercise-1",
-    "title": "When Codition",
+    "title": "When Conditionals",
     "section": "Exercise 1",
     "text": "Exercise 1\nGiven the two examples, play with conditionals. Define what movement can be determined by danceON.\n\nExample 1\n\n\n\n\n(pose) => [\n    // i think \n    // she thinks \n    // i think too much\n    // Pinegrove - Need (https://youtu.be/9hGRSY-oRqk)\n    \n    // Text appears in over my head at different positions of the screen\n    // No map function\n    {\n        what: 'text',\n        when: pose.nose.x < 200,\n        where: {\n            x: pose.nose.x,\n            y: pose.nose.y - 100,\n        },\n        how: {\n            str: \"i think\",\n            fill: color(255, 255, 255, 255),\n        },\n    }, // Move to the left\n    {\n        what: 'text',\n        when: (pose.nose.x > 350),\n        where: {\n            x: pose.nose.x,\n            y: pose.nose.y - 100,\n        },\n        how: {\n            str: \"she thinks\",\n            fill: color(255, 105, 180, 255), \n        },\n    }, // Move to the right\n    {\n        what: 'text',\n        when: pose.rightWrist.y < pose.nose.y, \n        where: {\n            x: pose.nose.x,\n            y: pose.nose.y - 100,\n        },\n        how: {\n            str: \"i think too much\",\n            fill: color(255, 255, 255, 255), \n        },\n    } // Wrist above my nose\n];\n\n\n\nExample 2\n\n\n\nThere are two version of code for this example.\nThe first one saves the math operation of the when conditionals in variables.\n\n(pose) => {\n\n    // define variables and functions\n    let bentOver = (abs(pose.nose.y-pose.leftHip.y))<100;\n    let leanRight = pose.nose.x>pose.leftHip.x;\n    let leanLeft = pose.nose.x<pose.leftHip.x\n    // return objects\nreturn [\n    {\n        what: 'rect',\n        when:bentOver && leanLeft,\n        where: {\n            x: pose.nose.x+abs(pose.nose.x-pose.leftHip.x)*0.1,\n            y: pose.leftHip.y-300\n        },\n        how: {\n            fill: \"#c76b67\",\n            h: 200,\n            w: abs(pose.nose.x-pose.leftHip.x)*0.8,\n        },\n    },\n        {\n        what: 'rect',\n        when: bentOver && leanRight,\n        where: {\n            x: pose.leftHip.x+abs(pose.nose.x-pose.leftHip.x)*0.1,\n            y: pose.leftHip.y-300\n        },\n        how: {\n            fill: \"#c76b67\",\n            h: 200,\n            w: abs(pose.nose.x-pose.leftHip.x)*0.8,\n        },\n    }//backing a brick whenever I bend over\n];}\n\nThe second one does the math operations directly in the conditionals.\n\n(pose) => [\n    {\n        what: 'rect',\n        when:(abs(pose.nose.y-pose.leftHip.y))<100 && pose.nose.x<pose.leftHip.x,\n        where: {\n            x: pose.nose.x+abs(pose.nose.x-pose.leftHip.x)*0.1,\n            y: pose.leftHip.y-300\n        },\n        how: {\n            fill: \"#c76b67\",\n            h: 200,\n            w: abs(pose.nose.x-pose.leftHip.x)*0.8,\n        },\n    },\n        {\n        what: 'rect',\n        when:(abs(pose.nose.y-pose.leftHip.y))<100 && pose.nose.x>pose.leftHip.x,\n        where: {\n            x: pose.leftHip.x+abs(pose.nose.x-pose.leftHip.x)*0.1,\n            y: pose.leftHip.y-300\n        },\n        how: {\n            fill: \"#c76b67\",\n            h: 200,\n            w: abs(pose.nose.x-pose.leftHip.x)*0.8,\n        },\n    }//backing a brick whenever I bend over\n];\n\nThe two version of the code basically does the same things. The first one factored the bending movement out into two parts based on the computer logic.\n\nWhich one is more interdisciplinary?\nWhich one is more accessible?\nHow does the “better” example scaffold the concept of conditionals better?\nHow about the movement concepts?"
   },
   {
     "objectID": "whenConditionWorkshop.html#exercise-2",
     "href": "whenConditionWorkshop.html#exercise-2",
-    "title": "When Codition",
+    "title": "When Conditionals",
     "section": "Exercise 2",
     "text": "Exercise 2\nCurrently you should have some basic understanding of shapes and how features. Think of a movement. The movement should have two significant modes of movement that you think danceON can sense. GIVE IT TO YOUR PEERS, and design a piece of code with your peer’s movement in mind.\nFocus on the movement and think about what and how the code will enhance your movement. Think about how to use code to distinguish between the two modes of movement."
   },
   {
     "objectID": "whenConditionWorkshop.html#co-design-workshop",
     "href": "whenConditionWorkshop.html#co-design-workshop",
-    "title": "When Codition",
+    "title": "When Conditionals",
     "section": "Co-design Workshop",
     "text": "Co-design Workshop\nDesign a worksheet/example code/example movements/activities for to teach students about conditionals through a interdisciplinary lens."
   },
