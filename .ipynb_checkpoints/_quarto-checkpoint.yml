@@ -23,9 +23,10 @@ website:
       - section: "Session 2"
         contents:
           - whenConditionWorkshop.ipynb
-      # - section: "Session 3"
-      #   contents:
-      #    - observationWorkshop.ipynb
+      - section: "Session 3"
+        contents:
+         - distanceWorkshop.ipynb
+         - observationWorkshop.ipynb
       # - section: "Session 4"
       #   contents:
       #    - observationWorkshop.ipynb
