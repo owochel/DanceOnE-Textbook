@@ -30,6 +30,7 @@ website:
       - section: "Session 4"
         contents:
          - machineLearningWorkshop.ipynb
+         - modelWorkshop.ipynb
       # - section: "Session 5"
       #   contents:
       #    - observationWorkshop.ipynb

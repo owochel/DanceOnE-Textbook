@@ -91,6 +91,62 @@
     "text": "Co-design Workshop\nDesign a worksheet/example code/example movements/activities for to teach students about conditionals through a interdisciplinary lens."
   },
   {
+    "objectID": "modelWorkshop.html#creating-a-pose-model-on-teachable-machine",
+    "href": "modelWorkshop.html#creating-a-pose-model-on-teachable-machine",
+    "title": "Create Your Own ML Model",
+    "section": "Creating a pose model on Teachable Machine",
+    "text": "Creating a pose model on Teachable Machine\nThink about 2 different poses you want to create a model for — what are the names of these poses?\nYou will use these pose ideas to create a model using Google Teachable Machine.\nFirst, you will create a pose project. Open Google Teachable Machine on a separate browser window/tab.\nThen, click “Get Started” and then, click “Pose Project”.\nThis will open up a workspace for you to create a pose detection model."
+  },
+  {
+    "objectID": "modelWorkshop.html#gather-data-for-your-pose-model",
+    "href": "modelWorkshop.html#gather-data-for-your-pose-model",
+    "title": "Create Your Own ML Model",
+    "section": "Gather data for your pose model",
+    "text": "Gather data for your pose model\nAfter starting up a pose model, the next step is for you to gather data for your machine learning model to train on. Watch the quick clip below on how to do this.\n\n\nMake sure you change the settings so that “Hold to Record” is off.\nCapture one 10-second set of training examples for each of your classes. Use the names you thought of for each of your poses as your class names (like the “Wings Up” and “Wings Down” example you saw earlier)."
+  },
+  {
+    "objectID": "modelWorkshop.html#train-your-model-on-the-data-you-created",
+    "href": "modelWorkshop.html#train-your-model-on-the-data-you-created",
+    "title": "Create Your Own ML Model",
+    "section": "Train your model on the data you created",
+    "text": "Train your model on the data you created\nAfter gathering your data, the next step is for you to train your model on the data you gathered. Watch the quick clip below on how to do this.\n\n\nClick “Train Model” and wait — make sure you leave the window/tab open as you wait!\nAfter your model is done training, you can test your model out directly on your pose project workspace."
+  },
+  {
+    "objectID": "modelWorkshop.html#export-the-model-you-created",
+    "href": "modelWorkshop.html#export-the-model-you-created",
+    "title": "Create Your Own ML Model",
+    "section": "Export the model you created",
+    "text": "Export the model you created\nThe last step is for you to export the model you trained. Watch the quick clip below on how to do this.\n\n\nClick “Export Model”. In the popup, click on the “Upload” button and copy the shareable link into danceON (the same way you copied the model link in the previous exercise)."
+  },
+  {
+    "objectID": "modelWorkshop.html#update-the-code-in-danceon-to-reflect-your-poses",
+    "href": "modelWorkshop.html#update-the-code-in-danceon-to-reflect-your-poses",
+    "title": "Create Your Own ML Model",
+    "section": "Update the code in danceON to reflect your poses",
+    "text": "Update the code in danceON to reflect your poses\nFeel free to update the code from the previous activity so that it corresponds to the names of the new poses you created for your model. For example, instead of drawing “wings”, you might want to draw circles or other shapes!"
+  },
+  {
+    "objectID": "modelWorkshop.html#discussion-and-share-out",
+    "href": "modelWorkshop.html#discussion-and-share-out",
+    "title": "Create Your Own ML Model",
+    "section": "Discussion and share-out",
+    "text": "Discussion and share-out\n\nWhat poses did you train on Teachable Machine?\nWhat special cases did you consider as you trained your model?\nIn what cases or situations did your model fail? Why do you think that happens?\nIf someone else used your model, do you think it will work perfectly for them? Why or why not?\n\n\n\n\n\n\n\nWarning\n\n\n\nNote: Before the next activity, please download your danceON code and make sure to copy your model somewhere for record-keeping!"
+  },
+  {
+    "objectID": "modelWorkshop.html#trade-and-test-machine-learning-models",
+    "href": "modelWorkshop.html#trade-and-test-machine-learning-models",
+    "title": "Create Your Own ML Model",
+    "section": "Trade and test machine learning models!",
+    "text": "Trade and test machine learning models!\nThe best way to test out how well your model works is to have someone else use the model you created!\n\nHow well does your peer’s model work for you?\nWhat are your observations about your peer’s model?\nIn what cases is your peer’s model failing? Why do you think that’s the case?\nWhat would you suggest to improve the performance of the model?"
+  },
+  {
+    "objectID": "modelWorkshop.html#wrap-up",
+    "href": "modelWorkshop.html#wrap-up",
+    "title": "Create Your Own ML Model",
+    "section": "Wrap-up",
+    "text": "Wrap-up\nQuick round discussion 1. What are your thoughts about the activities in today’s session? 2. What would be your key takeaway about the intersection and machine learning and dance from today’s session?\nThink about possible activities that you can do with students using Teachable Machine and danceON. Bring your ideas to tomorrow’s session!\nPlease fill out a [quick survey about today’s session."
+  },
+  {
     "objectID": "distanceWorkshop.html",
     "href": "distanceWorkshop.html",
     "title": "Distance and Mapping",
@@ -193,14 +249,14 @@
     "href": "interfacesWorkshop.html",
     "title": "Interfaces",
     "section": "",
-    "text": "The danceON interfaces are divided into two general parts – the code editor (on the left) and the canvas (on the right). All the manipulation of the code in the code editor will be simultaneously reflected on the canvas on the right. See Figure 1, the pink-red square circled out the code editor on the left, and the purple square circled out the canvas on the right. Scroll to the bottom to Section 6 to try the interface in this textbook.\n\n\n\n\nFigure 1: danceON Interface"
+    "text": "The danceON interfaces are divided into two general parts – the code editor (on the left) and the canvas (on the right). All the manipulation of the code in the code editor will be simultaneously reflected on the canvas on the right. See Figure 1, the pink-red square circled out the code editor on the left, and the purple square circled out the canvas on the right. Scroll to the bottom to Section 0.6 to try the interface in this textbook.\n\n\n\n\nFigure 1: danceON Interface"
   },
   {
     "objectID": "interfacesWorkshop.html#canvas-tools",
     "href": "interfacesWorkshop.html#canvas-tools",
     "title": "Interfaces",
     "section": "Canvas Tools",
-    "text": "Canvas Tools\nIf you look into the canvas, you will find a few grey icons at the bottom of the canvas box. They are tools that help you create and choreograph your piece faster. See the list below to see their function. The icons in the margin show the icon before it was clicked on the top and after on the bottom. Scroll to the bottom to Section 6 to try the interface in this textbook.\n\n\n  \n  \n\nThe right-facing triangle is a play button for the video displayed on canvas.\nThe speaker icon is button to turn on or off the audio in your video.\nThe small circle is a shutter for recording your canvas for your choreography.\n\nThe slider to the most right on the bottom of the canvas is a tool that shows you and let you adjust where you are at in the video. See Figure 2 You may hover or click on the slider to see or go to the exact frame you are at in a video.\n\n\n\n\n\nFigure 2: Slider"
+    "text": "Canvas Tools\nIf you look into the canvas, you will find a few grey icons at the bottom of the canvas box. They are tools that help you create and choreograph your piece faster. See the list below to see their function. The icons in the margin show the icon before it was clicked on the top and after on the bottom. Scroll to the bottom to Section 0.6 to try the interface in this textbook.\n\n\n  \n  \n\nThe right-facing triangle is a play button for the video displayed on canvas.\nThe speaker icon is button to turn on or off the audio in your video.\nThe small circle is a shutter for recording your canvas for your choreography.\n\nThe slider to the most right on the bottom of the canvas is a tool that shows you and let you adjust where you are at in the video. See Figure 2 You may hover or click on the slider to see or go to the exact frame you are at in a video.\n\n\n\n\n\nFigure 2: Slider"
   },
   {
     "objectID": "interfacesWorkshop.html#reference-list",
@@ -242,7 +298,7 @@
     "href": "interfacesWorkshop.html#sec-machineLerning",
     "title": "Interfaces",
     "section": "Machine Learning Model Upload",
-    "text": "Machine Learning Model Upload\nThe Machine Learning Model menu allows you to upload a teachable machine model that you can train yourself.\n\n\n\n\n\n\n\nFigure 6: Machine Learning Model menu"
+    "text": "Machine Learning Model Upload\nThe Machine Learning Model menu allows you to upload a teachable machine model that you can train yourself.\nSee Machine Learning Sessions for more information.\n\n\n\n\n\n\n\nFigure 6: Machine Learning Model menu"
   },
   {
     "objectID": "observation.html",
