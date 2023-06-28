@@ -1,0 +1,338 @@
+[
+  {
+    "objectID": "interfaces.html",
+    "href": "interfaces.html",
+    "title": "Interfaces and Languages",
+    "section": "",
+    "text": "The DanceON interfaces are divided into two general parts – the code editor (on the left) and the canvas (on the right). All the manipulation of the code in the code editor will be simultaneously reflected on the canvas on the right. See Figure 1, the pink-red square circled out the code editor on the left, and the purple square circled out the canvas on the right. Scroll to the bottom to Section 4 to try the interface in this textbook.\n\n\n\n\nFigure 1: DanceON Interface"
+  },
+  {
+    "objectID": "interfaces.html#reference-list",
+    "href": "interfaces.html#reference-list",
+    "title": "Interfaces and Languages",
+    "section": "Reference List",
+    "text": "Reference List\nThere is a reference button on the top right corner which will click-open the reference list on the right of your screen. The reference list contains most of the basic things you need to create a piece in DanceON. You will be able to copy the code in reference directly and paste it into your editor to see their effect. See Figure 2.\n\n\n\n\n\nThe icon for the reference\n\n\n\n\n\n\nFigure 2: The reference list opens up on the right of the screen.\n\n\n\n\n\n\n\n\n\nWhen you hover over the reference code you wish to cover, you will be able to click the copy button on the top right corner to copy the code.\n\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nThe punctuations in the code and the sequencing of the code are important. When copying from references, you need to pay attention to what to replace in your code. To learn more about code structure or sequencing of the code, read more about this in chapter 2."
+  },
+  {
+    "objectID": "interfaces.html#canvas-tools",
+    "href": "interfaces.html#canvas-tools",
+    "title": "Interfaces and Languages",
+    "section": "Canvas Tools",
+    "text": "Canvas Tools\nIf you look into the canvas, you will find a few grey icons at the bottom of the canvas box. They are tools that help you create and choreograph your piece faster. See the list below to see their function. The icons in the margin show the icon before it was clicked on the top and after on the bottom. Scroll to the bottom to Section 4 to try the interface in this textbook.\n\nThe right-facing triangle is a play button for the video displayed on canvas.\nThe speaker icon is button to turn on or off the audio in your video.\nThe small circle is a shutter for recording your canvas for your choreography."
+  },
+  {
+    "objectID": "interfaces.html#sec-try",
+    "href": "interfaces.html#sec-try",
+    "title": "Interfaces and Languages",
+    "section": "Try it here!",
+    "text": "Try it here!"
+  },
+  {
+    "objectID": "observationWorkshop.html",
+    "href": "observationWorkshop.html",
+    "title": "Observation and Ideation",
+    "section": "",
+    "text": "Prerequisites for this workshop: - Basic familiarity for danceON interface - Working with coordinate and pixels - Geometric shapes in danceON\nIn this activity, learners will develop skills observing arts, where and how to draw shapes in danceON.\n\n\nHave the students look at the image below, John Baldessari’s Umbrella (Orange): With Figure and Ball (Blue, Green) at Guggenheim Museume Collection Online.\nTo get learners breaking apart aspects of the image, give the following prompts:\n\nWhat is the proportion of the image?\nWhat is in the image?\n\nWhat appears realistic and what is not?\n\nWhere is everything?\n\nHow are things positioned in relation to each other?\nHow many layers of things are there? What is in the front, middle, and back?\n\nHow do elements appear?\n\nHow big/small are they?\nWhat colors/patterns they have?\n\nWhat is the person doing?\n\nHow is the person interacting with other elements?\nWhat does the gestures/body languages suggests?\nHow are the gestures/motions suggested through visual languages?\n\n\n\n\n\nFigure 1: Umbrella (Orange): With Figure and Ball (Blue, Green), John Baldessari, 2004\n\n\n\nHere is a sampled visual analysis I made when observing this image with the idea that I will recreate it in danceON.\n\n\n\n\n\n\n\nSuggested worksheet and responses\n\n\n\n\n\nGeneral Compositions\n\n\n\nWhat is the proportion of the image?\nThe image is vertical, meaning that the width of the image is shorter than the height of the image.\n\n\nWhat is in the image?\nThere is a feminine-looking person in a bathing suit standing on a ball next to an opened umbrella in a vertically composed image.\n\n\nWhat appears realistic and what is not?\nThe background and the person looks realistic. The umbrella and the ball looks like cut-out. The person’s face is also covered with a circle.\n\n\nWhere is everything?\nThe person is on the right and the umbrella is on the left of the image.\n\n\nHow are things positioned in relation to each other?\nThe person is standing facing the camera on top of the ball.\n\n\nHow many layers are there? What is in the front, middle, and back?\nThe ball and the figure is slightly in front of the umbrella, and they seem to be on a beach based on the texture of the contact surface. The sea level is in the far background and runs through the image slightly below the horizontal centre line. More to the background, there are a few pieces of cloud in the sky.\n\n\nDetails\n\n\n\nHow big or small are the things?\nThe umbrella is about half of the height of the person The two circles are about the same size, except the ball i slightly larger than the circle covering the face.\n\n\nWhat colors/patters are there?\nEverything is grayscaled other than the umbrella, the ball, and the circular shape covering the person’s face. The umberlla is solid light orange and has multiple shaded ciruclar dots as its pattern. The ball is solid green and simplified.\n\n\nWhat are other specific properties?\nIt doesn’t look like a photographed ball but more like the geometric circular shape. The circular shape covering the person’s face is blue and resambles the ball in its simplifed texture and geometric shape. The person has shoulder-length curled black hair and is wearing a patterend swimsuit.\n\n\nDetails of characters’ motion\n\n\n\nWhat is the person doing?\nThe person is standing on the ball looking like trying to balance themselve with hands pointing out.\n\n\nHow is the person interacting with other elements?\nThe person is not interacting with the umbrella.\n\n\nWhat are the gestures/motions suggested?\nStanding on the ball with their right foot, the person’s left foot knees are slightly bent. The person has their hand swinging outwards and wide open. Looks like they are balancing themselves.\n\n\nHow are the gestures/motions suggested through visual languages?\nThe out pointing hands waving in the air and bent knees portrays a balancing pose. The composition of person standing on the ball with one leg also makes up the story of the person balancing on the ball.\n\n\n\n\n\n\nThe distance from camera is straight forward. The translation, however, could be tricky. On canvas, the further away you are, the smaller you will be. Playing around that idea in danceON could opens up lots of creative possibility. In this example, the recreation requires you to move further away from the camera to create such canvas.\n\n\n\nFor the sake of this activity, we don’t have to make a 1 to 1 recreation of this image. What will be focused on is recreating the body and the general shaped. Don’t worry about the details on the umbrella.\nThink about the distance between things. How to best adapt this animation to the figure in the canvas?\nThat being said, this is a good time to elaborate on this image with your own imagination. Give this scene some animation, move around and dance with your code with your peers.\nCommunicate what you want for the animation with your peers. The final result should be related to this scene in some way."
+  },
+  {
+    "objectID": "observationWorkshop.html#discussion-questions",
+    "href": "observationWorkshop.html#discussion-questions",
+    "title": "Observation and Ideation",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nObservation Workshop.\n\nWas the visual analysis and observation process helpful?\nAre there parts that you find confusing throughout this session?\nWhat were some challenges you’ve had in the past about teaching similar concepts we covered today?\n\n\n\nDancers’ Vocabulary and danceON STEM Concepts\n\nHow would dancers describe and document a movement? Do you see that possibilities in conversation with danceON?\nHow would dancers recreate a movement? Is that recreation process transferable to this exercise?\nWe have all these index card filled with concepts. Are there more you could add to this dictionary?\nHow do you see connectivity among them? Create some parings."
+  },
+  {
+    "objectID": "whenConditionWorkshop.html",
+    "href": "whenConditionWorkshop.html",
+    "title": "When Conditionals",
+    "section": "",
+    "text": "On the index card, wrote out concepts that you’ve taught or think is useful to teach to students. For instance, coding concept could be –- coordinate system, when conditionals, etc For dancers, this may be rhythm pattern and musicality, body awareness, stage composition, etc We will review and keep enrich this vocabulary and use the index cards for future references."
+  },
+  {
+    "objectID": "whenConditionWorkshop.html#sec-embodiments",
+    "href": "whenConditionWorkshop.html#sec-embodiments",
+    "title": "When Conditionals",
+    "section": "Embodiment Exercise",
+    "text": "Embodiment Exercise\n\nStand in the center of the room with your feet hip-distance apart and your arms relaxed at your sides.\nClose your eyes and take a few deep breaths, focusing on your body and your breath.\nOpen your eyes and imagine that your body is a paintbrush, and the floor is a canvas.\nSlowly begin to move your body in any way that feels natural, allowing your limbs to sweep across the floor and your torso to twist and turn.\nAs you move, imagine that you are painting a picture on the floor with your body. Experiment with different shapes and lines, using your arms, legs, and torso to create interesting patterns.\nOr you can be very specific, be very visual with the image you are creating\nContinue moving and painting for a few minutes, exploring different levels and directions.\nWhen you’re ready, slowly come to a stop.\n\n\nReflections\n\nHow did you feel\nWhat did you draw?\nWhat orientation did your image face?"
+  },
+  {
+    "objectID": "whenConditionWorkshop.html#trace-example",
+    "href": "whenConditionWorkshop.html#trace-example",
+    "title": "When Conditionals",
+    "section": "Trace Example",
+    "text": "Trace Example\nMove around the below code in danceON in the same way we just did in embodiment exercise.\n\n(pose, poseHistory) => [\n    {\n        what: 'circle',\n        where: {\n            x: pastParts(poseHistory, 'leftWrist', 'x', 0, 30, 1),\n            y: pastParts(poseHistory, 'leftWrist', 'y', 0, 30, 1)\n        },\n        how: {\n            fill: \"white\",\n        },\n    } // left wrist trace\n];"
+  },
+  {
+    "objectID": "whenConditionWorkshop.html#sec-conditionals",
+    "href": "whenConditionWorkshop.html#sec-conditionals",
+    "title": "When Conditionals",
+    "section": "When Condition",
+    "text": "When Condition\nIn danceON, conditionals can enable some crazy interactivity for your animations. To understand when conditions in danceON, you will need to grasp two aspects: the logic of conditionals and the variety of movement states in choreography."
+  },
+  {
+    "objectID": "whenConditionWorkshop.html#exercise-1",
+    "href": "whenConditionWorkshop.html#exercise-1",
+    "title": "When Conditionals",
+    "section": "Exercise 1",
+    "text": "Exercise 1\nGiven the two examples, play with conditionals. Define what movement can be determined by danceON.\n\nExample 1\n\n\n\n\n(pose) => [\n    // i think \n    // she thinks \n    // i think too much\n    // Pinegrove - Need (https://youtu.be/9hGRSY-oRqk)\n    \n    // Text appears in over my head at different positions of the screen\n    // No map function\n    {\n        what: 'text',\n        when: pose.nose.x < 200,\n        where: {\n            x: pose.nose.x,\n            y: pose.nose.y - 100,\n        },\n        how: {\n            str: \"i think\",\n            fill: color(255, 255, 255, 255),\n        },\n    }, // Move to the left\n    {\n        what: 'text',\n        when: (pose.nose.x > 350),\n        where: {\n            x: pose.nose.x,\n            y: pose.nose.y - 100,\n        },\n        how: {\n            str: \"she thinks\",\n            fill: color(255, 105, 180, 255), \n        },\n    }, // Move to the right\n    {\n        what: 'text',\n        when: pose.rightWrist.y < pose.nose.y, \n        where: {\n            x: pose.nose.x,\n            y: pose.nose.y - 100,\n        },\n        how: {\n            str: \"i think too much\",\n            fill: color(255, 255, 255, 255), \n        },\n    } // Wrist above my nose\n];\n\n\n\nExample 2\n\n\n\nThere are two version of code for this example.\nThe first one saves the math operation of the when conditionals in variables.\n\n(pose) => {\n\n    // define variables and functions\n    let bentOver = (abs(pose.nose.y-pose.leftHip.y))<100;\n    let leanRight = pose.nose.x>pose.leftHip.x;\n    let leanLeft = pose.nose.x<pose.leftHip.x\n    // return objects\nreturn [\n    {\n        what: 'rect',\n        when:bentOver && leanLeft,\n        where: {\n            x: pose.nose.x+abs(pose.nose.x-pose.leftHip.x)*0.1,\n            y: pose.leftHip.y-300\n        },\n        how: {\n            fill: \"#c76b67\",\n            h: 200,\n            w: abs(pose.nose.x-pose.leftHip.x)*0.8,\n        },\n    },\n        {\n        what: 'rect',\n        when: bentOver && leanRight,\n        where: {\n            x: pose.leftHip.x+abs(pose.nose.x-pose.leftHip.x)*0.1,\n            y: pose.leftHip.y-300\n        },\n        how: {\n            fill: \"#c76b67\",\n            h: 200,\n            w: abs(pose.nose.x-pose.leftHip.x)*0.8,\n        },\n    }//backing a brick whenever I bend over\n];}\n\nThe second one does the math operations directly in the conditionals.\n\n(pose) => [\n    {\n        what: 'rect',\n        when:(abs(pose.nose.y-pose.leftHip.y))<100 && pose.nose.x<pose.leftHip.x,\n        where: {\n            x: pose.nose.x+abs(pose.nose.x-pose.leftHip.x)*0.1,\n            y: pose.leftHip.y-300\n        },\n        how: {\n            fill: \"#c76b67\",\n            h: 200,\n            w: abs(pose.nose.x-pose.leftHip.x)*0.8,\n        },\n    },\n        {\n        what: 'rect',\n        when:(abs(pose.nose.y-pose.leftHip.y))<100 && pose.nose.x>pose.leftHip.x,\n        where: {\n            x: pose.leftHip.x+abs(pose.nose.x-pose.leftHip.x)*0.1,\n            y: pose.leftHip.y-300\n        },\n        how: {\n            fill: \"#c76b67\",\n            h: 200,\n            w: abs(pose.nose.x-pose.leftHip.x)*0.8,\n        },\n    }//backing a brick whenever I bend over\n];\n\nThe two version of the code basically does the same things. The first one factored the bending movement out into two parts based on the computer logic.\n\nWhich one is more interdisciplinary?\nWhich one is more accessible?\nHow does the “better” example scaffold the concept of conditionals better?\nHow about the movement concepts?"
+  },
+  {
+    "objectID": "whenConditionWorkshop.html#exercise-2",
+    "href": "whenConditionWorkshop.html#exercise-2",
+    "title": "When Conditionals",
+    "section": "Exercise 2",
+    "text": "Exercise 2\nCurrently you should have some basic understanding of shapes and how features. Think of a movement. The movement should have two significant modes of movement that you think danceON can sense. GIVE IT TO YOUR PEERS, and design a piece of code with your peer’s movement in mind.\nFocus on the movement and think about what and how the code will enhance your movement. Think about how to use code to distinguish between the two modes of movement."
+  },
+  {
+    "objectID": "whenConditionWorkshop.html#co-design-workshop",
+    "href": "whenConditionWorkshop.html#co-design-workshop",
+    "title": "When Conditionals",
+    "section": "Co-design Workshop",
+    "text": "Co-design Workshop\nDesign a worksheet/example code/example movements/activities for to teach students about conditionals through a interdisciplinary lens."
+  },
+  {
+    "objectID": "modelWorkshop.html#creating-a-pose-model-on-teachable-machine",
+    "href": "modelWorkshop.html#creating-a-pose-model-on-teachable-machine",
+    "title": "Create Your Own ML Model",
+    "section": "Creating a pose model on Teachable Machine",
+    "text": "Creating a pose model on Teachable Machine\nThink about 2 different poses you want to create a model for — what are the names of these poses?\nYou will use these pose ideas to create a model using Google Teachable Machine.\nFirst, you will create a pose project. Open Google Teachable Machine on a separate browser window/tab.\nThen, click “Get Started” and then, click “Pose Project”.\nThis will open up a workspace for you to create a pose detection model."
+  },
+  {
+    "objectID": "modelWorkshop.html#gather-data-for-your-pose-model",
+    "href": "modelWorkshop.html#gather-data-for-your-pose-model",
+    "title": "Create Your Own ML Model",
+    "section": "Gather data for your pose model",
+    "text": "Gather data for your pose model\nAfter starting up a pose model, the next step is for you to gather data for your machine learning model to train on. Watch the quick clip below on how to do this.\n\n\nMake sure you change the settings so that “Hold to Record” is off.\nCapture one 10-second set of training examples for each of your classes. Use the names you thought of for each of your poses as your class names (like the “Wings Up” and “Wings Down” example you saw earlier)."
+  },
+  {
+    "objectID": "modelWorkshop.html#train-your-model-on-the-data-you-created",
+    "href": "modelWorkshop.html#train-your-model-on-the-data-you-created",
+    "title": "Create Your Own ML Model",
+    "section": "Train your model on the data you created",
+    "text": "Train your model on the data you created\nAfter gathering your data, the next step is for you to train your model on the data you gathered. Watch the quick clip below on how to do this.\n\n\nClick “Train Model” and wait — make sure you leave the window/tab open as you wait!\nAfter your model is done training, you can test your model out directly on your pose project workspace."
+  },
+  {
+    "objectID": "modelWorkshop.html#export-the-model-you-created",
+    "href": "modelWorkshop.html#export-the-model-you-created",
+    "title": "Create Your Own ML Model",
+    "section": "Export the model you created",
+    "text": "Export the model you created\nThe last step is for you to export the model you trained. Watch the quick clip below on how to do this.\n\n\nClick “Export Model”. In the popup, click on the “Upload” button and copy the shareable link into danceON (the same way you copied the model link in the previous exercise)."
+  },
+  {
+    "objectID": "modelWorkshop.html#update-the-code-in-danceon-to-reflect-your-poses",
+    "href": "modelWorkshop.html#update-the-code-in-danceon-to-reflect-your-poses",
+    "title": "Create Your Own ML Model",
+    "section": "Update the code in danceON to reflect your poses",
+    "text": "Update the code in danceON to reflect your poses\nFeel free to update the code from the previous activity so that it corresponds to the names of the new poses you created for your model. For example, instead of drawing “wings”, you might want to draw circles or other shapes!"
+  },
+  {
+    "objectID": "modelWorkshop.html#discussion-and-share-out",
+    "href": "modelWorkshop.html#discussion-and-share-out",
+    "title": "Create Your Own ML Model",
+    "section": "Discussion and share-out",
+    "text": "Discussion and share-out\n\nWhat poses did you train on Teachable Machine?\nWhat special cases did you consider as you trained your model?\nIn what cases or situations did your model fail? Why do you think that happens?\nIf someone else used your model, do you think it will work perfectly for them? Why or why not?\n\n\n\n\n\n\n\nWarning\n\n\n\nNote: Before the next activity, please download your danceON code and make sure to copy your model somewhere for record-keeping!"
+  },
+  {
+    "objectID": "modelWorkshop.html#trade-and-test-machine-learning-models",
+    "href": "modelWorkshop.html#trade-and-test-machine-learning-models",
+    "title": "Create Your Own ML Model",
+    "section": "Trade and test machine learning models!",
+    "text": "Trade and test machine learning models!\nThe best way to test out how well your model works is to have someone else use the model you created!\n\nHow well does your peer’s model work for you?\nWhat are your observations about your peer’s model?\nIn what cases is your peer’s model failing? Why do you think that’s the case?\nWhat would you suggest to improve the performance of the model?"
+  },
+  {
+    "objectID": "modelWorkshop.html#wrap-up",
+    "href": "modelWorkshop.html#wrap-up",
+    "title": "Create Your Own ML Model",
+    "section": "Wrap-up",
+    "text": "Wrap-up\nQuick round discussion 1. What are your thoughts about the activities in today’s session? 2. What would be your key takeaway about the intersection and machine learning and dance from today’s session?\nThink about possible activities that you can do with students using Teachable Machine and danceON. Bring your ideas to tomorrow’s session!\nPlease fill out a quick survey about today’s session."
+  },
+  {
+    "objectID": "distanceWorkshop.html",
+    "href": "distanceWorkshop.html",
+    "title": "Distance and Mapping",
+    "section": "",
+    "text": "Take a breath and try to respond the cues with a couple of movement.\nCue 1: “Imagine moving as if you’re in a small, confined space. Explore the sensation of being close, compact, and contained.”\nCue 2: “Now, let your movements expand. Take larger moves, reaching and stretching through space. Explore the sensation of covering a greater distance.”\nCue 3: “Find a balance between the previous qualities. Move with moderate steps, neither too short nor too long. Observe how this moderate distance feels in your body.”\n\n\n\n“What did you notice about your movements?”\n“What two parts of your bodies are ‘distanced’? Your two wrists, your wrist and your ankle, or something else?”\n“How did your body respond to the different qualities of distance?”\n“Did any emotions or images come to mind as you explored the different distances?”"
+  },
+  {
+    "objectID": "distanceWorkshop.html#sec-distance",
+    "href": "distanceWorkshop.html#sec-distance",
+    "title": "Distance and Mapping",
+    "section": "Distance",
+    "text": "Distance\nWe briefly talked about distance function in the previous session. Today, we will dive deeper into the idea.\nThere can be two types of distances when observing in danceON. One is the distance between things on the canvas. The other is the distance from camera. These two types are distinguished differently in danceON."
+  },
+  {
+    "objectID": "distanceWorkshop.html#horizontal-and-vertical-distance",
+    "href": "distanceWorkshop.html#horizontal-and-vertical-distance",
+    "title": "Distance and Mapping",
+    "section": "Horizontal and Vertical Distance",
+    "text": "Horizontal and Vertical Distance\nThe distance on the canvas can be calculated via the distance formula.\n\\[ d = \\sqrt {\\left( {x_1 - x_2 } \\right)^2 + \\left( {y_1 - y_2 } \\right)^2 } \\]\nFor an example, the below code should draw a circle based on the distance between your two wrists.\n\n(pose) => [{\n            what: 'circle',\n            where: {\n                    x: pose.nose.x,\n                    y: pose.nose.y,\n            },\n            how: {\n                d: Math.sqrt( \n                    (pose.rightWrist.x-pose.leftWrist.x)*(pose.rightWrist.x-pose.leftWrist.x) + \n                    (pose.rightWrist.y-pose.leftWrist.y)*(pose.rightWrist.y-pose.leftWrist.y)),\n                fill: [color(255,0,0),color(0)]\n                }\n            }]\n\nAnother example would be using this distance in the conditional. This example will draw a clown nose on you when you open your arms.\n\n(pose) => {\n    let distaneOfWrsits = Math.sqrt( \n                    (pose.rightWrist.x-pose.leftWrist.x)*(pose.rightWrist.x-pose.leftWrist.x) + \n                    (pose.rightWrist.y-pose.leftWrist.y)*(pose.rightWrist.y-pose.leftWrist.y));\n     return [{\n            what: 'circle',\n            when:  distaneOfWrsits>500 ,\n            where: {\n                    x: pose.nose.x,\n                    y: pose.nose.y,\n            },\n            how: {\n                d: 30,\n                fill: color(255,0,0)\n                }\n           \n            }]}"
+  },
+  {
+    "objectID": "distanceWorkshop.html#mapping",
+    "href": "distanceWorkshop.html#mapping",
+    "title": "Distance and Mapping",
+    "section": "Mapping",
+    "text": "Mapping\nSometime we want to use distance indirectly. Mapping is a great way to get proportional numbers. The below code should be similar things as the previous example codes, except the circle on the nose is sized based on the distance of your wrists.\n\n(pose) => {\n    let distaneOfWrsits = Math.sqrt( \n                    (pose.rightWrist.x-pose.leftWrist.x)*(pose.rightWrist.x-pose.leftWrist.x) + \n                    (pose.rightWrist.y-pose.leftWrist.y)*(pose.rightWrist.y-pose.leftWrist.y));\n     return [{\n            what: 'circle',\n            where: {\n                    x: pose.nose.x,\n                    y: pose.nose.y,\n            },\n            how: {\n                d: map(distaneOfWrsits, 0,200,1,20),\n                fill: color(255,0,0)\n                }\n           \n            }]}"
+  },
+  {
+    "objectID": "distanceWorkshop.html#exercise",
+    "href": "distanceWorkshop.html#exercise",
+    "title": "Distance and Mapping",
+    "section": "Exercise",
+    "text": "Exercise\nApply the idea of a distance calculation and create a movement. Teach that movement to your peers, design a movement that is playing with the idea of distance."
+  },
+  {
+    "objectID": "machineLearningWorkshop.html",
+    "href": "machineLearningWorkshop.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "Have you heard about machine learning? What does it sound like it might be?\nWhere do you think is machine learning used, or where can you find instances of it in action?\n\n\n\n\n\n\nExpand To Learn About Machine Learning\n\n\n\n\n\nMachine Learning is a field of Artificial Intelligence (AI) intended to build machines or computer systems that learn on their own.\nMachine Learning algorithms identify patterns in observed data, build models that attempt to explain the world, and make predictions without being programmed with explicit rules."
+  },
+  {
+    "objectID": "machineLearningWorkshop.html#exploring-machine-learning-models-with-danceon",
+    "href": "machineLearningWorkshop.html#exploring-machine-learning-models-with-danceon",
+    "title": "Machine Learning",
+    "section": "Exploring Machine Learning models with danceON",
+    "text": "Exploring Machine Learning models with danceON\nWe have created a pre-trained machine learning model using a tool called Google Teachable Machine and you will play and experiment with the model using danceON to figure out what the model does.\nThe model is packaged in the following link.\n\n\n\n\n\nControl icon\n\n\n\n\n\nPaste the link in this Machine Learning panel\n\n\n\nhttps://teachablemachine.withgoogle.com/models/nooe2OKZj/\n\nTo use the model link above, copy the link.\nOpen danceON in a separate browser window/tab and click on “Controls” in the upper-right of the interface, to bring up additional options. Paste the link you copied into the field labeled “Machine Learning Model” (highlighted in blue below). Leave all other options untouched.\n\n\n\nInstruction on How to Use Google’s Teachable Machine in danceON\n\n\nAdditionally, turn on the webcam (highlighted in green above). Expand and copy the code below into the danceON code editor.\n\n\nCode\n(pose, poseHistory, tm) => [\n    \n    // Left wing 1\n    {\n            what: 'triangle',\n            when: tm[0].probability > 0.70,\n            where: {\n                x1: pose.leftShoulder.x,\n                y1: pose.leftShoulder.y,\n                x2: pose.leftEar.x,\n                y2: (pose.nose.y + pose.leftShoulder.y) / 2,\n                x3: (pose.leftElbow.x + 100),\n                y3: (pose.leftEar.y - 50)\n            },\n            how: {\n                fill: 'cyan'\n            }\n    },\n    \n    // Right wing 1\n    {\n            what: 'triangle',\n            when: tm[0].probability > 0.70,\n            where: {\n                x1: pose.rightShoulder.x,\n                y1: pose.rightShoulder.y,\n                x2: pose.rightEar.x,\n                y2: (pose.nose.y + pose.rightShoulder.y) / 2,\n                x3: (pose.rightElbow.x - 100),\n                y3: (pose.rightEar.y - 50)\n            },\n            how: {\n                fill: 'cyan'\n            }\n    },\n    \n    // Left wing 2\n    {\n            what: 'triangle',\n            when: tm[1].probability > 0.70,\n            where: {\n                x1: pose.leftShoulder.x,\n                y1: pose.leftShoulder.y,\n                x2: pose.leftShoulder.x + (width / 4),\n                y2: ((pose.nose.y + pose.leftShoulder.y) / 2) + 50,\n                x3: (pose.nose.x + (width / 2)),\n                y3: (pose.leftHip.y + 100)\n            },\n            how: {\n                fill: 'magenta'\n            }\n    },\n    \n    // Right wing 2\n    {\n            what: 'triangle',\n            when: tm[1].probability > 0.70,\n            where: {\n                x1: pose.rightShoulder.x,\n                y1: pose.rightShoulder.y,\n                x2: pose.rightShoulder.x - (width / 4),\n                y2: ((pose.nose.y + pose.rightShoulder.y) / 2) + 50,\n                x3: (pose.nose.x - (width / 2)),\n                y3: (pose.rightHip.y + 100)\n            },\n            how: {\n                fill: 'magenta'\n            }\n    },\n\n]\n\n\n\nMove around and try different poses to trigger things to happen — observe and think about what is happening on the screen.\n\nWhat do you think is the code doing?\nWhat do you observe happens?\nWhat are the different shapes that get drawn?\nWhen do the shapes get drawn?\n\nNow turn on the classifier option of danceON (highlighted in green below).\n\n\n\nTurn on Classifier Here\n\n\nThe classifier will show you the names of the poses that the model was trained on (in the upper right of the video), as well as the probability values of each pose, relative to the pose you are currently doing.\n\nWhen are the probability values low? High? In the middle?\nIn what cases or situations is the model failing?"
+  },
+  {
+    "objectID": "machineLearningWorkshop.html#rapid-prototyping-conditionals-vs.-machine-learning-model",
+    "href": "machineLearningWorkshop.html#rapid-prototyping-conditionals-vs.-machine-learning-model",
+    "title": "Machine Learning",
+    "section": "Rapid-prototyping: conditionals vs. machine learning model",
+    "text": "Rapid-prototyping: conditionals vs. machine learning model\nLet’s do some rapid-prototyping. Open another instance of danceON in another browser window/tab and copy the same code that you’re currently using.\nReplace the when section of the code — use what you learned about conditionals (from previous sessions) to write the when code conditions that would trigger the animations in the same way as the machine learning model. What are some ways that you might write a when-condition to identify a Wings Up/Down pose?"
+  },
+  {
+    "objectID": "machineLearningWorkshop.html#discussion",
+    "href": "machineLearningWorkshop.html#discussion",
+    "title": "Machine Learning",
+    "section": "Discussion",
+    "text": "Discussion\n\nBased on our previous discussions and your experiences and observations from the activities above, what do you think are the differences between using conditionals and using a machine learning model?\nCan you think of specific instances or cases where you think it would be better to use conditionals versus machine learning models?"
+  },
+  {
+    "objectID": "cordinatesPractice.html",
+    "href": "cordinatesPractice.html",
+    "title": "Coordinates System",
+    "section": "",
+    "text": "In DanceON, all shapes drawn to the screen have a position that is specified as a coordinate. All coordinates are measured as the distance from the origin in units of pixels. The coordinates are represented as x and y in DanceON. x represents where the object is on the horizontal axis, and y represents where the object is on the vertical axis. At the origin, being the upper left of the window, both the coordinate x and coordinate y are 0. At the lower right of the window, x is width, and y is height.\nAs a result, the coordinates system in dance on could be understand as Figure 1.\n\n\n\nFigure 1: A coordinates system map that shows 4 different points for (red, top left) {x: 0, y:0}, (purple, bottom left) {x: 0, y:height}, (orange, top right) {x: width, y: 0}, (pink, buttom right){x: width, y: height}\n\n\nThese x and y expressions are universal in the languages for DanceON. It is common to find x and y used to express things related to the coordinates systems.\nWhen you see x and y at the beginning of a line where they appear by themselves such as “x:” or “y:”, it means you are defining the location of the object you are currently programming.\nHowever, the x and y are also used to express some pre-defined location variables for poses. For instance, you may see the names for poses are called something like “pose.nose.x” or “pose.leftWrist.y”. When the x and y appears as suffix after body parts names, they are used to express the specific numbers of coordinates of the body parts at different times.\n\n\n\n\n\n\nWhy would you also use x and y for “pose.nose.x” and “pose.leftWrist.y” instead of numbers?\n\nObserver the location of the poses’ keypoints (nose,leftWrist, leftEye, etc) on your DanceON canvas, you may easily find out that the locations of the key points change throughout the progression of your videos/webcam recordings. Because we are dealing with numbers that are constantly changing when referring to coordinates of the pose keypoints, it is easier to represent the location with variables(names for changing numbers).\nHaving x and y as the names indicates that they are in the same coordinates system with your object – “x:” or “y:”."
+  },
+  {
+    "objectID": "cordinatesPractice.html#examples",
+    "href": "cordinatesPractice.html#examples",
+    "title": "Coordinates System",
+    "section": "Examples",
+    "text": "Examples\nManipulate the two numbers for x and y and observe"
+  },
+  {
+    "objectID": "cordinatesPractice.html#practices",
+    "href": "cordinatesPractice.html#practices",
+    "title": "Coordinates System",
+    "section": "Practices",
+    "text": "Practices\nFollow the instructions and develop on them in your own DanceON interfaces. For this practice, you can use either the original pre-recorded video or your own webcam.\n\nPractice 1\nCopy the code cell into your DanceON code editor (you may use the copy button on the top right corner). Currently, there should be a red circle on the top left corner of the code cell.\nDo the following adjustments to only the numbers after x: and y:. See how the red circles changed on the canvas.\n\nIncrease/decrease the numbers. Observe and think of the below questions\n\nIn which direction does x get bigger?\nIn which direction does y get bigger?\n\n\n\n(pose) => [\n        {\n        what: 'circle',\n        when: true,\n\n        where: {\n            x: 0,\n            y: 0\n        },\n        how:{\n            d:150,\n            fill:'red'\n        }\n    },\n];\n\n\n\nPractice 2\n\nChange the numbers to body poses based on the references tab for poses’ all keypoints\n\ne.g. copy this chunk and replace it to the where brackets, change the pose.nose.x to different things\nWhat does the x in pose.nose.x and y in pose.nose.y mean?\n\n\n\nwhere: {\n    x: pose.nose.x,\n    y: pose.nose.y\n},"
+  },
+  {
+    "objectID": "cordinatesPractice.html#challenge-questions",
+    "href": "cordinatesPractice.html#challenge-questions",
+    "title": "Coordinates System",
+    "section": "Challenge Questions",
+    "text": "Challenge Questions\nCopy the code cell into your DanceON code editor. Preferably turn on your webcam for this exercise. Play with the code to describe what the code is doing in sentences like “The circle moves to the right when my nose goes up/down/left/right.”\nFeel free to play with the code to create a more complicated interaction between the body and the shape.\n\n\n\n\n\n\ntip: Pay attention to the things that goes after the “x:” and “y:” !\n\n\n\n\n(pose) => [\n        {\n        what: 'circle', //this is where the circle got drawn\n        when: true,\n        where: {\n            x: pose.nose.y,\n            y: pose.nose.x\n        },\n        how:{\n            d:150,\n            fill:'red'\n        }\n    },\n];"
+  },
+  {
+    "objectID": "cordinatesPractice.html#flashcards",
+    "href": "cordinatesPractice.html#flashcards",
+    "title": "Coordinates System",
+    "section": "Flashcards",
+    "text": "Flashcards\nGo through the flashcards to review some of the concepts of the coordinates system."
+  },
+  {
+    "objectID": "interfacesWorkshop.html",
+    "href": "interfacesWorkshop.html",
+    "title": "Interfaces",
+    "section": "",
+    "text": "The danceON interfaces are divided into two general parts – the code editor (on the left) and the canvas (on the right). All the manipulation of the code in the code editor will be simultaneously reflected on the canvas on the right. See Figure 1, the pink-red square circled out the code editor on the left, and the purple square circled out the canvas on the right. Scroll to the bottom to Section 0.6 to try the interface in this textbook.\n\n\n\n\nFigure 1: danceON Interface"
+  },
+  {
+    "objectID": "interfacesWorkshop.html#canvas-tools",
+    "href": "interfacesWorkshop.html#canvas-tools",
+    "title": "Interfaces",
+    "section": "Canvas Tools",
+    "text": "Canvas Tools\nIf you look into the canvas, you will find a few grey icons at the bottom of the canvas box. They are tools that help you create and choreograph your piece faster. See the list below to see their function. The icons in the margin show the icon before it was clicked on the top and after on the bottom. Scroll to the bottom to Section 0.6 to try the interface in this textbook.\n\n\n  \n  \n\nThe right-facing triangle is a play button for the video displayed on canvas.\nThe speaker icon is button to turn on or off the audio in your video.\nThe small circle is a shutter for recording your canvas for your choreography.\n\nThe slider to the most right on the bottom of the canvas is a tool that shows you and let you adjust where you are at in the video. See Figure 2 You may hover or click on the slider to see or go to the exact frame you are at in a video.\n\n\n\n\n\nFigure 2: Slider"
+  },
+  {
+    "objectID": "interfacesWorkshop.html#reference-list",
+    "href": "interfacesWorkshop.html#reference-list",
+    "title": "Interfaces",
+    "section": "Reference List",
+    "text": "Reference List\nThere is a reference button on the top right corner which will click-open the reference list on the right of your screen. The reference list contains most of the basic things you need to create a piece in danceON. You will be able to copy the code in reference directly and paste it into your editor to see their effect. See Figure 3.\n\n\n\n\n\nThe icon for the reference\n\n\n\n\n\n\nFigure 3: The reference list opens up on the right of the screen.\n\n\n\n\n\n\n\n\n\nWhen you hover over the reference code you wish to cover, you will be able to click the copy button on the top right corner to copy the code.\n\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nThe punctuations in the code and the sequencing of the code are important. When copying from references, you need to pay attention to what to replace in your code. To learn more about code structure or sequencing of the code, read more about this in chapter 2."
+  },
+  {
+    "objectID": "interfacesWorkshop.html#webcam-tools-and-video-upload",
+    "href": "interfacesWorkshop.html#webcam-tools-and-video-upload",
+    "title": "Interfaces",
+    "section": "Webcam Tools and Video Upload",
+    "text": "Webcam Tools and Video Upload\nWhen you click the control menu on the top right corner, there is a Video Source option menu where you can upload your own choreography footage or use the webcam for live interaction. See image to the right for reference.\nThese allow you to work with more controlled footage or live performance settings.\n\n\n\n\n\nThe video source menu\n\n\n\n\n\n\n\n\nWebcam Premission\n\n\n\nYou might need to give webcam premission to the browser you are using in order for danceON to access your webcam. If when you turn the webcam option on, and you didn’t see any pop-up menu to instruct you allowing browser accessing your webcam and your canvas. But your canvas simply doesn’t show your webcam footage. You might need to go the computer’s system setting to enable camera access for your browser."
+  },
+  {
+    "objectID": "interfacesWorkshop.html#sec-overlay",
+    "href": "interfacesWorkshop.html#sec-overlay",
+    "title": "Interfaces",
+    "section": "Overlay",
+    "text": "Overlay\nThere are many helper functions to help you code in danceON better. When you open the control menu on the top right corner, you can see there is a tab called Overlay. See Figure 4. All of these options are visual tools that gives you some references about the content in the canvas.\n\n\n\n\n\nFigure 4: Overlays menu\n\n\n\nThe cursor position gives you the numerical value of your mouse position on the canvas. We will go over this more in the coordinate system chapter.\nThe skeleton draws a small circle on all the anchor point on the skeleton of how the computer model determines the human skeleton. Hover over the specific circle with your mouse, and you will see the name of which anchor point you are referring to. You will use that as the variable name for coding the location bounded to the skeleton for your sketch.\nThe classifier put some numbers on the top right corner that shows if how well a machine learning model determine certain poses on the frame. We will go over this more in the machine learning chapter.\n\n\n\n\n\n\n\nThese are important helper function to give you references on the canvas and skeleton when creating your sketch. Use them when you are coding will help you familiarize the coordinate system and skeleton faster."
+  },
+  {
+    "objectID": "interfacesWorkshop.html#sec-try",
+    "href": "interfacesWorkshop.html#sec-try",
+    "title": "Interfaces",
+    "section": "Try it here!",
+    "text": "Try it here!"
+  },
+  {
+    "objectID": "interfacesWorkshop.html#sec-codeManagement",
+    "href": "interfacesWorkshop.html#sec-codeManagement",
+    "title": "Interfaces",
+    "section": "Code Management",
+    "text": "Code Management\nYou may realize if you close your danceON tab and re-opens the tab, you will most likely to see the code you were last working on without needing to save it somewhere. It may seems like a convenience at first to have all the code cached in the browser. However, it is not the safest way to manage your code. And as many other software, it is crucial that you save your work and manage the version of your code.\n\n\n\n\n\nFigure 5: Code menu\n\n\nIn the control menu, you will also find the Code menu that allows you to manage your code. To save your work, simply use the download button which will save your work in a JavaScript file on your local device. Put it somewhere you remembers and recognize. When you want to work on this file, use the upload button and locate it on your computer to resume working."
+  },
+  {
+    "objectID": "interfacesWorkshop.html#sec-machineLerning",
+    "href": "interfacesWorkshop.html#sec-machineLerning",
+    "title": "Interfaces",
+    "section": "Machine Learning Model Upload",
+    "text": "Machine Learning Model Upload\nThe Machine Learning Model menu allows you to upload a teachable machine model that you can train yourself.\nSee Machine Learning Sessions for more information.\n\n\n\n\n\n\n\nFigure 6: Machine Learning Model menu"
+  },
+  {
+    "objectID": "observation.html",
+    "href": "observation.html",
+    "title": "Observation and Ideation",
+    "section": "",
+    "text": "This section suggests a potential workshop that an instructor could lead teaching danceON. The students should have some basic knowledge about danceON and ready to start creating their own peice.\nAs it could be intimidating to start with a blank canvas, we will have a look at some art pieces in different medium from other artist that can be insipring for creations in danceON. Using danceON as a tool to recreate the observed piece will be the main practice, and hopefully the method introduced here will be a good review and can help you develop their own master piece.\n\n\n\n\n\n\nThere should not be one correct way to observe and describe an image. Even using the same method, two person can still recreate a image through compeletely different process of observation. The process documented here should only be a guidance that helps you practice observation in art. The goal is to have your own way observing art pieces.\n\n\n\n\n\nOne of the ways to practice observing a image is to describe the image as if you are to recreate it. When observing static 2D art pieces such as images or pictures, you can use as simple as a pencil and a scrap paper as your imagined medium of recreation, but you can also use danceON.\nTake a look at the image below. It is John Baldessari’s Umbrella (Orange): With Figure and Ball (Blue, Green) at Guggenheim Museume Collection Online.\nBefore you let your eyes wander in the field, here is a list of questions that you can keep in your mind when looking at this image (this could be made into a worksheet):\n\nGeneral composition of the image\n\nWhere is everything?\nHow are things positioned?\n\nDepth of the image\n\nHow many layers of things are there?\nWhat are their order and relations?\n\nDetails of each thing\n\nWhat colors/patterns they have\nWhat specific properties each thing has\n\nDetalis of the character(s)\n\nWhat are the gestures/motions?\nHow are the motions suggested through visual languages?\n\n\n\n\n\nFigure 1: Umbrella (Orange): With Figure and Ball (Blue, Green), John Baldessari, 2004\n\n\n\nHere is a sampled visual analysis I made when observing this image with the idea that I will recreate it in danceON.\n\n\n\n\n\n\n\nThings that I pay attention\n\n\n\n\n\nGeneral composition of the image\nThere is a feminine-looking person in a bathing suit standing on a ball next to an opened umbrella in a vertically composed image.\n\n\nWhere is everything?\nThe person is on the right and the umbrella is on the left of the image.\n\n\nHow are things positioned\nThe person is standing facing the camera, but the person’s face is covered with a circular shape.\n\n\nDetails of everything\n\n\n\nHow many layers are there? What are their relationships?\nThe ball and the figure is slightly in front of the umbrella, and they seem to be on a beach based on the texture of the contact surface. The sea level is in the far background and runs through the image slightly below the horizontal centre line. More to the background, there are a few pieces of cloud in the sky.\n\n\nDepth of the image\n\n\n\nWhat colors/patters are there?\nEverything is grayscaled other than the umbrella, the ball, and the circular shape covering the person’s face. The umberlla is solid light orange and has multiple shaded ciruclar dots as its pattern. The ball is solid green and simplified.\n\n\nWhat are other specific properties?\nIt doesn’t look like a photographed ball but more like the geometric circular shape. The circular shape covering the person’s face is blue and resambles the ball in its simplifed texture and geometric shape. The person has shoulder-length curled black hair and is wearing a patterend swimsuit.\n\n\nDetails of characters’ motion\n\n\n\nWhat are the gestures/motions suggested?\nStanding on the ball with their right foot, the person’s left foot knees are slightly bent. The person has their hand swinging outwards and wide open. Looks like they are balancing themselves.\n\n\nHow are the gestures/motions suggested through visual languages?\nThe out pointing hands waving in the air and bent knees portrays a balancing pose. The composition of person standing on the ball with one leg also makes up the story of the person balancing on the ball.\n\n\n\n\n\n\nPhew, there are a lot of texts and information, but we did it! This process should help us recreate it in dance on logically.\nWe will always use the general composition as a reference of our creation. The rest will be our guide creating the scene.\nTo start in danceON, first thing first is to match the vertical composition of Baldessari’s piece. Because the default webcam format in danceON is horizontal, there are a few things we can do to get around with it. It is a good brainstorming/discussion questions to ask the students if they have any proposals on how they would match the vertical compositions with danceON.\nThe most straightforward way is to record a vertical video and upload it via the upload option in controls on the top right corner. Click the uplaod button in the middle line of the Video Sources Panel after you have a video of someone doing a similar motion as the character.\n \n\n\n\n\n\nCode\n# How dancer describe the movement? -- On line dance education?\n#         -- New York City DOE Professional Models\n\n# danceON -- Case-based Reasoning: Code helping with analysis\n#         -- Positions of dancers\n        \n# Stand from dance \n\n\n# Scafolding the creative process\n# -- translate the observation to creativity\n# -- key parts of observation to translation\n#     -- state in the begaining, looking for the key points\n#     -- other key points, guide the discussion, **more like an instructor guidebook**\n#     -- put timing next to them\n#     -- challenge: artistic challenge, brighen the color/make it stylistic\n#     -- guides to structure the lesson\n#     -- randomness\n#     -- subgoals:\n#         -- subsectioning titles: in conversation with technical concept\n#     -- focus on the instructor's readability\n#     -- pick a sound, ask a student to record, upload it to dance on, make modification\n    \n#  -- user study\n#      -- participotory design\n#      -- design feedback, try to get them think across bigger changes\n#      -- how to structure/organize the things\n#      -- miro board? thinking about their practive ahead\n#      -- making design choices based on our observation\n\n\n\n\nCode\nimport heapq\ndef topKFrequent(nums, k):\n    s=set(nums)\n    count=[]\n    for i in s:\n        count.append(nums.count(i))\n    dictionary = dict(zip(s, count)) \n\n        \n    \narr=[-1,-1,-1,2,2,3]\ntopKFrequent(arr,2)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to danceON",
+    "section": "",
+    "text": "danceON is a domain-specific programming language for building animations that react to movements built by Willie Payne. This book is a creative coding curriculum of danceON. It contains a series of references, workshops, flashcards, and related study tools to learn about danceON and creative coding concepts.\n\n\n\n\n\n\nThis book was originally created using Jupyter Book. This site is a port of the original book source to the Quarto publishing system in order to provide an example of it’s use.\n\n\n\n\n\nThe online editor can be found here, or you can have a try here:"
+  },
+  {
+    "objectID": "cordinatesWorkshop.html",
+    "href": "cordinatesWorkshop.html",
+    "title": "Coordinates System",
+    "section": "",
+    "text": "In danceON, all shapes drawn to the screen have a position that is specified as a coordinate. All coordinates are measured as the distance from the origin in units of pixels. The coordinates are represented as x and y in danceON. x represents where the object is on the horizontal axis, and y represents where the object is on the vertical axis. At the origin, being the upper left of the window, both the coordinate x and coordinate y are 0. At the lower right of the window, x is width, and y is height.\nAs a result, the coordinates system in dance on could be understand as Figure 1.\n\n\n\nFigure 1: A coordinates system map that shows 4 different points for (red, top left) {x: 0, y:0}, (purple, bottom left) {x: 0, y:height}, (orange, top right) {x: width, y: 0}, (pink, buttom right){x: width, y: height}\n\n\nThese x and y expressions are universal in the languages for danceON. It is common to find x and y used to express things related to the coordinates systems.\nWhen you see x and y at the beginning of a line where they appear by themselves such as “x:” or “y:”, it means you are defining the location of the object you are currently programming.\nHowever, the x and y are also used to express some pre-defined location variables for poses. For instance, you may see the names for poses are called something like “pose.nose.x” or “pose.leftWrist.y”. When the x and y appears as suffix after body parts names, they are used to express the specific numbers of coordinates of the body parts at different times.\n\n\n\n\n\n\nWhy would you also use x and y for “pose.nose.x” and “pose.leftWrist.y” instead of numbers?\n\nObserver the location of the poses’ keypoints (nose,leftWrist, leftEye, etc) on your danceON canvas, you may easily find out that the locations of the key points change throughout the progression of your videos/webcam recordings. Because we are dealing with numbers that are constantly changing when referring to coordinates of the pose keypoints, it is easier to represent the location with variables(names for changing numbers).\nHaving x and y as the names indicates that they are in the same coordinates system with your object – “x:” or “y:”."
+  },
+  {
+    "objectID": "cordinatesWorkshop.html#exercise-1",
+    "href": "cordinatesWorkshop.html#exercise-1",
+    "title": "Coordinates System",
+    "section": "Exercise 1",
+    "text": "Exercise 1\nUse one of the below code and design a 10 second movements around the shape. Take the clip as an example.\n\nExercise 1\nThe below code should draw a large circle at bottom left and a small circle at middle right. The code of this example can also be found at the example called two blue circles.\nIn this example, you should see me moving back and forth to play around the depth of the image as well as the size of my figure. Manipulating my position on the canvas. The goal of this exercise is to 1) warm you up with the interface of danceON and danceON canvas 2) familiarize you with the coordinate system and translation of the coordinate system cognitively. This has been a challenge in the past study we’ve done with students. We want to scaffold the concept as much as possible before we dive into the code aspect.\n\n\n\n\n(pose) => [\n        {\n        what: 'circle',\n        when: true,\n\n        where: {\n            x: 50,\n            y: 300\n        },\n        how:{\n            d:150,\n            fill:'blue'\n        }\n    },\n            {\n        what: 'circle',\n        when: true,\n\n        where: {\n            x: 500,\n            y: 200\n        },\n        how:{\n            d:50,\n            fill:'blue'\n        }\n    },\n];\n\nWith your peers, design a single-person movement that is a few-second-long with the two circles on the screen. Note that danceON is using computer vision model that only supports one skeleton on the screen.\n\n\nExercise 2\nWe will dive into the coding aspect of danceON. The below code should give you two pink wings. The coordinate of the triangles are bounded to the body parts to make it looks more wing-like. The way triangles are coded are basically declaring where you would want the three apexes of the triangle to be. In this example, all three apexes are bounded in relation to a body part.\n\n\n\n\n(pose) => [\n{\n        what: 'triangle',\n        when: true,\n        where: {\n              x1: pose.leftShoulder.x,\n            y1: pose.leftShoulder.y,\n            x2: pose.leftElbow.x,\n            y2: pose.leftElbow.y,\n            x3: pose.leftWrist.x+100,\n            y3: pose.leftEar.y-100\n        },\n        how: {\n            fill: color(255, 0, 255, 255),\n            stroke: 255,\n            strokeWeight: 10\n        }\n    },{\n        what: 'triangle',\n        when: true,\n        where: {\n              x1: pose.rightShoulder.x,\n            y1: pose.rightShoulder.y,\n            x2: pose.rightElbow.x,\n            y2: pose.rightElbow.y,\n            x3: pose.rightWrist.x-100,\n            y3: pose.rightEar.y-100\n        },\n        how: {\n            fill: color(255, 0, 255, 255),\n            stroke: 255,\n            strokeWeight: 10\n        }\n    },\n     \n];\n\nWith the similar principle of bonding shapes to body coordinates, the below code should give you a cat face filter. The code of this are folded. You may click the triangle to expand and copy the code. Or you can find this example in the example tab of your danceON page.\n\n\n\n\n\nCode\n(pose) => [\n    { //outer eye left\n        what: 'ellipse',\n        where: {\n            x: pose.leftEye.x,\n            y: pose.leftEye.y\n        },\n        how: {\n            fill: \"white\",\n            stroke: \"black\",\n            strokeWeight: 5,\n            w: 50,\n            h: 30\n        }\n    }, { //outer eye right\n        what: 'ellipse',\n        where: {\n            x: pose.rightEye.x,\n            y: pose.rightEye.y\n        },\n        how: {\n            fill: \"white\",\n            stroke: \"black\",\n            strokeWeight: 5,\n            w: 50,\n            h: 30\n        }\n    }, { //inner eye left\n        what: 'ellipse',\n        where: {\n            x: pose.leftEye.x,\n            y: pose.leftEye.y\n        },\n        how: {\n            fill: \"green\",\n            stroke: \"black\",\n            strokeWeight: 5,\n            w: 10,\n            h: 30\n        }\n    }, { //inner eye right\n        what: 'ellipse',\n        where: {\n            x: pose.rightEye.x,\n            y: pose.rightEye.y\n        },\n        how: {\n            fill: \"green\",\n            stroke: \"black\",\n            strokeWeight: 5,\n            w: 10,\n            h: 30\n        }\n    },\n    \n    { //nose\n        what: 'triangle',\n        where: {\n            x1: pose.nose.x,\n            y1: pose.nose.y - 30,\n            x2: pose.nose.x - 30,\n            y2: pose.nose.y + 20,\n            x3: pose.nose.x + 30,\n            y3: pose.nose.y + 20,\n        },\n        how: {\n            fill: \"black\"\n        }\n    }, \n    \n    { //left ear\n        what: 'triangle',\n        where: {\n            x1: pose.leftEye.x + 25,\n            y1: pose.leftEye.y - 150,\n            x2: pose.leftEye.x - 50,\n            y2: pose.leftEye.y - 70,\n            x3: pose.leftEye.x + 30,\n            y3: pose.leftEye.y - 50,\n        },\n        how: {\n            fill: \"black\"\n        }, \n        \n    }, { //right ear\n        what: 'triangle',\n        where: {\n            x1: pose.rightEye.x - 55,\n            y1: pose.rightEye.y - 150,\n            x2: pose.rightEye.x + 10,\n            y2: pose.rightEye.y - 70,\n            x3: pose.rightEye.x - 50,\n            y3: pose.rightEye.y - 50,\n        },\n        how: {\n            fill: \"black\"\n        },\n    }, { //left whisker mid\n        what: 'line',\n        where: {\n            x1: pose.nose.x + 40,\n            y1: pose.leftEye.y + 50,\n            x2: pose.nose.x + 105,\n            y2: pose.leftEye.y + 50,\n        },\n        how: {\n            stroke: 0,\n            strokeWeight: 5,\n        }\n    }, { //left whisker top\n        what: 'line',\n        where: {\n            x1: pose.nose.x + 40,\n            y1: pose.leftEye.y + 30,\n            x2: pose.nose.x + 105,\n            y2: pose.leftEye.y + 10,\n        },\n        how: {\n            stroke: 0,\n            strokeWeight: 5,\n        }\n    }, { //left whisker bottom\n        what: 'line',\n        where: {\n            x1: pose.nose.x + 40,\n            y1: pose.leftEye.y + 70,\n            x2: pose.nose.x + 105,\n            y2: pose.leftEye.y + 90,\n        },\n        how: {\n            stroke: 0,\n            strokeWeight: 5,\n        }\n    },\n     { //right whisker middle\n        what: 'line',\n        where: {\n            x1: pose.nose.x - 40,\n            y1: pose.rightEye.y + 50,\n            x2: pose.nose.x - 105,\n            y2: pose.rightEye.y + 50,\n        },\n        how: {\n            stroke: 0,\n            strokeWeight: 5,\n        }\n    }, { //right whisker top\n        what: 'line',\n        where: {\n            x1: pose.nose.x - 40,\n            y1: pose.rightEye.y + 30,\n            x2: pose.nose.x - 105,\n            y2: pose.rightEye.y + 10,\n        },\n        how: {\n            stroke: 0,\n            strokeWeight: 5,\n        }\n    }, { //right whisker bottom\n        what: 'line',\n        where: {\n            x1: pose.nose.x - 40,\n            y1: pose.rightEye.y + 70,\n            x2: pose.nose.x - 105,\n            y2: pose.rightEye.y + 90,\n        },\n        how: {\n            stroke: 0,\n            strokeWeight: 5,\n        }\n    }\n    \n];\n\n\nAfter seeing more examples, with your peers, pick one that speaks to you and manipulate one of the examples and design a movement around the manipulated code."
+  },
+  {
+    "objectID": "cordinatesWorkshop.html#general-discussion-questions",
+    "href": "cordinatesWorkshop.html#general-discussion-questions",
+    "title": "Coordinates System",
+    "section": "General Discussion Questions",
+    "text": "General Discussion Questions\n\nWhat was your experience with the 3 activities?\nWhat can be learned from this example? STEM, dance, or social?\nWas the concept of the coordinate system clear to you for the activities?\nWhat was the easiest and hardest part of the activities?\nWhat are things you wanted to do and weren’t able to do?\nWhat are some questions you think students would have when using these example?\nHow would (or if you would) adapt the process to teach your students?"
+  }
+]
