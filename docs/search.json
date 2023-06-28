@@ -91,11 +91,11 @@
     "text": "Co-design Workshop\nDesign a worksheet/example code/example movements/activities for to teach students about conditionals through a interdisciplinary lens."
   },
   {
-    "objectID": "modelWorkshop.html#creating-a-pose-model-on-teachable-machine",
-    "href": "modelWorkshop.html#creating-a-pose-model-on-teachable-machine",
+    "objectID": "modelWorkshop.html",
+    "href": "modelWorkshop.html",
     "title": "Create Your Own ML Model",
-    "section": "Creating a pose model on Teachable Machine",
-    "text": "Creating a pose model on Teachable Machine\nThink about 2 different poses you want to create a model for — what are the names of these poses?\nYou will use these pose ideas to create a model using Google Teachable Machine.\nFirst, you will create a pose project. Open Google Teachable Machine on a separate browser window/tab.\nThen, click “Get Started” and then, click “Pose Project”.\nThis will open up a workspace for you to create a pose detection model."
+    "section": "",
+    "text": "Think about 2 different poses you want to create a model for — what are the names of these poses?\nYou will use these pose ideas to create a model using Google Teachable Machine.\nFirst, you will create a pose project. Open Google Teachable Machine on a separate browser window/tab.\nThen, click “Get Started” and then, click “Pose Project”.\nThis will open up a workspace for you to create a pose detection model."
   },
   {
     "objectID": "modelWorkshop.html#gather-data-for-your-pose-model",
@@ -130,7 +130,7 @@
     "href": "modelWorkshop.html#discussion-and-share-out",
     "title": "Create Your Own ML Model",
     "section": "Discussion and share-out",
-    "text": "Discussion and share-out\n\nWhat poses did you train on Teachable Machine?\nWhat special cases did you consider as you trained your model?\nIn what cases or situations did your model fail? Why do you think that happens?\nIf someone else used your model, do you think it will work perfectly for them? Why or why not?\n\n\n\n\n\n\n\nWarning\n\n\n\nNote: Before the next activity, please download your danceON code and make sure to copy your model somewhere for record-keeping!"
+    "text": "Discussion and share-out\n\nWhat poses did you train on Teachable Machine?\nWhat special cases did you consider as you trained your model?\nIn what cases or situations did your model fail? Why do you think that happens?\nIf someone else used your model, do you think it will work perfectly for them? Why or why not?\n\n\n\n\n\n\n\nHeads Up!\n\n\n\nNote: Before the next activity, please download your danceON code and make sure to copy your model somewhere for record-keeping!"
   },
   {
     "objectID": "modelWorkshop.html#trade-and-test-machine-learning-models",
@@ -144,7 +144,7 @@
     "href": "modelWorkshop.html#wrap-up",
     "title": "Create Your Own ML Model",
     "section": "Wrap-up",
-    "text": "Wrap-up\nQuick round discussion 1. What are your thoughts about the activities in today’s session? 2. What would be your key takeaway about the intersection and machine learning and dance from today’s session?\nThink about possible activities that you can do with students using Teachable Machine and danceON. Bring your ideas to tomorrow’s session!\nPlease fill out a quick survey about today’s session."
+    "text": "Wrap-up\nDiscussion Questions:\n\nWhat are your thoughts about the activities in today’s session?\nWhat would be your key takeaway about the intersection and machine learning and dance from today’s session?\n\nThink about possible activities that you can do with students using Teachable Machine and danceON. Bring your ideas to tomorrow’s session!\nPlease fill out a quick survey about today’s session."
   },
   {
     "objectID": "distanceWorkshop.html",
