@@ -126,6 +126,34 @@
     "text": "Exercise\nApply the idea of a distance calculation and create a movement. Teach that movement to your peers, design a movement that is playing with the idea of distance."
   },
   {
+    "objectID": "machineLearningWorkshop.html",
+    "href": "machineLearningWorkshop.html",
+    "title": "Machine Learning in danceON",
+    "section": "",
+    "text": "Have you heard about machine learning? What does it sound like it might be?\nWhere do you think is machine learning used, or where can you find instances of it in action?\n\n\n\n\n\n\nExpand To Learn About Machine Learning\n\n\n\n\n\nMachine Learning is a field of Artificial Intelligence (AI) intended to build machines or computer systems that learn on their own.\nMachine Learning algorithms identify patterns in observed data, build models that attempt to explain the world, and make predictions without being programmed with explicit rules."
+  },
+  {
+    "objectID": "machineLearningWorkshop.html#exploring-machine-learning-models-with-danceon",
+    "href": "machineLearningWorkshop.html#exploring-machine-learning-models-with-danceon",
+    "title": "Machine Learning in danceON",
+    "section": "Exploring Machine Learning models with danceON",
+    "text": "Exploring Machine Learning models with danceON\nWe have created a pre-trained machine learning model using a tool called Google Teachable Machine and you will play and experiment with the model using danceON to figure out what the model does.\nThe model is packaged in the following link.\n\n\n\n\n\nControl icon\n\n\n\n\n\nPaste the link in this Machine Learning panel\n\n\n\nhttps://teachablemachine.withgoogle.com/models/nooe2OKZj/\n\nTo use the model link above, copy the link.\nOpen danceON in a separate browser window/tab and click on “Controls” in the upper-right of the interface, to bring up additional options. Paste the link you copied into the field labeled “Machine Learning Model” (highlighted in blue below). Leave all other options untouched.\n\n\n\nInstruction on How to Use Google’s Teachable Machine in danceON\n\n\nAdditionally, turn on the webcam (highlighted in green above). Expand and copy the code below into the danceON code editor.\n\n\nCode\n(pose, poseHistory, tm) => [\n    \n    // Left wing 1\n    {\n            what: 'triangle',\n            when: tm[0].probability > 0.70,\n            where: {\n                x1: pose.leftShoulder.x,\n                y1: pose.leftShoulder.y,\n                x2: pose.leftEar.x,\n                y2: (pose.nose.y + pose.leftShoulder.y) / 2,\n                x3: (pose.leftElbow.x + 100),\n                y3: (pose.leftEar.y - 50)\n            },\n            how: {\n                fill: 'cyan'\n            }\n    },\n    \n    // Right wing 1\n    {\n            what: 'triangle',\n            when: tm[0].probability > 0.70,\n            where: {\n                x1: pose.rightShoulder.x,\n                y1: pose.rightShoulder.y,\n                x2: pose.rightEar.x,\n                y2: (pose.nose.y + pose.rightShoulder.y) / 2,\n                x3: (pose.rightElbow.x - 100),\n                y3: (pose.rightEar.y - 50)\n            },\n            how: {\n                fill: 'cyan'\n            }\n    },\n    \n    // Left wing 2\n    {\n            what: 'triangle',\n            when: tm[1].probability > 0.70,\n            where: {\n                x1: pose.leftShoulder.x,\n                y1: pose.leftShoulder.y,\n                x2: pose.leftShoulder.x + (width / 4),\n                y2: ((pose.nose.y + pose.leftShoulder.y) / 2) + 50,\n                x3: (pose.nose.x + (width / 2)),\n                y3: (pose.leftHip.y + 100)\n            },\n            how: {\n                fill: 'magenta'\n            }\n    },\n    \n    // Right wing 2\n    {\n            what: 'triangle',\n            when: tm[1].probability > 0.70,\n            where: {\n                x1: pose.rightShoulder.x,\n                y1: pose.rightShoulder.y,\n                x2: pose.rightShoulder.x - (width / 4),\n                y2: ((pose.nose.y + pose.rightShoulder.y) / 2) + 50,\n                x3: (pose.nose.x - (width / 2)),\n                y3: (pose.rightHip.y + 100)\n            },\n            how: {\n                fill: 'magenta'\n            }\n    },\n\n]\n\n\n\nMove around and try different poses to trigger things to happen — observe and think about what is happening on the screen.\n\nWhat do you think is the code doing?\nWhat do you observe happens?\nWhat are the different shapes that get drawn?\nWhen do the shapes get drawn?\n\nNow turn on the classifier option of danceON (highlighted in green below).\n\n\n\nTurn on Classifier Here\n\n\nThe classifier will show you the names of the poses that the model was trained on (in the upper right of the video), as well as the probability values of each pose, relative to the pose you are currently doing.\n\nWhen are the probability values low? High? In the middle?\nIn what cases or situations is the model failing?"
+  },
+  {
+    "objectID": "machineLearningWorkshop.html#rapid-prototyping-conditionals-vs.-machine-learning-model",
+    "href": "machineLearningWorkshop.html#rapid-prototyping-conditionals-vs.-machine-learning-model",
+    "title": "Machine Learning in danceON",
+    "section": "Rapid-prototyping: conditionals vs. machine learning model",
+    "text": "Rapid-prototyping: conditionals vs. machine learning model\nLet’s do some rapid-prototyping. Open another instance of danceON in another browser window/tab and copy the same code that you’re currently using.\nReplace the when section of the code — use what you learned about conditionals (from previous sessions) to write the when code conditions that would trigger the animations in the same way as the machine learning model. What are some ways that you might write a when-condition to identify a Wings Up/Down pose?"
+  },
+  {
+    "objectID": "machineLearningWorkshop.html#discussion",
+    "href": "machineLearningWorkshop.html#discussion",
+    "title": "Machine Learning in danceON",
+    "section": "Discussion",
+    "text": "Discussion\n\nBased on our previous discussions and your experiences and observations from the activities above, what do you think are the differences between using conditionals and using a machine learning model?\nCan you think of specific instances or cases where you think it would be better to use conditionals versus machine learning models?"
+  },
+  {
     "objectID": "cordinatesPractice.html",
     "href": "cordinatesPractice.html",
     "title": "Coordinates System",
