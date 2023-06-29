@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Create Your Own ML Model</title>
+<title>Designing Activities</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,13 +63,13 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked slimcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Create Your Own ML Model</h1>
+      <h1 class="quarto-secondary-nav-title">Designing Activities</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -172,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modelWorkshop.html" class="sidebar-item-text sidebar-link active">Create Your Own ML Model</a>
+  <a href="./modelWorkshop.html" class="sidebar-item-text sidebar-link">Create Your Own ML Model</a>
   </div>
 </li>
       </ul>
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./AICodesignWorkshop.html" class="sidebar-item-text sidebar-link">Designing Activities</a>
+  <a href="./AICodesignWorkshop.html" class="sidebar-item-text sidebar-link active">Designing Activities</a>
   </div>
 </li>
       </ul>
@@ -206,23 +206,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">List of Contents</h2>
    
   <ul>
-  <li><a href="#creating-a-pose-model-on-teachable-machine" id="toc-creating-a-pose-model-on-teachable-machine" class="nav-link active" data-scroll-target="#creating-a-pose-model-on-teachable-machine">Creating a pose model on Teachable Machine</a></li>
-  <li><a href="#gather-data-for-your-pose-model" id="toc-gather-data-for-your-pose-model" class="nav-link" data-scroll-target="#gather-data-for-your-pose-model">Gather data for your pose model</a></li>
-  <li><a href="#train-your-model-on-the-data-you-created" id="toc-train-your-model-on-the-data-you-created" class="nav-link" data-scroll-target="#train-your-model-on-the-data-you-created">Train your model on the data you created</a></li>
-  <li><a href="#export-the-model-you-created" id="toc-export-the-model-you-created" class="nav-link" data-scroll-target="#export-the-model-you-created">Export the model you created</a></li>
-  <li><a href="#update-the-code-in-danceon-to-reflect-your-poses" id="toc-update-the-code-in-danceon-to-reflect-your-poses" class="nav-link" data-scroll-target="#update-the-code-in-danceon-to-reflect-your-poses">Update the code in danceON to reflect your poses</a></li>
-  <li><a href="#discussion-and-share-out" id="toc-discussion-and-share-out" class="nav-link" data-scroll-target="#discussion-and-share-out">Discussion and share-out</a></li>
-  <li><a href="#trade-and-test-machine-learning-models" id="toc-trade-and-test-machine-learning-models" class="nav-link" data-scroll-target="#trade-and-test-machine-learning-models">Trade and test machine learning models!</a></li>
-  <li><a href="#wrap-up" id="toc-wrap-up" class="nav-link" data-scroll-target="#wrap-up">Wrap-up</a></li>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link active" data-scroll-target="#getting-started">Getting started</a></li>
+  <li><a href="#designing-learning-activities" id="toc-designing-learning-activities" class="nav-link" data-scroll-target="#designing-learning-activities">Designing Learning Activities</a></li>
+  <li><a href="#wrap-up-online-textbook-format" id="toc-wrap-up-online-textbook-format" class="nav-link" data-scroll-target="#wrap-up-online-textbook-format">Wrap-up: Online textbook format</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Create Your Own ML Model</h1>
+<h1 class="title d-none d-lg-block">Designing Activities</h1>
 </div>
 
 
@@ -236,86 +231,35 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="creating-a-pose-model-on-teachable-machine" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="creating-a-pose-model-on-teachable-machine">Creating a pose model on Teachable Machine</h2>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><img src="./asset/machineLearning/GTMStarted.png" alt="Click Get Started at Google Teachable Machine" width="90%"></p>
-<p><img src="./asset/machineLearning/GTMPoseObject.png" alt="Click Pose Project at Google Teachable Machine" width="90%"></p>
-</div></div><p>Think about 2 different poses you want to create a model for — what are the names of these poses?</p>
-<p>You will use these pose ideas to create a model using <a href="https://teachablemachine.withgoogle.com/">Google Teachable Machine</a>.</p>
-<p>First, you will create a pose project. Open <a href="https://teachablemachine.withgoogle.com/">Google Teachable Machine</a> on a separate browser window/tab.</p>
-<p>Then, click “Get Started” and then, click “Pose Project”.</p>
-<p>This will open up a workspace for you to create a pose detection model.</p>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting started</h2>
+<p>Let’s think back to the discussions we’ve had today about machine learning, AI, the opportunities and limits around AI. What are the ways in which you’ve seen or experienced these conversations within or among your own students or communities?</p>
+<p>Given your practices within STEM and dance, what are the ways in which you could integrate the activities and ideas from these last 2 sessions into your own contexts and practices?</p>
 </section>
-<section id="gather-data-for-your-pose-model" class="level2">
-<h2 class="anchored" data-anchor-id="gather-data-for-your-pose-model">Gather data for your pose model</h2>
-<p>After starting up a pose model, the next step is for you to gather data for your machine learning model to train on. Watch the quick clip below on how to do this.</p>
-<iframe width="100%" height="563" src="https://www.youtube.com/embed/DFBbSTvtpy4" title="Teachable Machine Tutorial 1: Gather" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-</iframe>
-<p>Make sure you change the settings so that “Hold to Record” is off.</p>
-<p>Capture one 10-second set of training examples for each of your classes. Use the names you thought of for each of your poses as your class names (like the “Wings Up” and “Wings Down” example you saw earlier).</p>
-</section>
-<section id="train-your-model-on-the-data-you-created" class="level2">
-<h2 class="anchored" data-anchor-id="train-your-model-on-the-data-you-created">Train your model on the data you created</h2>
-<p>After gathering your data, the next step is for you to train your model on the data you gathered. Watch the quick clip below on how to do this.</p>
-<iframe width="100%" height="563" src="https://www.youtube.com/embed/CO67EQ0ZWgA" title="Teachable Machine Tutorial 2: Train" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-</iframe>
-<p>Click “Train Model” and wait — make sure you leave the window/tab open as you wait!</p>
-<p>After your model is done training, you can test your model out directly on your pose project workspace.</p>
-</section>
-<section id="export-the-model-you-created" class="level2">
-<h2 class="anchored" data-anchor-id="export-the-model-you-created">Export the model you created</h2>
-<p>The last step is for you to export the model you trained. Watch the quick clip below on how to do this.</p>
-<iframe width="100%" height="563" src="https://www.youtube.com/embed/n-zeeRLBgd0" title="Teachable Machine Tutorial 3: Export" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-</iframe>
-<p>Click “Export Model”. In the popup, click on the “Upload” button and copy the shareable link into <a href="https://dancinganddabbing.github.io/danceONml/">danceON</a> (the same way you copied the model link in the <a href="./machineLearningWorkshop.html#sec-MachineLearning">previous exercise</a>).</p>
-</section>
-<section id="update-the-code-in-danceon-to-reflect-your-poses" class="level2">
-<h2 class="anchored" data-anchor-id="update-the-code-in-danceon-to-reflect-your-poses">Update the code in danceON to reflect your poses</h2>
-<p>Feel free to update the code from the previous activity so that it corresponds to the names of the new poses you created for your model. For example, instead of drawing “wings”, you might want to draw circles or other shapes!</p>
-</section>
-<section id="discussion-and-share-out" class="level2">
-<h2 class="anchored" data-anchor-id="discussion-and-share-out">Discussion and share-out</h2>
+<section id="designing-learning-activities" class="level2">
+<h2 class="anchored" data-anchor-id="designing-learning-activities">Designing Learning Activities</h2>
+<p>Think about some (1 to 3) learning activities for learners across dance and AI/machine learning using danceON (and/or Teachable Machine) — write or sketch out these learning activities on paper or index cards.</p>
+<p>Some questions to think about as you design your learning activities:</p>
 <ol type="1">
-<li>What poses did you train on Teachable Machine?</li>
-<li>What special cases did you consider as you trained your model?</li>
-<li>In what cases or situations did your model fail? Why do you think that happens?</li>
-<li>If someone else used your model, do you think it will work perfectly for them? Why or why not?</li>
+<li>What are the coding, AI, STEM, or dance concepts that you are teaching about in your activities?</li>
+<li>How are you incorporating coding, AI, and STEM concepts into dance and vice-versa?</li>
+<li>What role does danceON play in your activities?</li>
+<li>Are there prerequisite skills, concepts, or ideas that students may need to engage in your activities?</li>
+<li>How do you bring students’ prior knowledge or experiences into this activity? How do you create space for students to bring their prior knowledge or experiences into this activity?</li>
+<li>How do you incorporate critique of ideas within these activities?</li>
 </ol>
-<div class="callout-warning callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Heads Up!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Note: Before the next activity, please download your danceON code and make sure to copy your model somewhere for record-keeping!</p>
-</div>
-</div>
+<p><strong>Group share-out</strong>: After sketching out your learning activities, take some time to share and discuss with the group your learning activity ideas.</p>
 </section>
-<section id="trade-and-test-machine-learning-models" class="level2">
-<h2 class="anchored" data-anchor-id="trade-and-test-machine-learning-models">Trade and test machine learning models!</h2>
-<p>The best way to test out how well your model works is to have someone else use the model you created!</p>
+<section id="wrap-up-online-textbook-format" class="level2">
+<h2 class="anchored" data-anchor-id="wrap-up-online-textbook-format">Wrap-up: Online textbook format</h2>
+<p>Briefly discuss the following questions about the online textbook with the group:</p>
 <ol type="1">
-<li>How well does your peer’s model work for you?</li>
-<li>What are your observations about your peer’s model?</li>
-<li>In what cases is your peer’s model failing? Why do you think that’s the case?</li>
-<li>What would you suggest to improve the performance of the model?</li>
+<li>What challenges did you face while using the online textbook?</li>
+<li>In what ways was the online textbook helpful or beneficial during the sessions?</li>
+<li>What would you need us to change for you to be able to actually implement or use the online textbook format with students?</li>
+<li>If the online textbook format was updated for your needs, how would you imagine using it with students?</li>
 </ol>
-</section>
-<section id="wrap-up" class="level2">
-<h2 class="anchored" data-anchor-id="wrap-up">Wrap-up</h2>
-<p>Discussion Questions:</p>
-<ol type="1">
-<li>What are your thoughts about the activities in today’s session?</li>
-<li>What would be your key takeaway about the intersection and machine learning and dance from today’s session?</li>
-</ol>
-<p>Think about possible activities that you can do with students using Teachable Machine and danceON. Bring your ideas to tomorrow’s session!</p>
-<p>Please fill out a <a href="https://nyu.qualtrics.com/jfe/form/SV_9Y6xO0y0aoMKwMm">quick survey</a> about today’s session.</p>
+<p>(Or fill out this short <a href="https://nyu.qualtrics.com/jfe/form/SV_8wceZLpYRyG8FlI">survey</a>)</p>
 
 
 </section>

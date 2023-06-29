@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Create Your Own ML Model</title>
+<title>Exploring Neural Networks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,13 +63,13 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked slimcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Create Your Own ML Model</h1>
+      <h1 class="quarto-secondary-nav-title">Exploring Neural Networks</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -172,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modelWorkshop.html" class="sidebar-item-text sidebar-link active">Create Your Own ML Model</a>
+  <a href="./modelWorkshop.html" class="sidebar-item-text sidebar-link">Create Your Own ML Model</a>
   </div>
 </li>
       </ul>
@@ -187,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./neuroNetworkWorkshop.html" class="sidebar-item-text sidebar-link">Exploring Neural Networks</a>
+  <a href="./neuroNetworkWorkshop.html" class="sidebar-item-text sidebar-link active">Exploring Neural Networks</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -206,23 +206,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">List of Contents</h2>
    
   <ul>
-  <li><a href="#creating-a-pose-model-on-teachable-machine" id="toc-creating-a-pose-model-on-teachable-machine" class="nav-link active" data-scroll-target="#creating-a-pose-model-on-teachable-machine">Creating a pose model on Teachable Machine</a></li>
-  <li><a href="#gather-data-for-your-pose-model" id="toc-gather-data-for-your-pose-model" class="nav-link" data-scroll-target="#gather-data-for-your-pose-model">Gather data for your pose model</a></li>
-  <li><a href="#train-your-model-on-the-data-you-created" id="toc-train-your-model-on-the-data-you-created" class="nav-link" data-scroll-target="#train-your-model-on-the-data-you-created">Train your model on the data you created</a></li>
-  <li><a href="#export-the-model-you-created" id="toc-export-the-model-you-created" class="nav-link" data-scroll-target="#export-the-model-you-created">Export the model you created</a></li>
-  <li><a href="#update-the-code-in-danceon-to-reflect-your-poses" id="toc-update-the-code-in-danceon-to-reflect-your-poses" class="nav-link" data-scroll-target="#update-the-code-in-danceon-to-reflect-your-poses">Update the code in danceON to reflect your poses</a></li>
+  <li><a href="#recap-machine-learning" id="toc-recap-machine-learning" class="nav-link active" data-scroll-target="#recap-machine-learning">Recap: Machine Learning</a></li>
+  <li><a href="#thinking-about-machine-learning-and-ethics" id="toc-thinking-about-machine-learning-and-ethics" class="nav-link" data-scroll-target="#thinking-about-machine-learning-and-ethics">Thinking about machine learning and ethics</a></li>
+  <li><a href="#simulating-a-neural-network" id="toc-simulating-a-neural-network" class="nav-link" data-scroll-target="#simulating-a-neural-network">Simulating a neural network</a></li>
   <li><a href="#discussion-and-share-out" id="toc-discussion-and-share-out" class="nav-link" data-scroll-target="#discussion-and-share-out">Discussion and share-out</a></li>
-  <li><a href="#trade-and-test-machine-learning-models" id="toc-trade-and-test-machine-learning-models" class="nav-link" data-scroll-target="#trade-and-test-machine-learning-models">Trade and test machine learning models!</a></li>
-  <li><a href="#wrap-up" id="toc-wrap-up" class="nav-link" data-scroll-target="#wrap-up">Wrap-up</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Create Your Own ML Model</h1>
+<h1 class="title d-none d-lg-block">Exploring Neural Networks</h1>
 </div>
 
 
@@ -236,86 +232,144 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="creating-a-pose-model-on-teachable-machine" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="creating-a-pose-model-on-teachable-machine">Creating a pose model on Teachable Machine</h2>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><img src="./asset/machineLearning/GTMStarted.png" alt="Click Get Started at Google Teachable Machine" width="90%"></p>
-<p><img src="./asset/machineLearning/GTMPoseObject.png" alt="Click Pose Project at Google Teachable Machine" width="90%"></p>
-</div></div><p>Think about 2 different poses you want to create a model for — what are the names of these poses?</p>
-<p>You will use these pose ideas to create a model using <a href="https://teachablemachine.withgoogle.com/">Google Teachable Machine</a>.</p>
-<p>First, you will create a pose project. Open <a href="https://teachablemachine.withgoogle.com/">Google Teachable Machine</a> on a separate browser window/tab.</p>
-<p>Then, click “Get Started” and then, click “Pose Project”.</p>
-<p>This will open up a workspace for you to create a pose detection model.</p>
-</section>
-<section id="gather-data-for-your-pose-model" class="level2">
-<h2 class="anchored" data-anchor-id="gather-data-for-your-pose-model">Gather data for your pose model</h2>
-<p>After starting up a pose model, the next step is for you to gather data for your machine learning model to train on. Watch the quick clip below on how to do this.</p>
-<iframe width="100%" height="563" src="https://www.youtube.com/embed/DFBbSTvtpy4" title="Teachable Machine Tutorial 1: Gather" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-</iframe>
-<p>Make sure you change the settings so that “Hold to Record” is off.</p>
-<p>Capture one 10-second set of training examples for each of your classes. Use the names you thought of for each of your poses as your class names (like the “Wings Up” and “Wings Down” example you saw earlier).</p>
-</section>
-<section id="train-your-model-on-the-data-you-created" class="level2">
-<h2 class="anchored" data-anchor-id="train-your-model-on-the-data-you-created">Train your model on the data you created</h2>
-<p>After gathering your data, the next step is for you to train your model on the data you gathered. Watch the quick clip below on how to do this.</p>
-<iframe width="100%" height="563" src="https://www.youtube.com/embed/CO67EQ0ZWgA" title="Teachable Machine Tutorial 2: Train" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-</iframe>
-<p>Click “Train Model” and wait — make sure you leave the window/tab open as you wait!</p>
-<p>After your model is done training, you can test your model out directly on your pose project workspace.</p>
-</section>
-<section id="export-the-model-you-created" class="level2">
-<h2 class="anchored" data-anchor-id="export-the-model-you-created">Export the model you created</h2>
-<p>The last step is for you to export the model you trained. Watch the quick clip below on how to do this.</p>
-<iframe width="100%" height="563" src="https://www.youtube.com/embed/n-zeeRLBgd0" title="Teachable Machine Tutorial 3: Export" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-</iframe>
-<p>Click “Export Model”. In the popup, click on the “Upload” button and copy the shareable link into <a href="https://dancinganddabbing.github.io/danceONml/">danceON</a> (the same way you copied the model link in the <a href="./machineLearningWorkshop.html#sec-MachineLearning">previous exercise</a>).</p>
-</section>
-<section id="update-the-code-in-danceon-to-reflect-your-poses" class="level2">
-<h2 class="anchored" data-anchor-id="update-the-code-in-danceon-to-reflect-your-poses">Update the code in danceON to reflect your poses</h2>
-<p>Feel free to update the code from the previous activity so that it corresponds to the names of the new poses you created for your model. For example, instead of drawing “wings”, you might want to draw circles or other shapes!</p>
-</section>
-<section id="discussion-and-share-out" class="level2">
-<h2 class="anchored" data-anchor-id="discussion-and-share-out">Discussion and share-out</h2>
+<section id="recap-machine-learning" class="level2">
+<h2 class="anchored" data-anchor-id="recap-machine-learning">Recap: Machine Learning</h2>
 <ol type="1">
-<li>What poses did you train on Teachable Machine?</li>
-<li>What special cases did you consider as you trained your model?</li>
-<li>In what cases or situations did your model fail? Why do you think that happens?</li>
-<li>If someone else used your model, do you think it will work perfectly for them? Why or why not?</li>
+<li>Machine learning is a field of AI that uses patterns in data to build models and make predictions.</li>
+<li>You experimented and played around with a machine learning model (Wings Up/Down) through danceON.</li>
+<li>You trained your own machine learning model on Teachable Machine.</li>
 </ol>
-<div class="callout-warning callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
+</section>
+<section id="thinking-about-machine-learning-and-ethics" class="level2">
+<h2 class="anchored" data-anchor-id="thinking-about-machine-learning-and-ethics">Thinking about machine learning and ethics</h2>
+<p>Have you heard about neural networks? What does it sound like it might be?</p>
+<p>What are things that you know about how AI is used in the real world?</p>
+<p>What opportunities do you see with the use of AI? Conversely, what potential harms do you see with the use of AI?</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-caption-container flex-fill">
-Heads Up!
+Expand To Learn About Neural networks
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Note: Before the next activity, please download your danceON code and make sure to copy your model somewhere for record-keeping!</p>
+<p><strong>Neural networks</strong> are machine learning algorithms that process data in a way inspired by the human brain. Neural networks use interconnected “neurons” in a layered structure that resembles the human brain; each layer identifies increasingly complex features.</p>
+<p>AI and machine learning are used across many domains, including, among others — entertainment, healthcare, process automation, arts, etc.</p>
+</div>
 </div>
 </div>
 </section>
-<section id="trade-and-test-machine-learning-models" class="level2">
-<h2 class="anchored" data-anchor-id="trade-and-test-machine-learning-models">Trade and test machine learning models!</h2>
-<p>The best way to test out how well your model works is to have someone else use the model you created!</p>
-<ol type="1">
-<li>How well does your peer’s model work for you?</li>
-<li>What are your observations about your peer’s model?</li>
-<li>In what cases is your peer’s model failing? Why do you think that’s the case?</li>
-<li>What would you suggest to improve the performance of the model?</li>
-</ol>
+<section id="simulating-a-neural-network" class="level2">
+<h2 class="anchored" data-anchor-id="simulating-a-neural-network">Simulating a neural network</h2>
+<p>Let’s simulate a neural network – a popular machine learning algorithm – to get a sense of its inner workings!</p>
+<p><strong>Setup</strong>: Arrange yourselves according to the neural network table below – each of you represents a “neuron” within the layers of the neural network.</p>
+<p>As a neuron, you have a “feature list” and your task is to use your list to identify features from a given input. For example, given an image of a pose (the input), you only identify specific features about the pose from your list, like if you can see the left leg present or if the left leg is in a specific location in the image.</p>
+<table class="table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 42%">
+<col style="width: 44%">
+<col style="width: 0%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Input Layer</strong></th>
+<th>Layer 1 shows a picture of a pose to Layer 2</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Layer 2: Hidden Layer</strong><br><br>Look for 2 features</td>
+<td>Neuron1<br>Add a green sticky if:<br>- (Body Part) The picture clearly shows the right hand <br>- (Location) The picture clearly shows the right hand above the nose<br>Otherwise, add a red sticky</td>
+<td>Neuron2<br>Add a green sticky if:<br>- (Body Part) The picture clearly shows the left hand <br>- (Location) The picture shows the left hand above the nose<br>Otherwise, add a red sticky</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Layer 3: Hidden Layer</strong><br><br>Look for 3 features</td>
+<td>Neuron3<br>Add a green sticky if:<br>- (Body Part) Picture clearly shows the right hand <br>- (Location) Picture clearly shows the right hand above the nose <br>- (Body Part) Picture clearly shows the left hand <br>Otherwise, add a red sticky</td>
+<td>Neuron4<br>Add a green sticky if:<br>- (Body Part) Picture clearly shows the left hand <br>- (Location) Picture clearly shows the left hand above the nose<br>- (Location) Picture clearly shows the right hand above the nose<br>Otherwise, add a red sticky</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Output Layer: Wings Up pose or not?</strong><br><br>Criteria: No red sticky</td>
+<td>Results for each picture for each combination of neurons:<br>- Neuron1 + Neuron3<br>- Neuron1 + Neuron4<br>- Neuron2 + Neuron3<br>- Neuron2 + Neuron4</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><img width="200/"></td>
+<td><img width="330/"></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Mechanism:</strong> To start the simulation, the input layer will send an image of a pose to each of the neurons of the next layer. The neurons will then use their feature list to identify their assigned features.</p>
+<ul>
+<li>For each feature present in the image, put a green sticky note on the image. Otherwise, put a red sticky note.</li>
+<li>For example, given the assigned features of the (1) left hand and (2) right leg — if the left arm is not visible in the image but the right leg is, then you put 1 red sticky note for the left arm and 1 green sticky note for the right leg.</li>
+</ul>
+<p>After the neurons have finished identifying their features, they pass the image to a neuron in the next layer, who will then take their turn identifying features and adding sticky notes to the image for each feature. This process repeats until the image reaches the output layer.</p>
+<p>The output layer determines the final classification of the pose image based on the number of features present in the image (green sticky notes). The diagram below shows a quick overview of this process.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./asset/machineLearning/classification.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Overview of Neuro Network Mechanism</figcaption><p></p>
+</figure>
+</div>
 </section>
-<section id="wrap-up" class="level2">
-<h2 class="anchored" data-anchor-id="wrap-up">Wrap-up</h2>
-<p>Discussion Questions:</p>
+<section id="discussion-and-share-out" class="level2">
+<h2 class="anchored" data-anchor-id="discussion-and-share-out">Discussion and share-out</h2>
+<p>Think about how well the neural network performed on classifying the body pose images —</p>
 <ol type="1">
-<li>What are your thoughts about the activities in today’s session?</li>
-<li>What would be your key takeaway about the intersection and machine learning and dance from today’s session?</li>
+<li>How well did the neural network simulation communicate how the algorithm works to classify body poses?</li>
+<li>Were there any incorrect classifications? What were these and why were they incorrect?</li>
+<li>In what ways do you think you can tune/refine the neural network?</li>
+<li>How well did your assigned features help classify the images?</li>
+<li>What assumptions about bodies, movements, or people have to be considered when thinking about features to identify?</li>
 </ol>
-<p>Think about possible activities that you can do with students using Teachable Machine and danceON. Bring your ideas to tomorrow’s session!</p>
-<p>Please fill out a <a href="https://nyu.qualtrics.com/jfe/form/SV_9Y6xO0y0aoMKwMm">quick survey</a> about today’s session.</p>
+<p>Think about your observations when using danceON in previous sessions —</p>
+<ol type="1">
+<li>What does the activity on neural networks tell you about how danceON behaves when you use it to detect your poses and draw shapes/animations over your poses?</li>
+<li>What would have caused animations not behaving as you’d expect or showing glitches and inconsistencies?</li>
+</ol>
+<p>Think about the broader implications of the design of machine learning algorithms —</p>
+<ol type="1">
+<li>Given what you know about machine learning algorithms, what do you think are tasks or activities that AI should ideally be used for and conversely, not used for?</li>
+<li>What biases may be present within the tasks/activities? To what extent could these biases be harmful or otherwise?</li>
+</ol>
+<p>Think about how you might teach AI and machine learning — how do you envision conversations with learners about the opportunities and ethics around AI given what you’ve seen around the mechanisms of how a machine learning algorithm (such as a neural network algorithm) works?</p>
+<ol type="1">
+<li>How could machine learning algorithms (like neural networks) impact the design of dance software like danceON?</li>
+<li>How could machine learning algorithms (like neural networks) impact users of dance software?</li>
+<li>To what extent do you think should students/learners care about these topics?</li>
+<li>How would you connect discussions about AI algorithms with dance practices? For example, what kinds of movements, dances, or poses do you think would work well with danceON, or otherwise?</li>
+<li>How do you envision conversations about models in the real-world in light of today’s activities?</li>
+</ol>
 
 
 </section>

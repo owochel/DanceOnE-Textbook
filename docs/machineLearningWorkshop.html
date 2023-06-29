@@ -126,7 +126,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked slimcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -240,6 +240,26 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">Session 5</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./neuroNetworkWorkshop.html" class="sidebar-item-text sidebar-link">Exploring Neural Networks</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./AICodesignWorkshop.html" class="sidebar-item-text sidebar-link">Designing Activities</a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -257,7 +277,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -297,12 +317,16 @@ Expand To Learn About Machine Learning
 </div>
 </div>
 </section>
-<section id="exploring-machine-learning-models-with-danceon" class="level2 page-columns page-full">
+<section id="exploring-machine-learning-models-with-danceon" class="level2">
 <h2 class="anchored" data-anchor-id="exploring-machine-learning-models-with-danceon">Exploring Machine Learning models with danceON</h2>
 <p>We have created a pre-trained machine learning model using a tool called <a href="https://teachablemachine.withgoogle.com/">Google Teachable Machine</a> and you will play and experiment with the model using <a href="https://dancinganddabbing.github.io/danceONml/">danceON</a> to figure out what the model does.</p>
 <p>The model is packaged in the following link.</p>
-
-<div class="no-row-height column-margin column-container"><div class="">
+<div class="cell" data-tags="[]" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>https:<span class="op">//</span>teachablemachine.withgoogle.com<span class="op">/</span>models<span class="op">/</span>nooe2OKZj<span class="op">/</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>To use the model link above, copy the link.</p>
+<p>Open <a href="https://dancinganddabbing.github.io/danceONml/">danceON</a> in a separate browser window/tab and click on “Controls” in the upper-right of the interface, to bring up additional options.</p>
+<p>Paste the link you copied into the field labeled “Machine Learning Model” (highlighted in blue below). Leave all other options untouched.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="./asset/interface/controlButton.png" class="img-fluid figure-img"></p>
@@ -311,22 +335,11 @@ Expand To Learn About Machine Learning
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="./asset/interface/ML.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Paste the link in this Machine Learning panel</figcaption><p></p>
-</figure>
-</div>
-</div></div><div class="cell" data-tags="[]" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>https:<span class="op">//</span>teachablemachine.withgoogle.com<span class="op">/</span>models<span class="op">/</span>nooe2OKZj<span class="op">/</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>To use the model link above, copy the link.</p>
-<p>Open <a href="https://dancinganddabbing.github.io/danceONml/">danceON</a> in a separate browser window/tab and click on “Controls” in the upper-right of the interface, to bring up additional options. Paste the link you copied into the field labeled “Machine Learning Model” (highlighted in blue below). Leave all other options untouched.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
 <p><img src="./asset/machineLearning/linkPaste.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Instruction on How to Use Google’s Teachable Machine in danceON</figcaption><p></p>
 </figure>
 </div>
-<p>Additionally, turn on the webcam (highlighted in green above). Expand and copy the code below into the danceON code editor.</p>
+<p>Additionally, turn on the webcam (highlighted in green above). <strong>Expand</strong> and copy the code below into the danceON code editor.</p>
 <div class="cell" data-tags="[]" data-execution_count="2">
 <details>
 <summary>Code</summary>
