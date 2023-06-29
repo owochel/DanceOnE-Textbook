@@ -95,7 +95,7 @@
     "href": "modelWorkshop.html",
     "title": "Create Your Own ML Model",
     "section": "",
-    "text": "Think about 2 different poses you want to create a model for — what are the names of these poses?\nYou will use these pose ideas to create a model using Google Teachable Machine.\nFirst, you will create a pose project. Open Google Teachable Machine on a separate browser window/tab.\nThen, click “Get Started” and then, click “Pose Project”.\nThis will open up a workspace for you to create a pose detection model."
+    "text": "Think about 2 different poses you want to create a model for — what are the names of these poses?\nYou will use these pose ideas to create a model using Google Teachable Machine.\nFirst, you will create a pose project. Open Google Teachable Machine on a separate browser window/tab.\nThen, click “Get Started” and then, click “Pose Project”. This will open up a workspace for you to create a pose detection model."
   },
   {
     "objectID": "modelWorkshop.html#gather-data-for-your-pose-model",
